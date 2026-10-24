@@ -1,0 +1,116 @@
+name: Publish TaCZ hidden gems
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['docs/minecraft-gun-mods/tacz-deep-discovery/publication.txt']
+permissions:
+  contents: write
+concurrency:
+  group: tacz-deep-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Read approved canonical source and matching acceptance
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          ASKPASS="$RUNNER_TEMP/deep-publish-askpass.sh"
+          printf '#!/bin/sh\ncase "$1" in *Username*) echo x-access-token ;; *) printf "%%s\\n" "$GH_TOKEN" ;; esac\n' > "$ASKPASS"
+          chmod 700 "$ASKPASS"
+          export GIT_ASKPASS="$ASKPASS" GIT_TERMINAL_PROMPT=0
+          git clone --depth 1 --filter=blob:none --no-checkout "https://github.com/${GITHUB_REPOSITORY}.git" source
+          cd source
+          git sparse-checkout init --no-cone
+          printf '/docs/minecraft-gun-mods/\n/docs/weapon_inspiration_navigation.py\n/docs/Minecraft-Gun*.md\n/docs/TaCZ-Gunpack*.md\n/docs/Weapon-Inspirations.md\n/docs/Weapon-Reference-Library.md\n' > .git/info/sparse-checkout
+          git checkout main
+          git rev-parse HEAD > docs/minecraft-gun-mods/tacz-deep-discovery/qa/published-source-commit.txt
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('docs/minecraft-gun-mods');d=p/'tacz-deep-discovery';delta=json.loads((d/'qa/data-delta.json').read_text())
+          for name in ('targeted/report.json','atlas/browser-report.json','tacz/browser-report.json'):
+              report=json.loads((d/'qa'/name).read_text());assert report['passed'] and all(x['passed'] for x in report['checks']),name
+          parent=json.loads((p/'catalog.json').read_text());tacz=json.loads((p/'tacz/catalog.json').read_text())
+          assert len(parent['items'])==delta['parentProjects']==2410
+          assert len(tacz['items'])==delta['taczFamilies']==206
+          assert tacz['build']['dataHash']==delta['taczDataHash']==json.loads((d/'qa/tacz/browser-report.json').read_text())['dataHash']
+          assert parent['build']['dataHash']==delta['parentDataHash']
+          print('Approved exact source: 2410 parent records, 206 TaCZ families, 46 additions')
+          PY
+      - name: Publish actual Wiki while preserving the flat shared hierarchy
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          python3 -m pip install --quiet requests beautifulsoup4 pillow playwright
+          export GIT_ASKPASS="$RUNNER_TEMP/deep-publish-askpass.sh" GIT_TERMINAL_PROMPT=0
+          git clone --depth 1 "https://github.com/${GITHUB_REPOSITORY}.wiki.git" wiki
+          python3 source/docs/minecraft-gun-mods/tacz-deep-discovery/publish_deep.py prepare wiki
+          cd wiki
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- '*.md'
+          if ! git diff --cached --quiet; then git commit -m 'Publish TaCZ hidden gems without recursive inspiration navigation'; git push origin HEAD; fi
+          git rev-parse HEAD > ../source/docs/minecraft-gun-mods/tacz-deep-discovery/qa/published-wiki-commit.txt
+      - name: Package every source image and exercise both extracted offline explorers
+        run: |
+          set -euo pipefail
+          if ! command -v google-chrome >/dev/null && ! command -v chromium >/dev/null; then python3 -m playwright install --with-deps chromium; fi
+          python3 source/docs/minecraft-gun-mods/tacz-deep-discovery/publish_deep.py package release
+          python3 - <<'PY'
+          import zipfile
+          with zipfile.ZipFile('release/Minecraft-Gun-Atlas.zip') as archive:archive.extractall('release/portable-test')
+          PY
+          python3 release/portable-test/minecraft-gun-mods/qa/offline_check.py
+          python3 source/docs/minecraft-gun-mods/tacz/publish_tacz.py offline release
+          mkdir -p source/docs/minecraft-gun-mods/tacz-deep-discovery/qa/offline
+          cp release/portable-test/minecraft-gun-mods/qa/offline/report.json source/docs/minecraft-gun-mods/tacz-deep-discovery/qa/offline/atlas.json
+          cp release/OFFLINE-VERIFICATION.json source/docs/minecraft-gun-mods/tacz-deep-discovery/qa/offline/tacz.json
+      - name: Verify actual Wiki hashes, all TaCZ images and the exact deployed Pages datasets
+        run: python3 source/docs/minecraft-gun-mods/tacz-deep-discovery/publish_deep.py verify wiki
+      - name: Exercise every new discovery and preserved collections on the live sites
+        run: python3 source/docs/minecraft-gun-mods/tacz-deep-discovery/test_deep.py --url https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/ --output source/docs/minecraft-gun-mods/tacz-deep-discovery/qa/live-targeted
+      - name: Exercise the complete live parent explorer
+        run: python3 source/docs/minecraft-gun-mods/qa/browser_test.py --url https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/ --output source/docs/minecraft-gun-mods/tacz-deep-discovery/qa/live-atlas
+      - name: Exercise the complete live TaCZ rankings and private ratings
+        run: python3 source/docs/minecraft-gun-mods/tacz/test_tacz.py --url https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/tacz/ --output source/docs/minecraft-gun-mods/tacz-deep-discovery/qa/live-tacz
+      - name: Seal the full release with live and offline receipts
+        run: python3 source/docs/minecraft-gun-mods/tacz-deep-discovery/publish_deep.py package release
+      - name: Publish the permanent release and verify its readback
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          TAG=minecraft-gun-atlas-v1.2.0
+          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo 'Existing release preserved; its downloaded digest must match before claiming success.'
+          else
+            gh release create "$TAG" release/Minecraft-Gun-Atlas.zip release/RELEASE-VERIFICATION.json release/SHA256SUMS.txt release/START-HERE.md --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title 'Minecraft Gun Atlas - TaCZ Hidden Gems' --notes-file release/START-HERE.md
+          fi
+          mkdir -p readback
+          gh release download "$TAG" --repo "$GITHUB_REPOSITORY" --pattern Minecraft-Gun-Atlas.zip --dir readback
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib,json
+          expected=json.loads(Path('release/RELEASE-VERIFICATION.json').read_text());p=Path('readback/Minecraft-Gun-Atlas.zip');sha=hashlib.sha256(p.read_bytes()).hexdigest()
+          assert sha==expected['sha256'] and p.stat().st_size==expected['bytes']
+          Path('release/GITHUB-READBACK.json').write_text(json.dumps({'verified':True,'sha256':sha,'bytes':p.stat().st_size},indent=2))
+          PY
+      - name: Preserve complete release and every visual acceptance receipt
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: tacz-deep-published
+          path: |
+            release/*.zip
+            release/*.json
+            release/*.txt
+            release/*.md
+            source/docs/minecraft-gun-mods/tacz-deep-discovery/qa/
+          retention-days: 30
+          if-no-files-found: error
