@@ -4,6 +4,86 @@
 
 [Volume 1](Minecraft-Gun-Mod-Inspirations-Sources) · [Volume 2](Minecraft-Gun-Mod-Inspirations-Sources-2) · [Volume 3](Minecraft-Gun-Mod-Inspirations-Sources-3) · [Volume 4](Minecraft-Gun-Mod-Inspirations-Sources-4) · [Volume 5](Minecraft-Gun-Mod-Inspirations-Sources-5) · [Volume 6](Minecraft-Gun-Mod-Inspirations-Sources-6) · [Volume 7](Minecraft-Gun-Mod-Inspirations-Sources-7) · [Volume 8](Minecraft-Gun-Mod-Inspirations-Sources-8) · [Volume 9](Minecraft-Gun-Mod-Inspirations-Sources-9) · [Volume 10](Minecraft-Gun-Mod-Inspirations-Sources-10) · [Volume 11](Minecraft-Gun-Mod-Inspirations-Sources-11)
 
+<a id="ref-cf-1566345"></a>
+### Guns Craft Reforged [Beta]
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/gcr) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/gcr) [Source code](https://github.com/JustARandomGuyNo512/GCR_P01) [Project &amp; downloads](https://modrinth.com/mod/guns-craft-reforged)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/jtL0NCGC/images/81efe8d7063ada3c6f06f7a30952820709c70a93_350.webp) · [creator source](https://modrinth.com/mod/guns-craft-reforged/gallery). SHA-256 `ebefb0988abc20d270904e1284faedf3d934429eef53d1d03ca8fd0a80fe78a0`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/jtL0NCGC/images/f2324d53e015d5e6edc7b51c6ca7486db98525ed_350.webp) · [creator source](https://modrinth.com/mod/guns-craft-reforged/gallery). SHA-256 `90639b755a980be5ef74ab15c8ce800a0f47b592e64e86713f3b742c369cae7a`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/jtL0NCGC/images/aff87e6b7a7bf17da807c91e476eff9ff56195f8_350.webp) · [creator source](https://modrinth.com/mod/guns-craft-reforged/gallery). SHA-256 `e3ba2a40698d147b565320539c04d553dfa485bd733cb5d8e646b07df01244c6`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/jtL0NCGC/images/3057644895fa3fdf345c6340ce7d0a1a1cd26d10_350.webp) · [creator source](https://modrinth.com/mod/guns-craft-reforged/gallery). SHA-256 `4b852646a695847c5effae2b0d5482935bbf4fbff454ec33b3496036d3c36d78`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/jtL0NCGC/images/bd48f6203b81c2b2d8d7aa7657d8e990a18683f4_350.webp) · [creator source](https://modrinth.com/mod/guns-craft-reforged/gallery). SHA-256 `04a25dc702241db90aa434d7f4d8c604e3339d1a6232ab429762ddcbdc9ff02c`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/jtL0NCGC/images/e0f866460065ffc499dac0daf795748ad6e83c2b_350.webp) · [creator source](https://modrinth.com/mod/guns-craft-reforged/gallery). SHA-256 `282f12ed610eb14c9db8ce6d6460194a23608342d357f972b39fdae9ec0cc548`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/jtL0NCGC/images/ce65fc25f7d7661c5d080c694914e49318e8c88c_350.webp) · [creator source](https://modrinth.com/mod/guns-craft-reforged/gallery). SHA-256 `ae5ff26c389e238f2f7a491ff9b12d1cfed9b8fb01fc25cab9457cdf6c6a6f9a`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/jtL0NCGC/images/0a68b17f2592fbff65be39d535148efb29b88942_350.webp) · [creator source](https://modrinth.com/mod/guns-craft-reforged/gallery). SHA-256 `21f9b376d7c52b72232af39d665b6a9c267d9f9c8bbc0232773c10997e1bbbf1`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/jtL0NCGC/images/eaabdbcc2e7d02e0dde5836d158033a93efa0f8b_350.webp) · [creator source](https://modrinth.com/mod/guns-craft-reforged/gallery). SHA-256 `80e874957a788b4b459efc0e18d22cbec02836a1ebfd18b09deadae6b0df050d`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/jtL0NCGC/images/97019690a3073811fc9345c5f72828f0bf599a23_350.webp) · [creator source](https://modrinth.com/mod/guns-craft-reforged/gallery). SHA-256 `671db6bdbe0430edcffb83cec69bb4f98b4463f8810da2bd4d3588dce71afb62`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/jtL0NCGC/images/a86ede40cb821686af978e8fb25a36c60edca067_350.webp) · [creator source](https://modrinth.com/mod/guns-craft-reforged/gallery). SHA-256 `e5d9458d2f5afb9bca76aa88f0fa57bda0dcc43441d70ac501c963156483758e`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1566345/description_65428a01-9593-424e-ac07-db08ba66e57e.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/gcr). SHA-256 `eb6a87c356f4c2c46004a4b9d83977096bfcc4cda8bd1a71ab4eea31b1fd0cdc`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1566345/description_0a03489b-39cd-4b86-aedf-2a39f686c820.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/gcr). SHA-256 `d744ff5414a3ece17df0104ffdf98eee0b8ca1a81ee84605696ef62adf613e03`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1566345/description_f97fc957-0814-48b2-bcc5-dc6d688a7576.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/gcr). SHA-256 `d9b450dd125c2236feefdc4edabd4fc5a6df607aee8e1a22355b0272c64f2848`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1566345/description_e59ae0e7-607a-4c27-b371-c087ab6e58ce.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/gcr). SHA-256 `f1f8eaefaea2715a8bf8f98af13b14118d3acf3b68fa2b8e86f5f2041a2cdddb`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1566345/description_5d0b1b18-9e08-42cf-91fb-6a3379b61735.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/gcr). SHA-256 `3f6bbe9cbd3e4c6db119b46eaee26256a2f8fe621ce5f322ee244516a7767ea7`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1566345/description_d456311d-797b-4795-8af5-c1bfe106834f.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/gcr). SHA-256 `f6f11c27f831b8a03895a4da86873b2d99c49f536c06c62c6fa2efe02c163941`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1566345/description_e667c01d-9144-4127-b07a-f8f136572d9b.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/gcr). SHA-256 `10542c537886a86c1f0baac152e1f3f0d977f3722749f42b10ec5b97d3947d7d`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1566345/description_8da36e89-ed90-4572-ab0c-aaddede6289c.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/gcr). SHA-256 `494768826fa9b3c270c06869b92bc9a4c7047867bac69202be21f263dc07c3a4`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1566345/description_ab1498db-ebb2-484e-a50b-fa280f4bcbed.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/gcr). SHA-256 `b687b1839e6ccebd8f69def9db65404f4d7841d9c398cc418e4dfae3093dd982`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1566345/description_112c614b-92fe-427a-b385-736b7866b6a6.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/gcr). SHA-256 `2a951a8458d8b32581763fa13efa54a139b23f733f3d11da7d20cbe4af0211e7`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1566345/description_51ec9068-0ee3-410f-896a-2486bf351eeb.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/gcr). SHA-256 `ea0d5ee269fde0add53c1ede75c3aa588c9a31f1af40c59fea4f97a3cf60ba03`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1566345/description_f217e4b8-83aa-4fb3-a6ff-7168252f5de0.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/gcr). SHA-256 `2ea75d4562fb807d026e49ac3233fa3abce07ece8bc20e7965c890acf85d3e37`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1566345/description_af4fc808-17af-47e4-8e6c-791bfffdd5f0.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/gcr). SHA-256 `1a72ce2398cb21e5f25d3712d76f6bd01c677ab164b7538ecb306eb9b5e110a2`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1966/889/256/256/639215850949053073.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/gcr). SHA-256 `d5723f63bb9258faaadd9afd314d11df26b613a3607552858b2a36a3c0ca0e2b`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/jtL0NCGC/f9a9427ad7ea89291471a13e1c9a1951ff91b69a_96.webp) · [creator source](https://modrinth.com/mod/guns-craft-reforged). SHA-256 `84fc19ce1a692fcd6ed05caff365132c294d2c4e7356ba7a417798fb2cab8536`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1650969"></a>
+### Obital Wither Skull Cannon
+
+[CurseForge project](https://www.curseforge.com/minecraft-bedrock/addons/obital-wither-skull-cannon) · Checked 2026-10-23. Type: Bedrock add-on.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft-bedrock/addons/obital-wither-skull-cannon)
+
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_76dd3f45-4bb8-470e-9b40-7cbc515bb377.png) · [creator source](https://www.curseforge.com/minecraft-bedrock/addons/obital-wither-skull-cannon). SHA-256 `61fdfd850757824dd6fccb3309d04300b308204a5d617390058c322adf41e1ef`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_dc9fb3b1-6b4d-4c5f-85e0-74422d1ca3fc.jpg) · [creator source](https://www.curseforge.com/minecraft-bedrock/addons/obital-wither-skull-cannon). SHA-256 `7b8aa154ddd3d959a9ef2246db82568b83b9d9a6cd7533fa3315bae80d2b2f0b`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1981/552/256/256/639222248072105269.png) · [creator source](https://www.curseforge.com/minecraft-bedrock/addons/obital-wither-skull-cannon). SHA-256 `778e730c804ee33bbd678311ce02619d05580e49824f985668db41aa06802896`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1151731"></a>
+### Cozy Campire by Four
+
+[CurseForge project](https://www.curseforge.com/minecraft-bedrock/addons/cozy-campire) · Checked 2026-10-23. Type: Bedrock add-on.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft-bedrock/addons/cozy-campire)
+
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1151731/description_a12363bc-94cc-4f9c-88ab-cfe9329f47e7.png) · [creator source](https://www.curseforge.com/minecraft-bedrock/addons/cozy-campire). SHA-256 `1fdc923ca879b1594f0d490388c93f34daf4a1f2490de09ba02a2a845fa450df`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1151731/description_dd6746d9-6190-48da-8266-b3af0014b998.gif) · [creator source](https://www.curseforge.com/minecraft-bedrock/addons/cozy-campire). SHA-256 `22bb73c577ef370aab932b12a13da13feccff4efd0a70eec28192ddab0ed572c`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1151731/description_80070230-bb09-46a9-a65b-eb808c9a39c7.png) · [creator source](https://www.curseforge.com/minecraft-bedrock/addons/cozy-campire). SHA-256 `814c3fb7933fb33243f25d47f8df8644f6c9df0900aebb75f23f6edae960596a`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1151731/description_b8c01326-3519-4091-8a13-fc2136a29ed2.gif) · [creator source](https://www.curseforge.com/minecraft-bedrock/addons/cozy-campire). SHA-256 `65000483bb532525a36c9a5e3027fb407e9bba583a4e34e26e36bc5a10a078c7`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1571/777/256/256/639018674203316796.png) · [creator source](https://www.curseforge.com/minecraft-bedrock/addons/cozy-campire). SHA-256 `001160ff1a9a6b6ca97e8b062f9fb416eacee9b4a1dd39616b228c8eedd339b7`.
+- [Video](https://www.youtube.com/watch?v=7d2PfZ03yc0) · Linked on project page; full playback not reviewed.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1541311"></a>
+### MineOps-Ultimate-Weaponry
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/mineops-ultimate-weaponry) · Checked 2026-10-23. Type: Gun / content pack.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/mineops-ultimate-weaponry)
+
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1541311/description_77013810-f8d4-4bbd-8ed6-18fb90f57069.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/mineops-ultimate-weaponry). SHA-256 `738b4b1014fe46157aaf60a96a0899fd42600d718dfb8f85541b523b4c4d90be`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1541311/description_90fa5b04-0418-4b36-9535-670da20efa0b.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/mineops-ultimate-weaponry). SHA-256 `26c4077bb30aec26fdb10f065fe7990005bb194f89cb64e1c716d34918640350`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1541311/description_88d346d1-aca3-47e9-93e8-7fbda8c3660d.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/mineops-ultimate-weaponry). SHA-256 `f57aef596f59b12a5fb1147d41c08011f6dc8a1c0d43227a135aaf12eb9fafed`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1541311/description_d2137413-a62d-41cc-9773-3d4caa70f0f2.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/mineops-ultimate-weaponry). SHA-256 `30101c8d99cd8ce6ed2ca632e0b8554923e908f68fefe09216c0434e335e55eb`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1804/561/256/256/639141998897214440.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/mineops-ultimate-weaponry). SHA-256 `a162e6370e6266491bc680448093c362646d558900ac71657df8e0bd7e3569c6`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
 <a id="ref-cf-1292484"></a>
 ### Johannes's Renaissance：Musket Rebirth
 
@@ -2928,152 +3008,4 @@ All published version metadata read; latest file for each supported version/load
 - Project icon: [exact image](https://cdn.modrinth.com/data/uspNfGqa/fb56b586ebb47451958f2b09971c4c171cec7578.png) · [creator source](https://modrinth.com/mod/weapons-o-plenty). SHA-256 `182f8db90b1013bc4c5c9d276ae6e33e87ff31f000c063719c68cd83016b4d4c`.
 
 All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-cf-988259"></a>
-### Cyber Arms for Vic's Point Blank
-
-[CurseForge project](https://www.curseforge.com/minecraft/customization/cyber-arms-for-vics-point-blank) · Checked 2026-10-23. Type: Gun / content pack.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/cyber-arms-for-vics-point-blank)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/984/7/256/256/638492711681205381.png) · [creator source](https://www.curseforge.com/minecraft/customization/cyber-arms-for-vics-point-blank). SHA-256 `c5954d567744228fb2b560d9dc21adef5a0343dde7667572018a74279dee5c8f`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1132056"></a>
-### Cool Guns
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/cool-guns) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/cool-guns)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1109/379/256/256/638660098479384041.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/cool-guns). SHA-256 `95943777790b57c8d7779b05cb459bb5dc2b39cbf661107f266f8f7fb75130fc`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1666887"></a>
-### [TaCZ](COMPILATION) Bitlod's inspiring guns
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/bitlods-inspiring-guns) · Checked 2026-10-23. Type: Gun / content pack.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/bitlods-inspiring-guns)
-
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1666887/description_b883e605-4773-48f5-96fc-139aaf62b19d.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/bitlods-inspiring-guns). SHA-256 `46b5cd1bbebd06b8a08934b6d72454aeba5ca87148c049ef3c316ecd9b02ec9d`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1666887/description_43ceaf57-3dfb-4e4a-90c7-881ea1e4aee2.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/bitlods-inspiring-guns). SHA-256 `a6c2e5ff68c290f73c969b30ffdc0106aaea70f0a63b0515c35d3112c362db10`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1666887/description_7de14dc3-9d09-413a-b7ab-9511d9faf81d.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/bitlods-inspiring-guns). SHA-256 `a31af05e929460254d673774a8abaee267198a29832643177563cc776584204d`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1666887/description_9373da07-d3db-4128-85ef-f466dae62d6b.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/bitlods-inspiring-guns). SHA-256 `6743b9bc8f008d3189b66cf37ec3c29f931d4a2e750d557dbf716ebc387e8530`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1666887/description_fb4f8e67-23ed-490f-94f9-ea784c340b83.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/bitlods-inspiring-guns). SHA-256 `c4af31619f524f6cff9c0e40f405dd484d2357a66c8a9486ade5c6a8dcdfaa0d`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_6645d94e-f83d-4dfe-a622-5ee921fc2509.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/bitlods-inspiring-guns). SHA-256 `a8b965bc5292d136cbf57dedb728a773b0f46f2ad9bc2cdd077cceb443da8200`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_73bebbee-e5d2-4dba-808b-a83e5e9e617c.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/bitlods-inspiring-guns). SHA-256 `da0d9dd072881f0c9265b69508b2dd22b798f62b5556e714f232986391fe2f05`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1666887/description_f9416c5c-1b17-4e87-8bee-408e5c299ae9.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/bitlods-inspiring-guns). SHA-256 `f6daf6bfefc391e43b1ba8781e2c5216170b13cb139a4bb0fd97edce63b87a91`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2008/175/256/256/639233426082327403.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/bitlods-inspiring-guns). SHA-256 `842a6ac3b0b1fe63b3c1a388c7e121413051ed218f48b8a9212fed8ce3ab19ce`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1666887/description_134a9944-a4fe-445f-b584-c8f60c94ebf3.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/bitlods-inspiring-guns). SHA-256 `2849c495d55e49bd6f7c9a1694d3720f3d8cc25a8286f6acb81ebbbdf00cc494`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1666887/description_5206ef8e-2461-443a-90be-359d49329d59.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/bitlods-inspiring-guns). SHA-256 `dba9f92333328d3d52eac5d943b7a231019a10c3b8415ffa16bb94101abc24ab`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1055779"></a>
-### TF2 - Point Blank
-
-[CurseForge project](https://www.curseforge.com/minecraft/customization/tf2-point-blank) · Checked 2026-10-23. Type: Gun / content pack.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/tf2-point-blank)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1040/395/256/256/638566340162489683.png) · [creator source](https://www.curseforge.com/minecraft/customization/tf2-point-blank). SHA-256 `bc777b31bec36feab3e7f10eef484b491ce62dac24138c983c17a83955e0fe5e`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-mr-NPu99btt"></a>
-### Create: Railgun
-
-[Modrinth project](https://modrinth.com/mod/create-railgun) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://modrinth.com/mod/create-railgun) [Source code](https://github.com/Bowserinator/create-railgun) [Issue tracker](https://github.com/Bowserinator/create-railgun/issues)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/NPu99btt/images/d65bdbe3e21adeab9643c97cc7e7555cd056db94_350.webp) · [creator source](https://modrinth.com/mod/create-railgun/gallery). SHA-256 `d37408dbf1e93935e10e6655e30c8210a7f86c400cd71e7c6e3aa6ffb567cc99`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/NPu99btt/images/d355e7d4d33d2a853d97454a7fd012d5e51e13f2_350.webp) · [creator source](https://modrinth.com/mod/create-railgun/gallery). SHA-256 `2117fc890db110b1acda9ee1a1c70d4fe8fc75f94c1cd6de2631bef75ec95c22`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/NPu99btt/images/f9a82735266c2f656e6bfa99f8b7a86d3029be32_350.webp) · [creator source](https://modrinth.com/mod/create-railgun/gallery). SHA-256 `b312b71cb884975b5e056f66a10fadc6fcbf9f1790b48b03d64167120a02bef5`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/NPu99btt/4daff7bf23f4c8aaf9b59fee474187c6cc9d2be6_96.webp) · [creator source](https://modrinth.com/mod/create-railgun). SHA-256 `b2fc8f61991854091efdedffcf301622beb5aaf791bc7aeca00eb8dc0ead76b3`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-iJ6zWYZT"></a>
-### bows to guns
-
-[Modrinth project](https://modrinth.com/resourcepack/bows-to-guns) · Checked 2026-10-23. Type: Visual / resource pack.
-
-[Project &amp; downloads](https://modrinth.com/resourcepack/bows-to-guns)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/iJ6zWYZT/images/595a08dc9daf68e7ccc53caca76f4854cc2a5d86_350.webp) · [creator source](https://modrinth.com/resourcepack/bows-to-guns/gallery). SHA-256 `2cd0c24f8320870138c3f253e3ab8b76c30a12531715f19a93e5469ca8701b3d`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/iJ6zWYZT/images/97bf69c0289d3da85b7bb8f98cf26266bff8aade_350.webp) · [creator source](https://modrinth.com/resourcepack/bows-to-guns/gallery). SHA-256 `5c9dcd395aed24f48249ee893abdeaca198c9d3b12fd1cecaf3dd25af863314f`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/iJ6zWYZT/2915d19d941502f7a61ca488a179bcedc4b8a93f.png) · [creator source](https://modrinth.com/resourcepack/bows-to-guns). SHA-256 `4cdea9d132877ecf50afb0147eeacc607bfe368f025b33b377008509a5cfad37`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-qUpUFWgr"></a>
-### ShieldGrid - Create Aeronautics & Big Cannons Compat
-
-[Modrinth project](https://modrinth.com/mod/shieldgrid) · Checked 2026-10-23. Type: Integration / handling / QoL.
-
-[Project &amp; downloads](https://modrinth.com/mod/shieldgrid)
-
-- Project icon: [exact image](https://cdn.modrinth.com/data/qUpUFWgr/6f5a403d5d9bdb5137a06211ae7944ff6920c040_96.webp) · [creator source](https://modrinth.com/mod/shieldgrid). SHA-256 `41ce4e5e3f7d9a6744edb7e423cd7f60fd8ed38b6f01939df87ecaf18e627aff`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-cf-1484200"></a>
-### [TACZ] HUDcreator
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/tacz-hudcreator) · Checked 2026-10-23. Type: Integration / handling / QoL.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/tacz-hudcreator)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1713/291/256/256/639089157783731275.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/tacz-hudcreator). SHA-256 `a09c83ee7c656e0b0177661b8bce3eb153468faaaf0a493b5610fe692332b638`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1520413"></a>
-### One in the Chamber [MTS/IV] Quick and Powerful Guns!
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/oneinthechamber) · Checked 2026-10-23. Type: Gun / content pack.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/oneinthechamber) [Source code](https://github.com/boot2big/oneinthechamber) [Project &amp; downloads](https://modrinth.com/mod/one-in-the-chamber)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/aSL6bezT/images/bd39e718b09f641c7b8e5395f9e5dd8918cdb681_350.webp) · [creator source](https://modrinth.com/mod/one-in-the-chamber/gallery). SHA-256 `2edfe9deea7834d4fc5362aceda2f854196cc9dc8a15bf8b995033e64781d3f2`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1767/575/256/256/639123382475708775.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/oneinthechamber). SHA-256 `3700c3b13158952e60b4e3013b3fd7c8626d78fad623e4218d7bc2a554f30ea9`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/aSL6bezT/726af11e53ba6d214fe6be8fdc3372f688595352_96.webp) · [creator source](https://modrinth.com/mod/one-in-the-chamber). SHA-256 `ba8184e79f1ce1f90c5b7f46257ba21ad7153ff1f33c2e4ecb29ac4f382c4238`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1570710"></a>
-### Create Cannon Gun Sight
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/create-cannon-gun-sight) · Checked 2026-10-23. Type: Artillery / combined arms.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/create-cannon-gun-sight)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1856/699/256/256/639166725043055525.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-cannon-gun-sight). SHA-256 `bd34163ff87f7762d23f6bb1ebd98b5517a8efcb06acd959689487050d6e674b`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-mr-3Q8csHq4"></a>
-### Orbital Strike Cannon
-
-[Modrinth project](https://modrinth.com/mod/orbital-strike-cannon) · Checked 2026-10-23. Type: Datapack / command weapon.
-
-[Project &amp; downloads](https://modrinth.com/mod/orbital-strike-cannon)
-
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-cf-1310217"></a>
-### Vic's Point Blank - Default Auto Mode
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/vics-point-blank-default-auto-mode) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/vics-point-blank-default-auto-mode)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1363/610/256/256/638885581037008694.jpg) · [creator source](https://www.curseforge.com/minecraft/mc-mods/vics-point-blank-default-auto-mode). SHA-256 `96a8da1cbdfcd6726e3b5c343526b1b5c8d26a5f21029069a9679a248b000b57`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
 

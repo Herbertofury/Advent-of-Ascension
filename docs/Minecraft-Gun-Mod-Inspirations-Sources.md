@@ -1414,6 +1414,18 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 
 First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
 
+<a id="ref-bilibili-BV1adAfenEpm"></a>
+### Dragon Technology
+
+[Creator-hosted project](https://www.bilibili.com/video/BV1adAfenEpm/) · Checked 2026-10-24. Type: Gun / content pack.
+
+[Original creator source](https://www.bilibili.com/video/BV1adAfenEpm/) [Creator profile and pinned distribution](https://space.bilibili.com/514144597) [Creator-linked public share](https://pan.baidu.com/s/1K6YUTJrZli-Jv4IVRpwtqQ)
+
+- Creator release/showcase preview: [exact image](https://i2.hdslb.com/bfs/archive/f0c25a4198dc9b1d90fbc18d58c1635ebbe4a910.jpg) · [creator source](https://www.bilibili.com/video/BV1adAfenEpm/). SHA-256 `31b160f5420b994ddb5c0dca16706663a1a87044ca086705e341b6a3c4300951`.
+- [Video](https://www.bilibili.com/video/BV1adAfenEpm/) · Author identity, public title and release/showcase metadata checked; full playback not reviewed.
+
+The original 2025 creator announcement supplies the public download and describes Mechanical Dragon plus the redesigned Star Dragon&#x27;s Wish. A later similarly named GitHub tag has no uploaded release assets and is not presented as a newly released playable binary. The exact current Minecraft/loader pairing remains unconfirmed.
+
 <a id="ref-bilibili-BV1MBEMzNEkJ"></a>
 ### Koei's Unique Armaments
 
@@ -1435,6 +1447,62 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 - [Video](https://www.bilibili.com/video/BV1ggTH6hEea/) · Named creator collection episode; full playback not reviewed.
 
 Creator-announced release and named gun-showcase episodes verified. No exact current downloadable file or version/loader combination independently established.
+
+<a id="ref-bilibili-BV1Q3CvYeEEi"></a>
+### Sentinel Technology / STF
+
+[Creator-hosted project](https://www.bilibili.com/video/BV1dDj96RE4n/) · Checked 2026-10-24. Type: Gun / content pack.
+
+[Original creator source](https://www.bilibili.com/video/BV1dDj96RE4n/) [Creator profile and pinned distribution](https://space.bilibili.com/35159832) [Creator project / distribution destination](https://afdian.com/a/LonelyBoy3540)
+
+- Creator release/showcase preview: [exact image](https://i1.hdslb.com/bfs/archive/9b7bac6628e1a2409f53f4b1e15d02856bafbbb9.jpg) · [creator source](https://www.bilibili.com/video/BV1qPK2zZEBo/). SHA-256 `d3dba90b388d00d9d54f9c69ef2285be3453f1f5e57cd03048b1124ed457ab1e`.
+- Creator release/showcase preview: [exact image](https://i1.hdslb.com/bfs/archive/3137a0d506b4d82f44eb8ee0573f5ba9febb251f.jpg) · [creator source](https://www.bilibili.com/video/BV1dDj96RE4n/). SHA-256 `5f5f728dcf3ac0d559ba873dd69126e53c92d6002dfcf620d22c386b9a56b557`.
+- Creator release/showcase preview: [exact image](https://i0.hdslb.com/bfs/archive/6b0be910dd07ae1d31c85da4b18fd7217af7d9cb.jpg) · [creator source](https://www.bilibili.com/video/BV1Fk4gzUEjW/). SHA-256 `618d7885f0cf753cdfa61b3410879f25abbc58903524e3a48804dbba830b7335`.
+- Creator release/showcase preview: [exact image](https://i2.hdslb.com/bfs/archive/35bc0f12d22b956654bd9fd9f05333afb76efd70.jpg) · [creator source](https://www.bilibili.com/video/BV1Q3CvYeEEi/). SHA-256 `c09ae9c144c32975725adbc41260e3c80a1056f722491d45339b3371656cd723`.
+- [Video](https://www.bilibili.com/video/BV1dDj96RE4n/) · Author identity, public title and release/showcase metadata checked; full playback not reviewed.
+- [Video](https://www.bilibili.com/video/BV1Fk4gzUEjW/) · Author identity, public title and release/showcase metadata checked; full playback not reviewed.
+- [Video](https://www.bilibili.com/video/BV1qPK2zZEBo/) · Author identity, public title and release/showcase metadata checked; full playback not reviewed.
+- [Video](https://www.bilibili.com/video/BV1Q3CvYeEEi/) · Author identity, public title and release/showcase metadata checked; full playback not reviewed.
+
+The creator identifies this as an engineering-test edition, not a final stable release. Transforming gun showcases and the public Afdian destination are verified, but the current paid/free terms and exact downloadable version are not. Arcana appears in the creator&#x27;s stated requirements/credits.
+
+<a id="ref-bilibili-BV1kChUzKE3n"></a>
+### Team Fortress 2's Gun / TFG
+
+[Creator-hosted project](https://www.bilibili.com/video/BV17PHj6cE3p/) · Checked 2026-10-24. Type: Gun / content pack.
+
+[Original creator source](https://www.bilibili.com/video/BV17PHj6cE3p/) [Creator profile and pinned distribution](https://space.bilibili.com/473102195) [Creator project / distribution destination](https://www.mcmod.cn/class/21755.html)
+
+- Creator release/showcase preview: [exact image](https://i1.hdslb.com/bfs/archive/f8d1e97101f3adaa28a2f140c602a572c9f48999.jpg) · [creator source](https://www.bilibili.com/video/BV17PHj6cE3p/). SHA-256 `961f0940f28deadc37db6812bcdbe08fcd5706cf6dbf8b39efecb917a61b605c`.
+- Creator release/showcase preview: [exact image](https://i2.hdslb.com/bfs/archive/022469339fc7fd9190694e851f6cddfebb6f9135.jpg) · [creator source](https://www.bilibili.com/video/BV1EW3J6UEy8/). SHA-256 `9be2bcc4cde39c33966204f7acffbc6e5eba4effa4fee8e4929ce9344a9d9ecf`.
+- Creator release/showcase preview: [exact image](https://i0.hdslb.com/bfs/archive/22fc1f090cb11a832ba617423eefca073c8abc78.jpg) · [creator source](https://www.bilibili.com/video/BV17EihBMEnU/). SHA-256 `1345d152f04c74e4ee0c117e7ae5f73bcefb6c16db5596bf55ee1db09b0ad4f4`.
+- Creator release/showcase preview: [exact image](https://i1.hdslb.com/bfs/archive/fc7f5f9d8ceb05655bacfb8475cccf5a10d942da.jpg) · [creator source](https://www.bilibili.com/video/BV1kChUzKE3n/). SHA-256 `8fd08e300546d1eee1e5a7abf1bf1203c45228e13315f8bbc20d08d95bd2e220`.
+- [Video](https://www.bilibili.com/video/BV17PHj6cE3p/) · Author identity, public title and release/showcase metadata checked; full playback not reviewed.
+- [Video](https://www.bilibili.com/video/BV1EW3J6UEy8/) · Author identity, public title and release/showcase metadata checked; full playback not reviewed.
+- [Video](https://www.bilibili.com/video/BV17EihBMEnU/) · Author identity, public title and release/showcase metadata checked; full playback not reviewed.
+- [Video](https://www.bilibili.com/video/BV1kChUzKE3n/) · Author identity, public title and release/showcase metadata checked; full playback not reviewed.
+
+The author-maintained project page describes a free Java 1.20.1 TaCZ pack; the creator announces v2.1.5. No exact current file/loader pair was independently retrieved. Planned weapons and melee/utility equipment are not counted as additional released firearms.
+
+<a id="ref-bilibili-BV1WmyDBbEqW"></a>
+### THE HARBINGER / Xianquzhe
+
+[Creator-hosted project](https://www.bilibili.com/video/BV1Jdf8BYE4r/) · Checked 2026-10-24. Type: Gun / content pack.
+
+[Original creator source](https://www.bilibili.com/video/BV1Jdf8BYE4r/) [Creator profile and pinned distribution](https://space.bilibili.com/298015072)
+
+- Creator release/showcase preview: [exact image](https://i2.hdslb.com/bfs/archive/dda6fab8a489aac7706077490841cf7f3bc19832.jpg) · [creator source](https://www.bilibili.com/video/BV1WmyDBbEqW/). SHA-256 `987c27c79c7ee4b15a534570bf55fe027602222cb562f07d3822378df8b36471`.
+- Creator release/showcase preview: [exact image](https://i1.hdslb.com/bfs/archive/b927b82ecc37615da580843e4f9d789da04ae0d0.jpg) · [creator source](https://www.bilibili.com/video/BV1Jdf8BYE4r/). SHA-256 `47bd09c40652bdc38557abae61f5f238332214e96d27c0c9bfd0b18159fb7ed9`.
+- Creator release/showcase preview: [exact image](https://i2.hdslb.com/bfs/archive/7842a13158a787f894eae36ad8903bd078ce5546.jpg) · [creator source](https://www.bilibili.com/video/BV17TSuBVEXk/). SHA-256 `36e8b2c4b888f8e87b7906e9b0fe6f4e6e871504d3ebb04ff395e2907038afa3`.
+- Creator release/showcase preview: [exact image](https://i0.hdslb.com/bfs/archive/035560f4832c6a9f0bd4f5ba48baa5c76e74caf3.jpg) · [creator source](https://www.bilibili.com/video/BV1LhBBBcEdq/). SHA-256 `17b1ab97376dc943df7c6f1a95f411fb4cd0c9df7c161e79c89b065fa1805d78`.
+- Creator release/showcase preview: [exact image](https://i2.hdslb.com/bfs/archive/5f5d920cea2591c802a2b1dd64bc85d648f51e18.jpg) · [creator source](https://www.bilibili.com/video/BV1HHn4z1ELE/). SHA-256 `1042e563b31bd3a659b7c4d79068333afbf083fbba431a3db36b83dffd607020`.
+- [Video](https://www.bilibili.com/video/BV1Jdf8BYE4r/) · Author identity, public title and release/showcase metadata checked; full playback not reviewed.
+- [Video](https://www.bilibili.com/video/BV17TSuBVEXk/) · Author identity, public title and release/showcase metadata checked; full playback not reviewed.
+- [Video](https://www.bilibili.com/video/BV1LhBBBcEdq/) · Author identity, public title and release/showcase metadata checked; full playback not reviewed.
+- [Video](https://www.bilibili.com/video/BV1HHn4z1ELE/) · Author identity, public title and release/showcase metadata checked; full playback not reviewed.
+- [Video](https://www.bilibili.com/video/BV1WmyDBbEqW/) · Author identity, public title and release/showcase metadata checked; full playback not reviewed.
+
+The creator announces v0.0.4 and directs users through their pinned Bilibili/Afdian distribution post. An exact current download file, price and Minecraft/loader pair were not independently established. Earlier free-beta wording is not silently extended into a current price guarantee.
 
 <a id="ref-cf-1317400"></a>
 ### [TaCZ]Ars Armorer
@@ -1933,68 +2001,6 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 
 - Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1061/449/256/256/638593487432818057.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/elite-x-quality-guns). SHA-256 `5983c6c5f4703b7369e3baf6fd1571f1c8178fd6232fb7d01aa95f70f1ef5d01`.
 - [Video](https://www.youtube.com/watch?v=ATnl1PNlN7w) · Linked on project page; full playback not reviewed.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1016912"></a>
-### Create: Tank Defenses
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses) · Checked 2026-10-23. Type: Artillery / combined arms.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses)
-
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_45f103ec-2250-4724-8ebf-d08af57ef0ce.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `86df1f43dd162a0510719c727bc24e5d04163a1007bf6d60f575547d27a15117`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_9fea7931-f942-48cc-9876-345e0b0affb2.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `7a7b4c99d830ed050034e666b4f6d2fc32e86c6fa4d60b7df2f7c40a36ebcb76`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_4018f122-85cf-4788-a5ad-8f86886c7f34.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `8e0a1e060a5fac61c88d0156fcdf7d10ece25d8aaea9906967b99102b66ba907`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_3528ea08-7875-447d-b6c5-b3e0bc31866b.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `f36fc14791b7039cb7687fe57e374b8d0f1ca7b4421e29b36b8dfdf2b08f1db9`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_28e1e699-f0e0-4523-abf3-b9fdf36ca508.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `cf6c232a5cf8e0963eb050d64614e6b1eea4d90c926176f02c2251e8841b4cf8`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_afaf7add-8f46-491b-9a04-0cca2fd263b4.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `3a458ad5e42da23191dba90b4a2b973b57a4aecce1c9538a43825c0f1d48960c`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_7da2c69e-ff14-496b-9ed5-9785b2e21dde.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `fc3900e8be4b9803aa073e2c890c3a7da1764d1a7f4a7988371b278629bfd28c`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_52779636-fa2b-4aa9-9bbc-9d85976000cc.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `c2ca6253adec8d556cbc67f2158c093f1bb388eaae1086615b8982f33d945638`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_ae06f840-ba39-4600-9bee-0d6a9b77dfc3.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `f253e9b8edff6e5f4c1e90e899727304c3de244a3247c2e638e4217cf7f86f8a`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_7caa4b12-7d15-44c2-8266-484c5fad7dbc.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `6d3b8f4fbdf094a55f3374c606132f53a4062e0aa2dc533efe514e211c68e102`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_d8e384e0-beeb-4d8d-9c66-cc508bfa19d7.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `82bbeef5cf976fd81ff7686610686834784b81dafebc8bcf8c8e45fb29108d4a`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_8be4da41-f50d-4c02-bd8f-37a7cf526876.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `80549ec25226d089ed07ff31c81462e832a1e9ef43f7652b72a1962837e54212`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_30cf427c-7c96-48f1-8ea0-21462ef6d942.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `6a3b1f55c032ffe71e41c9a09b3336123199812097ebd44fce8deebb3cd5e225`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_77df34ea-ea70-4b46-bebf-a19489a19282.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `ce63adbc6d08848c6fbc68af76b88b59060a17bae7712fdb2346e06481c76b71`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_a756eec1-be41-4814-beff-2b69cfe72cd1.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `4e95d7a120ef8b9c9432976dcc40b80245726da0f68231b5dceeb023f68d7210`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_03adb635-93a1-41d1-b15d-07bac80fe7b4.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `24eb4d4d4e50cfffef57d5fd80e6cad6e625f5bd5784a567d0d0b2706ffe9d32`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_696d12cf-44ae-4b55-b896-d269b72ff22b.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `0c96ece167e8788919e2bb41f04f3e0f410d5f4d38faef81025bf29a0d625aff`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_6c5bb660-7a42-45ed-ab95-70c99ab54d40.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `08ca768649211850c57b6a0cedb460bdd68bac2874ad95fa9aaa276bb6ca616c`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_37bc2c41-8226-447a-a39e-1b51692236cb.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `0b474185b6b8212375cee35347391f291f426b2f21843e0a965cfacb401f763f`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_43558b76-de6f-4282-b5d6-67dd055735ab.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `bf23f7c98014724e6833b67dfda3667c5939ee31867fb195094cf7064acdb119`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_a90eb88f-0119-4c47-b3cb-2b7664d5fee1.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `d22891a0a6fd5e28a8a58e590a4f63dccb0a5e5251a3781bcc1649377e93ae39`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_c59812dc-5d97-4ffe-a51c-f305630c2e30.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `7718dc7b0473f076b672944e35af40be9a3be745fa0566d16cade0067b7e9b04`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_d4ad2efb-d83b-4a18-baf6-42db66da4db1.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `83c6a480c3b7bbe9f240b3fb714b20b3db90710fc0e790e051a0bd226d99b8eb`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_525c9c3d-5842-4829-8cc2-af5ddd32ac54.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `2aa8173d827429fa4e39029ed8020ec57c023682255e615c8706281e73f0cd58`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_0c6b1af0-95d5-4bb5-bd48-9fa5d57a4c1f.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `bfea0b3bdcdf6fce98789f46f3089d2c8d6e20a2d88b3aa9f62f559dda997382`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_2b9b5b0f-cf28-404c-be06-b6068db30432.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `45c00ad7c861de8f622e638169ad9bdb5ef68e94fe54768cd07f4ee17a92d8c9`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_e49c541e-c9a0-4411-b9a9-fd80d7e1ed22.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `ac7e30178f417a05a1f9a42a0d89c8852770819766a096f4e1f07b8abbafcc63`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_53ae0c98-ba70-46fc-96b9-1bc017944980.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `4c98e1672e38da45d6837ecac65df921f4fdae511dd89d95e9d1bbfc1dcd7fae`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_1c0a6a7b-54f5-45c9-8ec3-b7c32a361e5d.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `28e9b28a189ffbd3a1ff4d8d908604ff183e3531cfa2ae96b570064ea47a5925`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_5a46f47e-9fe1-467a-afb2-73d474363fa3.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `97c1ae1f0a8f3e614d3eba76555380977d4296eff97473224564a2f5af7e54ec`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_07ee38fd-3545-4f86-b7ff-efbaeaa21926.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `b5598da866dd894115395b3771a98e7e8c2337cc75d537bed47fd03043607b0c`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_9bf3ca7a-8aac-40fc-9ced-ec2c3cc1424e.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `2ed52aa7f4f519e9539046a02e1b36112755d9b66ffc1af1ba491c03bb434316`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_0a602a23-80fc-4ae9-87ed-d13985c7875d.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `c47d0cd25e1870c6aeea032eeadd905a638d96e5eb96937d2f2805364829bacd`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_fa7045d5-fae8-43a5-917a-397077472ce9.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `1a885191112a4747fac39703e5a68b0aebe5ccecf3a5ab903a2760827401f7b7`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_988812ac-53fb-4c62-8cd6-622b3fb3dd5f.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `606d060e32bbffcf2c6670169a24105dbcc7ca570a5f3d1e1eea45ba345de6b9`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_67eb6ece-b369-4c36-b0e8-a3f9f24182f6.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `9465e081f3c69070679131b856603db66dfb378845d9f19a3639d42dff00970a`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_4850a82a-c905-4a78-8bce-862d327823fe.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `0b7d0147c222069ad0a1bab1b8c624dcb270244c8e10dd292067890f84914c42`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1409/356/256/256/638913232363146951.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `ace851e8603e3bed0157dfcbb2dde2082df9d77d5cc3e7ac21ac660444eaac50`.
-- [Video](https://www.youtube.com/watch?v=dQw4w9WgXcQ) · Linked on project page; full playback not reviewed.
-- [Video](https://www.youtube.com/watch?v=-zyVCptEjqs) · Linked on project page; full playback not reviewed.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-716274"></a>
-### Squirt Gun
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/squirt-gun) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/squirt-gun) [Source code](https://github.com/DirtEngineers/Squirtgun)
-
-- Creator description image: [exact image](https://drive.google.com/uc?export=view&id=1YlXNeNNf4nsOuMka7PQITc0VdM5hewcN) · [creator source](https://www.curseforge.com/minecraft/mc-mods/squirt-gun). SHA-256 `13dd77b981e835fd5c21ddfab86aed00024a26a5fb7066d37691254f31076ced`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/653/468/256/256/638056402880512104.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/squirt-gun). SHA-256 `9ef1e9fc107ede32ac2da2bff390f06ce4a405bd91995f0fe19fab9f2cc779f5`.
 
 First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
 
