@@ -25,10 +25,21 @@ def restore():
  report=json.loads((ROOT/'qualification-report.json').read_text());assert report['qualified']==43 and not report['errors']
  print('Restored all qualified records and terminal search-tail evidence; no repeated sweep.',flush=True)
 
+def source_decisions():
+ path=ROOT/'reviewed-dispositions.json';review=json.loads(path.read_text());outpath=ROOT/'extra-decisions.json';decisions=json.loads(outpath.read_text())
+ for key in review['supportOrExistingGunBehavior']:decisions[key]={'status':'excluded from gun-content count','reason':'Reviewed source identity describes a base runtime, gameplay/support, AI/equipment, packaging or existing-gun behavior. An independently authored additional firearm roster was not established for this collection.'}
+ for key in review['otherEngineOrNonGunContent']:decisions[key]={'status':'excluded','reason':'Source identity targets another weapon engine, a standalone/legacy mod, cosmetics, crossbows or non-firearm collectibles rather than additional TaCZ firearms.'}
+ for entry in review['representedVariants']:decisions[entry['id']]={'status':'already represented','reason':entry['reason']}
+ for entry in review['notPromotedWithoutMoreEvidence']:decisions[entry['id']]={'status':'unresolved lead','reason':entry['reason']}
+ outpath.write_text(json.dumps(decisions,ensure_ascii=False,indent=2),encoding='utf-8')
+
 def main():
  restore()
  import creator_extra
  creator_extra.main()
+ import late_qualification
+ late_qualification.main()
+ source_decisions()
  import finalize_deep
  finalize_deep.main()
  import build_deep
