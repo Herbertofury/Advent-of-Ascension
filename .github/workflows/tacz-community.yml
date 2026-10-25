@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 35
     steps:
-      - name: Continue canonical catalog on a review branch
+      - name: Continue canonical catalog on the established review branch
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -29,52 +29,59 @@ jobs:
           git clone --depth 100 --filter=blob:none --no-checkout "https://github.com/${GITHUB_REPOSITORY}.git" source
           cd source
           git sparse-checkout init --no-cone
-          printf '/docs/minecraft-gun-mods/\n/docs/TaCZ-Gunpack*.md\n/docs/Minecraft-Gun-Mod-Inspirations*.md\n/docs/Minecraft-Gunpack-Creator-Discoveries.md\n/docs/Weapon-Inspirations.md\n/docs/Weapon-Reference-Library.md\n/AGENTS.md\n' > .git/info/sparse-checkout
+          printf '/docs/minecraft-gun-mods/\n/docs/TaCZ-Gunpack*.md\n/docs/Minecraft-Gun-Mod-Inspirations*.md\n/docs/Minecraft-Gunpack-Creator-Discoveries.md\n/docs/Weapon-Inspirations.md\n/docs/Weapon-Reference-Library.md\n/docs/weapon_inspiration_navigation.py\n/AGENTS.md\n' > .git/info/sparse-checkout
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          if git ls-remote --exit-code --heads origin tacz-community-discovery >/dev/null 2>&1; then
-            git fetch --depth 100 origin refs/heads/tacz-community-discovery:refs/remotes/origin/tacz-community-discovery refs/heads/main:refs/remotes/origin/main
-            git checkout -B tacz-community-discovery origin/tacz-community-discovery
-            git merge origin/main --no-edit
-          else
-            git checkout -b tacz-community-discovery origin/main
-          fi
-      - name: Execute the current gap-directed stage
+          git fetch --depth 100 origin refs/heads/tacz-community-discovery:refs/remotes/origin/tacz-community-discovery refs/heads/main:refs/remotes/origin/main
+          git checkout -B tacz-community-discovery origin/tacz-community-discovery
+          git merge origin/main --no-edit
+      - name: Resume only the provider-delayed manifest path
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           python3 -m pip install --quiet requests beautifulsoup4 pillow playwright
           cd source
-          python3 - <<'PY'
-          from pathlib import Path
-          p=Path('docs/minecraft-gun-mods/tacz-community/research_community.py')
-          s=p.read_text();s=s.replace("record.get('owner',{}).get('mid')", "(record.get('owner') or {}).get('mid')")
-          p.write_text(s)
-          PY
-          if [ -f docs/minecraft-gun-mods/tacz-community/build_community.py ]; then
-            python3 docs/minecraft-gun-mods/tacz-community/build_community.py
-          elif [ -f docs/minecraft-gun-mods/tacz-community/resume.py ]; then
-            python3 docs/minecraft-gun-mods/tacz-community/resume.py
-          else
-            python3 docs/minecraft-gun-mods/tacz-community/research_community.py
-          fi
-      - name: Persist concise evidence before additional validation
-        if: always()
+          python3 docs/minecraft-gun-mods/tacz-community/retry_manifests.py
+      - name: Build all visually qualified additions from frozen source records
+        run: |
+          set -euo pipefail
+          cd source
+          python3 docs/minecraft-gun-mods/tacz-community/build_community.py
+          node --check docs/minecraft-gun-mods/app.js
+          node --check docs/minecraft-gun-mods/tacz/app.js
+      - name: Checkpoint complete source and imagery before browser gates
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           export GIT_ASKPASS="$RUNNER_TEMP/tacz-community-askpass.sh" GIT_TERMINAL_PROMPT=0
           cd source
-          git add docs/minecraft-gun-mods/tacz-community/research_community.py
-          for file in coverage.json baseline-identity.json qualified-records.json selection.json source-decisions.json data-verification.json; do
+          git add docs/minecraft-gun-mods/tacz-community/*.py docs/minecraft-gun-mods/tacz-community/assets
+          for file in coverage.json baseline.json baseline-identity.json qualified-records.json selection.json source-decisions.json media-review.json public-creator-evidence.json deferred-doraemon-source.json; do
             if [ -f "docs/minecraft-gun-mods/tacz-community/$file" ]; then git add "docs/minecraft-gun-mods/tacz-community/$file"; fi
           done
-          if [ -d docs/minecraft-gun-mods/tacz-community/assets ]; then git add docs/minecraft-gun-mods/tacz-community/assets; fi
-          if ! git diff --cached --quiet; then git commit -m 'Checkpoint new TaCZ community-source evidence without changing existing records'; fi
+          git add docs/minecraft-gun-mods/tacz-community/qa/*.json docs/minecraft-gun-mods/creator-discoveries/build_update.py docs/minecraft-gun-mods/catalog.json docs/minecraft-gun-mods/catalog.js docs/minecraft-gun-mods/index.html docs/minecraft-gun-mods/app.js docs/minecraft-gun-mods/tacz/catalog.json docs/minecraft-gun-mods/tacz/catalog.js docs/minecraft-gun-mods/tacz/index.html docs/minecraft-gun-mods/tacz/app.js docs/TaCZ-Gunpack*.md docs/Minecraft-Gun-Mod-Inspirations*.md docs/Minecraft-Gunpack-Creator-Discoveries.md
+          if ! git diff --cached --quiet; then git commit -m 'Add creator-community gunpacks with exact source limits and preserved collection IDs'; fi
           git push origin HEAD:tacz-community-discovery
-      - name: Preserve exact source evidence for qualification
+          git rev-parse HEAD > docs/minecraft-gun-mods/tacz-community/qa/source-commit.txt
+      - name: Verify every new source path and all existing explorer behavior
+        run: |
+          set -euo pipefail
+          if ! command -v google-chrome >/dev/null && ! command -v chromium >/dev/null; then python3 -m playwright install --with-deps chromium; fi
+          python3 source/docs/minecraft-gun-mods/tacz-community/test_community.py
+          python3 source/docs/minecraft-gun-mods/qa/browser_test.py --output source/docs/minecraft-gun-mods/tacz-community/qa/full-parent
+          python3 source/docs/minecraft-gun-mods/tacz/test_tacz.py --output source/docs/minecraft-gun-mods/tacz-community/qa/full-tacz
+      - name: Persist exact passing runtime receipts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          export GIT_ASKPASS="$RUNNER_TEMP/tacz-community-askpass.sh" GIT_TERMINAL_PROMPT=0
+          cd source
+          git add docs/minecraft-gun-mods/tacz-community/qa/targeted/report.json docs/minecraft-gun-mods/tacz-community/qa/full-parent/browser-report.json docs/minecraft-gun-mods/tacz-community/qa/full-tacz/browser-report.json docs/minecraft-gun-mods/tacz-community/qa/source-commit.txt
+          if ! git diff --cached --quiet; then git commit -m 'Verify new community gunpacks and complete parent and TaCZ explorer workflows'; git push origin HEAD:tacz-community-discovery; fi
+      - name: Preserve exact qualification and runtime evidence
         if: always()
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
         with:
