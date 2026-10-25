@@ -38,3 +38,17 @@ The viewer suites also depended on sibling HTML files. The runner now stages tho
 ## Still required in game
 
 Native export/load, real hand/skin/FOV combinations, attachment-switch transitions, actual translucent rendering and aim readability, shader/Vulkan compatibility, multiplayer, persistence and measured frame times. None of those gates is passed by this source-only receipt.
+
+## Tommy donor-mount correction and v20 authoring check — 25 October 2026
+
+The current authoring study restores the original donor drum orientation and high mounting position. The rejected side-facing/low adapter is reference-only. Short and long box alternatives use their actual donor meshes, not a stretched substitute. Original donor geometry and notices remain preserved, with credit to Khan / Khan_offline and Murasame_chaan.
+
+Three independently reopened Blender 4.3.2 variants replay their saved geometry and owner references and bind to their exact static export contracts. Thirteen metadata/selection tests pass, including negative tests for simultaneous magazines, a wrong rest frame, reactivated retired geometry and unverified production/reload promotion. Fifty-four stored pose snapshots are explicitly reference-only, not continuous native animations.
+
+[Exact v20 evidence and hashes](tommy-v20-authoring-evidence.json)
+
+A source-informed discrete reload study checks 712 samples and still finds receiver boundary-contact candidates in 47 samples. These are unresolved, not waived because the original donor also has some source-surface contacts. The study does not include native controller blends, complete hand geometry, continuous collision proof or native rendering. The long box's static authored-surface check is separate from its original donor catch/ammunition/grip contacts.
+
+The [new drum concept](weapon-concepts.html?weapon=aoa3%3Atommy) is an art candidate; the older box concept remains an alternate. Model silhouette/material fidelity, normal-sized hand fit, reload/inspect ownership and cancellation, native mesh/texture export, AoA behavior, Hari/Vulkan compatibility and performance all remain open. **No native weapon acceptance is claimed.**
+
+Reusable safeguards: compare the donor's actual orientation and mounting before changing proportions; preserve alternates without enabling them simultaneously; bind saved scenes to their exact contract; reject release promotion while contacts or native verification remain unresolved. Never move a magazine merely to conceal an incompatible receiver.

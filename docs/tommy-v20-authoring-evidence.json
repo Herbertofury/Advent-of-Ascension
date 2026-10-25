@@ -1,0 +1,259 @@
+{
+  "date": "2026-10-25",
+  "status": "AUTHORING_ONLY_NATIVE_UNACCEPTED",
+  "description": "Donor-mounted drum, short box and long box variants. Not installed, not an in-game visual or performance acceptance.",
+  "blender": "4.3.2",
+  "scene_variants": [
+    {
+      "scene_sha256": "4e6ff963fdd9d0b0b7254aed7d4bdef3b1a91e39393dfbfc67b34ba967ec773d",
+      "contract_sha256": "aa2b23b914294e7fbed746599da33fb5d5bea43cabd5d586ba336a757590d881",
+      "validator_sha256": "88cfa4726fbd0998b901a3a483fe93156086a2a9039c7a2e5e30a3f2b9600c6f",
+      "contract_validation": {
+        "passed": true,
+        "validated_active_objects": 609,
+        "promotion_mode": "static-study",
+        "scope": "identity check only; no geometry/motion acceptance",
+        "selected_magazine_owner": "mag_extended_2",
+        "actual_frame": 1,
+        "animations_exported": false
+      },
+      "reference_actions_checked": 54,
+      "source_mesh_count": 727,
+      "maximum_source_native_world_error": 4.0418395985675204e-07,
+      "actual_visible_triangle_count": 6146,
+      "minimum_actual_visible_triangle_area": 7.0020655940084e-12,
+      "variant": "drum",
+      "scene_unchanged": true,
+      "owner_count": 56,
+      "authored_mesh_count": 12
+    },
+    {
+      "scene_sha256": "ad62d306bed5a0b51650bdb9b29ee20413f9c3e3bfba876cbd1567d0358ee6e2",
+      "contract_sha256": "487c195526f239b7a04e1f2ac8918f1dd351a69aad3e1ff8140e62a09700327f",
+      "validator_sha256": "88cfa4726fbd0998b901a3a483fe93156086a2a9039c7a2e5e30a3f2b9600c6f",
+      "contract_validation": {
+        "passed": true,
+        "validated_active_objects": 594,
+        "promotion_mode": "static-study",
+        "scope": "identity check only; no geometry/motion acceptance",
+        "selected_magazine_owner": "mag_standard",
+        "actual_frame": 1,
+        "animations_exported": false
+      },
+      "reference_actions_checked": 54,
+      "source_mesh_count": 727,
+      "maximum_source_native_world_error": 4.0418395985675204e-07,
+      "actual_visible_triangle_count": 5928,
+      "minimum_actual_visible_triangle_area": 7.0020655940084e-12,
+      "variant": "box",
+      "scene_unchanged": true,
+      "owner_count": 56,
+      "authored_mesh_count": 12
+    },
+    {
+      "scene_sha256": "7d2ebfd64fdb3591b23ff8514c926936502d69428610814ea1b40fd7ada0a5c8",
+      "contract_sha256": "2657e341a351b82adcc898ff2f62211225f3bcea83f9e9ded6504ac7bdc5ff2c",
+      "validator_sha256": "88cfa4726fbd0998b901a3a483fe93156086a2a9039c7a2e5e30a3f2b9600c6f",
+      "contract_validation": {
+        "passed": true,
+        "validated_active_objects": 597,
+        "promotion_mode": "static-study",
+        "scope": "identity check only; no geometry/motion acceptance",
+        "selected_magazine_owner": "mag_extended_1",
+        "actual_frame": 1,
+        "animations_exported": false
+      },
+      "reference_actions_checked": 54,
+      "source_mesh_count": 727,
+      "maximum_source_native_world_error": 4.0418395985675204e-07,
+      "actual_visible_triangle_count": 5970,
+      "minimum_actual_visible_triangle_area": 7.0020655940084e-12,
+      "variant": "long-box",
+      "scene_unchanged": true,
+      "owner_count": 56,
+      "authored_mesh_count": 12
+    }
+  ],
+  "contract_tests": {
+    "validator_sha256": "88cfa4726fbd0998b901a3a483fe93156086a2a9039c7a2e5e30a3f2b9600c6f",
+    "tests": [
+      {
+        "case": "valid drum",
+        "passed": true
+      },
+      {
+        "case": "valid box",
+        "passed": true
+      },
+      {
+        "case": "valid long-box",
+        "passed": true
+      },
+      {
+        "case": "simultaneous magazines",
+        "passed": true,
+        "rejection": "Magazine groups are not mutually exclusive"
+      },
+      {
+        "case": "selector disagrees",
+        "passed": true,
+        "rejection": "Magazine groups are not mutually exclusive"
+      },
+      {
+        "case": "incomplete alternate identity group",
+        "passed": true,
+        "rejection": "Incomplete source magazine identity group: mag_extended_1"
+      },
+      {
+        "case": "wrong frame",
+        "passed": true,
+        "rejection": "Static export must use the reviewed rest frame without animations"
+      },
+      {
+        "case": "unverified native acceptance",
+        "passed": true,
+        "rejection": "Unverified acceptance promotion"
+      },
+      {
+        "case": "unverified animation acceptance",
+        "passed": true,
+        "rejection": "Unverified acceptance promotion"
+      },
+      {
+        "case": "retired stop reenabled",
+        "passed": true,
+        "rejection": "Retired adapter geometry enabled or missing"
+      },
+      {
+        "case": "missing retirement policy",
+        "passed": true,
+        "rejection": "Missing retired-adapter policy"
+      },
+      {
+        "case": "production promotion",
+        "passed": true,
+        "rejection": "This authoring-study contract cannot promote a production or reload release"
+      },
+      {
+        "case": "reload promotion",
+        "passed": true,
+        "rejection": "This authoring-study contract cannot promote a production or reload release"
+      }
+    ],
+    "scope": "Offline metadata/selection/release-gate tests, not geometry or native gameplay."
+  },
+  "reload_contact_study": {
+    "tested_frames": 712,
+    "drum_triangles": 552,
+    "authored_triangles": 2210,
+    "frames_with_boundary_contacts": 47,
+    "worst": {
+      "clip": "reload_tactical_magdrum",
+      "time": 3.8,
+      "broad_pairs": 3981,
+      "boundary_contact_pairs": 129,
+      "by_authored_target": {
+        "Tommy unified receiver and magwell body v4": 129
+      },
+      "example_triangle_pairs": [
+        [
+          40,
+          646
+        ],
+        [
+          40,
+          1913
+        ],
+        [
+          40,
+          1914
+        ],
+        [
+          41,
+          514
+        ],
+        [
+          41,
+          646
+        ],
+        [
+          41,
+          1913
+        ],
+        [
+          44,
+          513
+        ],
+        [
+          44,
+          514
+        ],
+        [
+          44,
+          645
+        ],
+        [
+          44,
+          646
+        ],
+        [
+          44,
+          1833
+        ],
+        [
+          44,
+          1834
+        ],
+        [
+          44,
+          1873
+        ],
+        [
+          44,
+          1874
+        ],
+        [
+          44,
+          1991
+        ],
+        [
+          44,
+          2073
+        ],
+        [
+          44,
+          2078
+        ],
+        [
+          62,
+          514
+        ],
+        [
+          62,
+          1836
+        ],
+        [
+          62,
+          1912
+        ]
+      ]
+    },
+    "elapsed_seconds": 41.78482588499901,
+    "scope": "Discrete clip-only source-informed transform study against active authored surfaces. Not continuous swept collision proof, hand fit, alpha-aware visual overlap, controller blends or native gameplay. Contact candidates include touching within the unchanged 1e-9 SAT comparison margin."
+  },
+  "native_accepted": false,
+  "art_accepted": false,
+  "remaining_gates": [
+    "Resolve receiver contact candidates with full controller and visual evidence",
+    "Unscaled hand fit and prop ownership",
+    "Interrupted reload/inspect reset",
+    "Single-atlas or validated material/native export path",
+    "First/third-person gameplay and behavior equivalence",
+    "Hari/Vulkan compatibility and measured frame times"
+  ],
+  "source_credit": [
+    "Khan / Khan_offline",
+    "Murasame_chaan"
+  ],
+  "source_archive_sha256": "2d380020063c4096b4a29f025b0a8b00e6bac21adf06256f554d1e3d6c1ea89a"
+}
