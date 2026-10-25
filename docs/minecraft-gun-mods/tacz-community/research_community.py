@@ -95,7 +95,7 @@ def creator_sources(search,forum):
   with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
    for id,record in zip(pending,pool.map(video,pending)):
     output[id]=record
-    if record.get('owner',{}).get('mid') in (1163799255,5742092) or id in SEED_VIDEOS:
+    if (record.get('owner') or {}).get('mid') in (1163799255,5742092) or id in SEED_VIDEOS:
      for ep in record['episodes']:
       if re.search(r'tacz|\u67aa\u5305|\u730e\u6740|TCPL|RSCA|EMI',ep.get('title',''),re.I):todo.add(ep['bvid'])
     save('creator-video-evidence.json',output)
