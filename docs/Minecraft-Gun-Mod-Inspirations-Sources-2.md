@@ -4,6 +4,45 @@
 
 [Volume 1](Minecraft-Gun-Mod-Inspirations-Sources) · [Volume 2](Minecraft-Gun-Mod-Inspirations-Sources-2) · [Volume 3](Minecraft-Gun-Mod-Inspirations-Sources-3) · [Volume 4](Minecraft-Gun-Mod-Inspirations-Sources-4) · [Volume 5](Minecraft-Gun-Mod-Inspirations-Sources-5) · [Volume 6](Minecraft-Gun-Mod-Inspirations-Sources-6) · [Volume 7](Minecraft-Gun-Mod-Inspirations-Sources-7) · [Volume 8](Minecraft-Gun-Mod-Inspirations-Sources-8) · [Volume 9](Minecraft-Gun-Mod-Inspirations-Sources-9) · [Volume 10](Minecraft-Gun-Mod-Inspirations-Sources-10) · [Volume 11](Minecraft-Gun-Mod-Inspirations-Sources-11)
 
+<a id="ref-cf-1382917"></a>
+### [TACZ] DeltaForce Melee Pack
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/deltaforce-melee-pack) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/deltaforce-melee-pack) [Project &amp; downloads](https://modrinth.com/mod/deltaforce-melee-pack) [Issue tracker](https://github.com/LesRaisins-Studios/LesRaisins-Tactical-Equipements/issues)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/3tYsgtNr/images/2871d3c23629e9bcfa97c15d0ad9162a1ccefa17_350.webp) · [creator source](https://modrinth.com/mod/deltaforce-melee-pack/gallery). SHA-256 `55a18550a6187ef3002d8b8e29dcec50133a83f740cb188466bca2b03f92e65f`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/3tYsgtNr/images/b32cb2e1a69c868962ff03ca60bda749c642da81_350.webp) · [creator source](https://modrinth.com/mod/deltaforce-melee-pack/gallery). SHA-256 `6ce8c4b4b2fc0631b1a8867b586369a33637b0c9fa78f35b240c4c94f9c03845`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/3tYsgtNr/images/b1cd8e4b7fd02d5f5e88c95e90abd06aa3397600_350.webp) · [creator source](https://modrinth.com/mod/deltaforce-melee-pack/gallery). SHA-256 `8bce303e01a04ef71ea6ba2746fe21a5d0b295e686067d6a703437c783d67df4`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1516/442/256/256/638984774088645087.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/deltaforce-melee-pack). SHA-256 `402b4245b3ba3b116525f94baf5f2dfe80cb6ca5919ad470e124adfb293636d7`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/3tYsgtNr/1ad518a9f652d8d6941c6660d8207ff07e2b9b14_96.webp) · [creator source](https://modrinth.com/mod/deltaforce-melee-pack). SHA-256 `5fe8ad46b619948b09084e62893975206de44207dba1cb4041d07f553e755708`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1352204"></a>
+### Create: Fast SchematicCannon
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/create-fast-schematiccannon) · Checked 2026-10-23. Type: Artillery / combined arms.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/create-fast-schematiccannon)
+
+- Creator description image: [exact image](https://github.com/user-attachments/assets/fe7fffdd-f077-4021-aac6-f4e5c06b2e2c) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-fast-schematiccannon). SHA-256 `792e4318db4e0b2f20dc20a4816b01b3e78c1733cc750f55e5164667c2a72864`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1452/16/256/256/638942118588638734.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-fast-schematiccannon). SHA-256 `079558dcd34faf1777be2503ac6207c4c6dcfa5821eb272fce09c8d51c9a998c`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1084662"></a>
+### Elite X Quality Guns (TACZ)
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/elite-x-quality-guns) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/elite-x-quality-guns) [Source code](https://github.com/Argoswilliams57/Elite_x_Quality_Guns_4.0_Forge_1.20.1)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1061/449/256/256/638593487432818057.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/elite-x-quality-guns). SHA-256 `5983c6c5f4703b7369e3baf6fd1571f1c8178fd6232fb7d01aa95f70f1ef5d01`.
+- [Video](https://www.youtube.com/watch?v=ATnl1PNlN7w) · Linked on project page; full playback not reviewed.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
 <a id="ref-cf-1016912"></a>
 ### Create: Tank Defenses
 
@@ -2698,46 +2737,6 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 - Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1097111/description_ae581dc5-f82f-4ac5-9a3e-c456cbe05bbb.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-apocalypse-gun-pack). SHA-256 `851cd31033699cd093290c61ec7e8f8c022f5ef433a00bc1ba69480785e92385`.
 - Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1545/750/256/256/639003174727553596.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-apocalypse-gun-pack). SHA-256 `c73424c7319acb738f2fa9e86c5c3cb5028c66b4831d8226a92e46a0834e9090`.
 - [Video](https://www.youtube.com/watch?v=DVHr_BLy6CY) · Linked on project page; full playback not reviewed.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1353465"></a>
-### TaCZ Pack Upgrader
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/tacz-pack-upgrader) · Checked 2026-10-23. Type: Gun / content pack.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/tacz-pack-upgrader) [Source code](https://github.com/MUKSC/TaCZPackUpgrader) [Issue tracker](https://github.com/MUKSC/TaCZPackUpgrader/issues) [Project &amp; downloads](https://modrinth.com/mod/tacz-pack-upgrader)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1454/715/256/256/638944187980625346.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/tacz-pack-upgrader). SHA-256 `4c7bdcc6e0858e3e318beeb1d5584f2135b8a4c9041bae41d3c19d9bc84b5e90`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/fx5N8Hgd/2a60f99c5418ed63c01f3e59829402713ab3bec0_96.webp) · [creator source](https://modrinth.com/mod/tacz-pack-upgrader). SHA-256 `25a83a3fd5f04540780f903958fd877cbcac9b2344c4ecb3015a4127c5344718`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1081193"></a>
-### [TaCZ]Immersive Armorer
-
-[CurseForge project](https://www.curseforge.com/minecraft/customization/tacz-immersive-armorer-koei) · Checked 2026-10-23. Type: Gun / content pack.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/tacz-immersive-armorer-koei)
-
-- Project gallery: [exact image](https://media.forgecdn.net/attachments/937/299/1.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-immersive-armorer-koei/gallery). SHA-256 `e9dd0a6768097e3864e18c0086f38d2c5e0e6caa8493bb433184b13aea8a7d03`.
-- Project gallery: [exact image](https://media.forgecdn.net/attachments/937/300/2.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-immersive-armorer-koei/gallery). SHA-256 `ec4eab56e48efeca6841f4b586afc698c997ad42e7b3718ae87e5b709cbd3e82`.
-- Project gallery: [exact image](https://media.forgecdn.net/attachments/937/301/3.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-immersive-armorer-koei/gallery). SHA-256 `4e4bd2b1d45c504b71131b9f1ad74f7c873275bcfb5d04845fc6cc7dfcbdf898`.
-- Project gallery: [exact image](https://media.forgecdn.net/attachments/937/302/4.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-immersive-armorer-koei/gallery). SHA-256 `9cd7c2e7b123a19fa75854cdb6bb78c3ad6489dd591c36b1a6dbe829a6f6a7dd`.
-- Project gallery: [exact image](https://media.forgecdn.net/attachments/937/303/5.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-immersive-armorer-koei/gallery). SHA-256 `c7765aa9c259b610d4eb6a6c478e102e0b13904fc4ba33e2023a031ac1481787`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_680f5914-957a-42aa-af3a-00593aaa88dd.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-immersive-armorer-koei). SHA-256 `abd539083592cb27607b0ce9e3545648506dde169312aefb33c98bb9849bf035`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1058/15/256/256/638588916068799463.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-immersive-armorer-koei). SHA-256 `9be35867393d86e0146a098c071a6b82cb0448f48ae898ff2be703cc9def63e7`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-383191"></a>
-### Flan's Ultimate 2: Wolff's Star Wars Pack
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/wolffs-star-wars-pack) · Checked 2026-10-23. Type: Gun / content pack.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/wolffs-star-wars-pack) [Source code](https://github.com/AntonIT99/Wolff-Star-Wars-Pack)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/272/14/256/256/637249907856624845.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/wolffs-star-wars-pack). SHA-256 `91ae390516495b685815c49e662d374f889323f3a820ddf46e0bed0f8d7c877b`.
 
 First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
 

@@ -3044,6 +3044,45 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 
 The creator supplies lmr-1.0.0.zip and states TaCZ 1.1.4 or newer. The repository contains standard and tactical gun indexes. This is a small 2025 historical-design reference; no exact Minecraft/loader compatibility or native runtime quality is inferred.
 
+<a id="ref-bilibili-BV1W88BzGEmD"></a>
+### bare / Empty Pack
+
+[Creator-hosted project](https://www.bilibili.com/video/BV1W88BzGEmD/) · Checked 2026-10-25. Type: Gun / content pack.
+
+[Original creator source](https://www.bilibili.com/video/BV1W88BzGEmD/) [Original creator profile](https://space.bilibili.com/111139639) [Exact creator-published share](https://wwro.lanzouq.com/i4W7O3276yad)
+
+- Creator release/showcase preview: [exact image](https://i0.hdslb.com/bfs/archive/175cf8b7f55b145baba861e9cd482c51d09d9886.jpg) · [creator source](https://www.bilibili.com/video/BV1W88BzGEmD/). SHA-256 `8a7fb83aa41810d22b18739845a62f1c2a7f7349a8326a6dc5f0a1090ab76673`.
+- [Video](https://www.bilibili.com/video/BV1W88BzGEmD/?p=2) · Exact uploader, title, description and public chapter metadata checked; full playback not reviewed.
+
+The named firearm file is bare&#95;gun&#95;pack&#95;converted.zip. The separately offered banger.zip is a grenade pack requiring LR Tactical Workshop; that grenade dependency is not automatically assigned to the gunpack. The creator acknowledges rough edges. Public download provenance is verified, not native runtime compatibility or the contents of the binary.
+
+<a id="ref-bilibili-BV1qinS6WEHy"></a>
+### Boonie Bears Weapons / Remake Test
+
+[Creator-hosted project](https://www.bilibili.com/video/BV1qinS6WEHy/) · Checked 2026-10-25. Type: Gun / content pack.
+
+[Original creator source](https://www.bilibili.com/video/BV1qinS6WEHy/) [Original creator profile](https://space.bilibili.com/417974954) [Exact creator-published share](https://pan.xunlei.com/s/VP4nJQLsk0KGUXYshnTDRPYiA1)
+
+- Creator release/showcase preview: [exact image](https://i1.hdslb.com/bfs/archive/ef47803dcb455e14290e26dcee3e4bc28998eae2.jpg) · [creator source](https://www.bilibili.com/video/BV1qinS6WEHy/). SHA-256 `772178862dad45dea7caac002f4f822a0fec3c50ce0313d1d10523493c93e42e`.
+- Public video opening frame: [exact image](https://i0.hdslb.com/bfs/storyff/_000004euvrg2xrcw62wrb7cicr2upmb_firsti.jpg) · [creator source](https://www.bilibili.com/video/BV1qinS6WEHy/). SHA-256 `eaf873a95a4125d4f8446b1b77f3558e49cd1b5dad7703c0f0e058dd73c2c1a1`.
+- Creator release/showcase preview: [exact image](https://i0.hdslb.com/bfs/archive/c911cd18b3f6ad01b3ba6f35c8b2efd34493e3fd.jpg) · [creator source](https://www.bilibili.com/video/BV1ypLE6PEry/). SHA-256 `3d84ebee576550afb77d581827179d695940f08372c38abf9d97fbc5a191a871`.
+- [Video](https://www.bilibili.com/video/BV1qinS6WEHy/) · Exact uploader, title, description and public chapter metadata checked; full playback not reviewed.
+- [Video](https://www.bilibili.com/video/BV1ypLE6PEry/) · Exact uploader, title, description and public chapter metadata checked; full playback not reviewed.
+
+The release title specifies TaCZ 1.1.8 plus Gunsmith. It is an open test, not a verified stable release. The second video segment compares chainsaw animations and is not counted as additional gun content. The exact Minecraft/loader pair remains unconfirmed; the older preview referenced LR separately.
+
+<a id="ref-bilibili-BV1LkfTYeE5o"></a>
+### EMI Classic / Classics Unreforged
+
+[Creator-hosted project](https://www.bilibili.com/video/BV1LkfTYeE5o/) · Checked 2026-10-25. Type: Gun / content pack.
+
+[Original creator source](https://www.bilibili.com/video/BV1LkfTYeE5o/) [Original creator profile](https://space.bilibili.com/5742092)
+
+- Creator release/showcase preview: [exact image](https://i2.hdslb.com/bfs/archive/27d3dc4ee97e6eaf2baf8884799b930bc1466c2c.jpg) · [creator source](https://www.bilibili.com/video/BV1LkfTYeE5o/). SHA-256 `f99b641664f822b5a2a16fc08ec7103393044cfb6bb084295e9881b33c28df5d`.
+- [Video](https://www.bilibili.com/video/BV1LkfTYeE5o/) · Exact uploader, title, description and public chapter metadata checked; full playback not reviewed.
+
+SF-2403 explicitly distinguishes this from EMX, credits a separate original model author, and says major model modernization is not its goal. The 1.7.10 reference describes the historical source mod, not the TaCZ compatibility version. No exact current TaCZ ZIP or Minecraft/loader pair was independently retrieved.
+
 <a id="ref-bilibili-BV1RvZXBHEh8"></a>
 ### Extreme Armaments / Ningmeng Craft
 
@@ -3057,6 +3096,18 @@ The creator supplies lmr-1.0.0.zip and states TaCZ 1.1.4 or newer. The repositor
 - [Video](https://www.bilibili.com/video/BV1zWxqzQEAp/) · Author identity, public title and release/showcase metadata checked; full playback not reviewed.
 
 The same creator publishes MPX and earlier MK14 releases under this evolving project lineage. They are grouped conservatively, not claimed to be one combined current ZIP. The linked MK14 share comes from the original announcement; the MPX post redirects to a newer video. The later AX50 is explicitly unfinished and is not counted as released.
+
+<a id="ref-bilibili-BV1fkdiYLEJy"></a>
+### RSCA / Redstone Arsenal
+
+[Creator-hosted project](https://www.bilibili.com/video/BV1fkdiYLEJy/) · Checked 2026-10-25. Type: Gun / content pack.
+
+[Original creator source](https://www.bilibili.com/video/BV1fkdiYLEJy/) [Original creator profile](https://space.bilibili.com/5742092)
+
+- Creator release/showcase preview: [exact image](https://i1.hdslb.com/bfs/archive/e036b2f97c19f5915e15a4b8a52170104e3e0353.jpg) · [creator source](https://www.bilibili.com/video/BV1fkdiYLEJy/). SHA-256 `6c6adc87ed52dcd49178405226b19803e85bf738dfc7400aa30854b611131f8f`.
+- [Video](https://www.bilibili.com/video/BV1fkdiYLEJy/) · Exact uploader, title, description and public chapter metadata checked; full playback not reviewed.
+
+SF-2403 and Redstone Company are credited. The original release post explicitly lists IMC-7274 as a special-purpose gun and directs download acquisition through pinned comments. Exact current file, Minecraft version and loader remain unconfirmed. Scope is the actual additional firearm, not a recommendation for attachment-only content.
 
 <a id="ref-gh-981600424"></a>
 ### XColorful's TaCZ-PUBG

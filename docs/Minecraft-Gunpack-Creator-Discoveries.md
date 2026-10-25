@@ -47,3 +47,9 @@ Only public creator descriptions, project files metadata and public previews wer
 [Discovery evidence and update source](https://github.com/Herbertofury/Advent-of-Ascension/tree/main/docs/minecraft-gun-mods/creator-discoveries) · [All Minecraft gun mods](Minecraft-Gun-Mod-Inspirations) · [TaCZ rankings](TaCZ-Gunpacks)
 
 ## End of creator discoveries
+
+<!-- tacz-creator-frontier:start -->
+## Further original-creator discoveries
+
+[Creator-frontier research](TaCZ-Gunpack-Creator-Frontier) covers released/test-edition gunpacks, access limits and two smaller historical/source references.
+<!-- tacz-creator-frontier:end -->

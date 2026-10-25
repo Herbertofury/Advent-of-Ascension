@@ -127,6 +127,7 @@ document.addEventListener('click',event=>{const b=event.target.closest('button')
 document.addEventListener('click',event=>{const b=event.target.closest('[data-creator-preset]');if(!b)return;state={...DEFAULTS,view:state.view,theme:b.dataset.creatorPreset==='new'?'New discoveries':'Creator channels'};syncControls();render();});
 document.addEventListener('click',event=>{const b=event.target.closest('[data-deep-preset]');if(!b)return;state={...DEFAULTS,view:state.view,theme:b.dataset.deepPreset==='gems'?'Hidden gems':'Deep discoveries'};syncControls();render();});
 document.addEventListener('click',event=>{const b=event.target.closest('[data-frontier-preset]');if(!b)return;state={...DEFAULTS,view:state.view,theme:'Frontier discoveries'};syncControls();render();});
+document.addEventListener('click',event=>{const b=event.target.closest('[data-community-preset]');if(!b)return;state={...DEFAULTS,view:state.view,theme:'Community discoveries'};syncControls();render();});
 renderSavedViews();syncControls();render();
 if(params.get('item'))openDetail(DATA.idAliases?.[params.get('item')]||params.get('item'));
 window.ATLAS_TEST={get count(){return ITEMS.length;},get shown(){return shown.length;},get renderMs(){return lastRender;},get favorites(){return [...favorites];},get compare(){return [...compare];},get state(){return {...state};},filter:(s)=>{state={...DEFAULTS,...s};syncControls();render();return shown.map(x=>x.id);},releaseMatches,parseQuery,importCollection,backup,get data(){return DATA;}};

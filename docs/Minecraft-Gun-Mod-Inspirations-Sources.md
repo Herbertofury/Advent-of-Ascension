@@ -1414,6 +1414,24 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 
 First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
 
+<a id="ref-bilibili-BV1AXfRBkEtG"></a>
+### COD Collector's Edition / IFCD
+
+[Creator-hosted project](https://www.bilibili.com/video/BV1ENaE6eEw6/) · Checked 2026-10-25. Type: Gun / content pack.
+
+[Original creator source](https://www.bilibili.com/video/BV1ENaE6eEw6/) [Original creator profile](https://space.bilibili.com/350097147)
+
+- Creator release/showcase preview: [exact image](https://i0.hdslb.com/bfs/archive/f5bcd35802c640df2e73571f4ef41cb16dfebd70.jpg) · [creator source](https://www.bilibili.com/video/BV1A2H7zhEzT/). SHA-256 `f821315c310ed126f10799393daee521bfecc8cb5ed180dabf9ff1b7e5d759b5`.
+- Creator release/showcase preview: [exact image](https://i1.hdslb.com/bfs/archive/69b28443627ac91c49115cb4c84fe2d4b4c9ee87.jpg) · [creator source](https://www.bilibili.com/video/BV1AXfRBkEtG/). SHA-256 `bbce6dd7012ed68a08ea1ce21ba132a688c5e1aea5d14e8ae2dca31f6612b3a5`.
+- Creator release/showcase preview: [exact image](https://i1.hdslb.com/bfs/archive/730e4d25465e07fb6617fe68b5225a5f2c827d33.jpg) · [creator source](https://www.bilibili.com/video/BV1XADyYjEp8/). SHA-256 `505678cf5c20304a11015c3c9b795b84c2a4f1a7f3428201c4de8d00255930aa`.
+- Creator release/showcase preview: [exact image](https://i0.hdslb.com/bfs/archive/30ed54ef8bde832f4197d1678de949cdf8ab4b29.jpg) · [creator source](https://www.bilibili.com/video/BV1ENaE6eEw6/). SHA-256 `313593ebc81bae24f94a7a008196dc3ff10100e07e9d28f89c069eac5427c0dc`.
+- [Video](https://www.bilibili.com/video/BV1AXfRBkEtG/) · Exact uploader, title, description and public chapter metadata checked; full playback not reviewed.
+- [Video](https://www.bilibili.com/video/BV1A2H7zhEzT/) · Exact uploader, title, description and public chapter metadata checked; full playback not reviewed.
+- [Video](https://www.bilibili.com/video/BV1XADyYjEp8/) · Exact uploader, title, description and public chapter metadata checked; full playback not reviewed.
+- [Video](https://www.bilibili.com/video/BV1ENaE6eEw6/) · Exact uploader, title, description and public chapter metadata checked; full playback not reviewed.
+
+The creator explicitly renamed IFCD to COD Collector&#x27;s Edition in the Peacekeeper MK1 announcement. Newer posts state TaCZ 1.1.6+, while older IFCD pieces have different requirements. Cosmetic variants of existing models are not counted as separate guns or packs. Current file, payment terms and Minecraft/loader pairing remain unconfirmed.
+
 <a id="ref-bilibili-BV1adAfenEpm"></a>
 ### Dragon Technology
 
@@ -1465,6 +1483,42 @@ Creator-announced release and named gun-showcase episodes verified. No exact cur
 - [Video](https://www.bilibili.com/video/BV1Q3CvYeEEi/) · Author identity, public title and release/showcase metadata checked; full playback not reviewed.
 
 The creator identifies this as an engineering-test edition, not a final stable release. Transforming gun showcases and the public Afdian destination are verified, but the current paid/free terms and exact downloadable version are not. Arcana appears in the creator&#x27;s stated requirements/credits.
+
+<a id="ref-bilibili-BV1JfLAzeE59"></a>
+### T.R.O.L / TROL
+
+[Creator-hosted project](https://www.bilibili.com/video/BV1L4Ek68Eyp/) · Checked 2026-10-25. Type: Gun / content pack.
+
+[Original creator source](https://www.bilibili.com/video/BV1L4Ek68Eyp/) [Original creator profile](https://space.bilibili.com/52473909) [Exact creator-published share](https://wwvs.lanzoue.com/iDSpy2u2jash)
+
+- Creator release/showcase preview: [exact image](https://i1.hdslb.com/bfs/archive/3e7a8e9ef172347b1257ce423c9b2d479e17b4e8.jpg) · [creator source](https://www.bilibili.com/video/BV11cp2zmEqc/). SHA-256 `2a809c32498a2ee9ffa4a1071ea10c95367fcdf2c77d8d8187cccf6b866b0c7b`.
+- Creator release/showcase preview: [exact image](https://i1.hdslb.com/bfs/archive/3c797919540099fe3145a74eaca4c3cd21bfd2b0.jpg) · [creator source](https://www.bilibili.com/video/BV1JfLAzeE59/). SHA-256 `0c651297ee4aacccaefc5eab2483355119f7a867894f7d42e08da83d3ef239f3`.
+- Creator release/showcase preview: [exact image](https://i1.hdslb.com/bfs/archive/8578580c3d55e6cf1bea8d0dfd789c2690d0c629.jpg) · [creator source](https://www.bilibili.com/video/BV19H5mzCE3F/). SHA-256 `d8565a24575c6805f736108d4a298e6d1b56976234bfeb3c32c7b40aff46b72b`.
+- Creator release/showcase preview: [exact image](https://i1.hdslb.com/bfs/archive/3b2494e4854c880f530613edb78bd73e230ee12f.jpg) · [creator source](https://www.bilibili.com/video/BV1jLLkzTE1x/). SHA-256 `bb8ecddf67ec316a60f510fda2ee8d2003ee828f7fce7784dc0eca60ffcbb457`.
+- Creator release/showcase preview: [exact image](https://i1.hdslb.com/bfs/archive/97b08912e18be46fd80c0eeaa3b770a329e4e6e9.jpg) · [creator source](https://www.bilibili.com/video/BV18rt4z7Ebn/). SHA-256 `614784713d53a5a418356c5fb849183bddc8e2f318d1b428153b34292156f137`.
+- Creator release/showcase preview: [exact image](https://i1.hdslb.com/bfs/archive/63390df293ae82b8da2ea3eb7c1c11ae3442589e.jpg) · [creator source](https://www.bilibili.com/video/BV1L4Ek68Eyp/). SHA-256 `42c3001fbab941ea7ca95c10790c57b0485a20bb27104625dd359ce222c45dbc`.
+- [Video](https://www.bilibili.com/video/BV1JfLAzeE59/) · Exact uploader, title, description and public chapter metadata checked; full playback not reviewed.
+- [Video](https://www.bilibili.com/video/BV19H5mzCE3F/) · Exact uploader, title, description and public chapter metadata checked; full playback not reviewed.
+- [Video](https://www.bilibili.com/video/BV11cp2zmEqc/) · Exact uploader, title, description and public chapter metadata checked; full playback not reviewed.
+- [Video](https://www.bilibili.com/video/BV1jLLkzTE1x/) · Exact uploader, title, description and public chapter metadata checked; full playback not reviewed.
+- [Video](https://www.bilibili.com/video/BV18rt4z7Ebn/) · Exact uploader, title, description and public chapter metadata checked; full playback not reviewed.
+- [Video](https://www.bilibili.com/video/BV1L4Ek68Eyp/) · Exact uploader, title, description and public chapter metadata checked; full playback not reviewed.
+
+The original beta0.1 announcement supplies a public share and names three firearms plus appearance-changing variant attachments. Later creator posts show A1.10, a steam-rifle preview visibly labeled v2.1, and additional weapons in 2026, but the old download is not relabeled as that newer edition. Earlier Cold Wind/Winter Is Coming/Biting Cold names are retained as lineage, not counted as separate current packs. No exact latest Minecraft/loader pair is inferred.
+
+<a id="ref-bilibili-BV1ihycY2E3s"></a>
+### TCPL / Dawn Hunting
+
+[Creator-hosted project](https://www.bilibili.com/video/BV1ihycY2E3s/) · Checked 2026-10-25. Type: Gun / content pack.
+
+[Original creator source](https://www.bilibili.com/video/BV1ihycY2E3s/) [Original creator profile](https://space.bilibili.com/1163799255) [Creator release page](https://www.mcbbs.app/resources/tacz-zhi-chi-yu-tacz-de-fu-shu-qiang-bao-tcpl-xi-lie.30/)
+
+- Creator release/showcase preview: [exact image](https://i2.hdslb.com/bfs/archive/ce2eeba56eb6ca24a3fe792a17e34b58a1c73a76.jpg) · [creator source](https://www.bilibili.com/video/BV1ihycY2E3s/). SHA-256 `ecc9ee4a4f6ea26a9ec27c31a924b0f11dc4113ddce83eec65128bc9264ff080`.
+- Creator release/showcase preview: [exact image](https://i1.hdslb.com/bfs/archive/b506fcf6e047f68b1105c6346eec04bc37e24674.jpg) · [creator source](https://www.bilibili.com/video/BV1vNtse9EmD/). SHA-256 `c37e9b07c294be5e57323f9bd3b8f7d56ecea3f69688cadc8999e5e7fce7099e`.
+- [Video](https://www.bilibili.com/video/BV1ihycY2E3s/) · Exact uploader, title, description and public chapter metadata checked; full playback not reviewed.
+- [Video](https://www.bilibili.com/video/BV1vNtse9EmD/) · Exact uploader, title, description and public chapter metadata checked; full playback not reviewed.
+
+The creator links the public TCPL resource page and Afdian channel. The forum lists version 26.3.31 and requires login to download. Current pricing, exact ZIP contents and Minecraft/loader pairing are not independently established. The separate Otherworld skin pack and EMX modification listing are not folded into this family.
 
 <a id="ref-bilibili-BV1kChUzKE3n"></a>
 ### Team Fortress 2's Gun / TFG
@@ -1962,45 +2016,6 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 - Project gallery: [exact image](https://cdn.modrinth.com/data/2zMQbEYF/images/d5f6c5b55180587295e3b90cfd3ead6ed50ecf88_350.webp) · [creator source](https://modrinth.com/mod/tacz-labs/gallery). SHA-256 `41798884e37b042df1554b6046c58644e623b0d2ce07ed087eb3e96608e7129c`.
 - Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1349/376/256/256/638876760038673517.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/tacz-labs). SHA-256 `253fcb65ea82a22f04d74d0c23612b555260ba356d0a7f1247de3daa6a944cce`.
 - Project icon: [exact image](https://cdn.modrinth.com/data/2zMQbEYF/cc06a2373c0ffb5205292f1138e8c5a4dff70d52_96.webp) · [creator source](https://modrinth.com/mod/tacz-labs). SHA-256 `2ccb0098bfa5e2eb50e11c33fea261871b4a30f87f4c330c82faba1f1442d988`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1382917"></a>
-### [TACZ] DeltaForce Melee Pack
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/deltaforce-melee-pack) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/deltaforce-melee-pack) [Project &amp; downloads](https://modrinth.com/mod/deltaforce-melee-pack) [Issue tracker](https://github.com/LesRaisins-Studios/LesRaisins-Tactical-Equipements/issues)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/3tYsgtNr/images/2871d3c23629e9bcfa97c15d0ad9162a1ccefa17_350.webp) · [creator source](https://modrinth.com/mod/deltaforce-melee-pack/gallery). SHA-256 `55a18550a6187ef3002d8b8e29dcec50133a83f740cb188466bca2b03f92e65f`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/3tYsgtNr/images/b32cb2e1a69c868962ff03ca60bda749c642da81_350.webp) · [creator source](https://modrinth.com/mod/deltaforce-melee-pack/gallery). SHA-256 `6ce8c4b4b2fc0631b1a8867b586369a33637b0c9fa78f35b240c4c94f9c03845`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/3tYsgtNr/images/b1cd8e4b7fd02d5f5e88c95e90abd06aa3397600_350.webp) · [creator source](https://modrinth.com/mod/deltaforce-melee-pack/gallery). SHA-256 `8bce303e01a04ef71ea6ba2746fe21a5d0b295e686067d6a703437c783d67df4`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1516/442/256/256/638984774088645087.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/deltaforce-melee-pack). SHA-256 `402b4245b3ba3b116525f94baf5f2dfe80cb6ca5919ad470e124adfb293636d7`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/3tYsgtNr/1ad518a9f652d8d6941c6660d8207ff07e2b9b14_96.webp) · [creator source](https://modrinth.com/mod/deltaforce-melee-pack). SHA-256 `5fe8ad46b619948b09084e62893975206de44207dba1cb4041d07f553e755708`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1352204"></a>
-### Create: Fast SchematicCannon
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/create-fast-schematiccannon) · Checked 2026-10-23. Type: Artillery / combined arms.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/create-fast-schematiccannon)
-
-- Creator description image: [exact image](https://github.com/user-attachments/assets/fe7fffdd-f077-4021-aac6-f4e5c06b2e2c) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-fast-schematiccannon). SHA-256 `792e4318db4e0b2f20dc20a4816b01b3e78c1733cc750f55e5164667c2a72864`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1452/16/256/256/638942118588638734.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-fast-schematiccannon). SHA-256 `079558dcd34faf1777be2503ac6207c4c6dcfa5821eb272fce09c8d51c9a998c`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1084662"></a>
-### Elite X Quality Guns (TACZ)
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/elite-x-quality-guns) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/elite-x-quality-guns) [Source code](https://github.com/Argoswilliams57/Elite_x_Quality_Guns_4.0_Forge_1.20.1)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1061/449/256/256/638593487432818057.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/elite-x-quality-guns). SHA-256 `5983c6c5f4703b7369e3baf6fd1571f1c8178fd6232fb7d01aa95f70f1ef5d01`.
-- [Video](https://www.youtube.com/watch?v=ATnl1PNlN7w) · Linked on project page; full playback not reviewed.
 
 First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
 

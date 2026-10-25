@@ -4,6 +4,30 @@
 
 [Volume 1](Minecraft-Gun-Mod-Inspirations-Sources) · [Volume 2](Minecraft-Gun-Mod-Inspirations-Sources-2) · [Volume 3](Minecraft-Gun-Mod-Inspirations-Sources-3) · [Volume 4](Minecraft-Gun-Mod-Inspirations-Sources-4) · [Volume 5](Minecraft-Gun-Mod-Inspirations-Sources-5) · [Volume 6](Minecraft-Gun-Mod-Inspirations-Sources-6) · [Volume 7](Minecraft-Gun-Mod-Inspirations-Sources-7) · [Volume 8](Minecraft-Gun-Mod-Inspirations-Sources-8) · [Volume 9](Minecraft-Gun-Mod-Inspirations-Sources-9) · [Volume 10](Minecraft-Gun-Mod-Inspirations-Sources-10) · [Volume 11](Minecraft-Gun-Mod-Inspirations-Sources-11)
 
+<a id="ref-cf-1752395"></a>
+### Orbital Weapons Addon
+
+[CurseForge project](https://www.curseforge.com/minecraft-bedrock/addons/orbital-weapons-addon) · Checked 2026-10-23. Type: Bedrock add-on.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft-bedrock/addons/orbital-weapons-addon)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2137/679/256/256/639282012486029860.png) · [creator source](https://www.curseforge.com/minecraft-bedrock/addons/orbital-weapons-addon). SHA-256 `f57b3dc7b958acb7a46f7a176e6572283c978cb8f687369b3cb017119ffaea1f`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-mr-lP3q3eVR"></a>
+### Dead Eye (TaCZ addon)
+
+[Modrinth project](https://modrinth.com/mod/dead-eye-tacz) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://modrinth.com/mod/dead-eye-tacz)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/lP3q3eVR/images/8498082ee33be2ad3d9bbb63cd488fa15da3c239_350.webp) · [creator source](https://modrinth.com/mod/dead-eye-tacz/gallery). SHA-256 `aa9de84377b874e2f86ad1e38cda3e489a5048e917a94f4ca49f19166fc765f8`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/lP3q3eVR/images/51ab9f60d662a4e5e0c822a5010207f41b7a0005.gif) · [creator source](https://modrinth.com/mod/dead-eye-tacz/gallery). SHA-256 `eb58a2393dc44736462501c87136e7d3edb4face8cd90272b3d45f9974fe5f84`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/lP3q3eVR/36dfe5c1e0f7e1d6679c9b512961cd70e82dfab2_96.webp) · [creator source](https://modrinth.com/mod/dead-eye-tacz). SHA-256 `b6a4a6b005a5b2bc04a679037595b0216cbd0c46c8ff39c5de2e5e814226f38e`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
 <a id="ref-cf-1613213"></a>
 ### Minecolonies_gun_tweaks
 
@@ -3624,19 +3648,6 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 - Project gallery: [exact image](https://cdn.modrinth.com/data/EeQqaLef/images/8b2d1470800c9c15468f77916ba29e695d71667c_350.webp) · [creator source](https://modrinth.com/mod/ironpowder/gallery). SHA-256 `6585faa71bf9833457803047be3681604805c2e3b2ae9d6192cff2b19ae9dd14`.
 - Project gallery: [exact image](https://cdn.modrinth.com/data/EeQqaLef/images/c0d839f16d32705f2bdff26fab873dd857abb012_350.webp) · [creator source](https://modrinth.com/mod/ironpowder/gallery). SHA-256 `f307869b357a4a8200df2a950bcee7ad2bac3aa8b4b0b68b03dec6710bd3ec11`.
 - Project icon: [exact image](https://cdn.modrinth.com/data/EeQqaLef/52e1b230ef24c9f8bce177838175fc3f815fdfad_96.webp) · [creator source](https://modrinth.com/mod/ironpowder). SHA-256 `25cdebd0623db8cebfcf97a55e02b65b2ad366ca6ae2d6447bf7dd17e672c0c4`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-XOMAJz5t"></a>
-### Kekusis' Muskets & Flintlocks
-
-[Modrinth project](https://modrinth.com/mod/kekusis-muskets-flintlocks) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://modrinth.com/mod/kekusis-muskets-flintlocks)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/XOMAJz5t/images/76360fd03b508e5cc2ad569f61d21803fd011643_350.webp) · [creator source](https://modrinth.com/mod/kekusis-muskets-flintlocks/gallery). SHA-256 `a62bd9d324c0a3281215fe64ac00905f2b5478bb58ff7a10500b05d6581ea60b`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/XOMAJz5t/images/cf33b594f745842cfc30a696990f11d67917f428_350.webp) · [creator source](https://modrinth.com/mod/kekusis-muskets-flintlocks/gallery). SHA-256 `956072b84e9d8e2f1ac601ec3bd6ce2255e1c0db5e563259ea0fc518d30ec3d5`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/XOMAJz5t/cf6e606da952de914514265cf86da89356452cc7_96.webp) · [creator source](https://modrinth.com/mod/kekusis-muskets-flintlocks). SHA-256 `a1e6a05d863388894acf17a855b14b3088f8a17d3fa7d1433b622c09d455d713`.
 
 All published version metadata read; latest file for each supported version/loader combination retained
 
