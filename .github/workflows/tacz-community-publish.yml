@@ -1,0 +1,122 @@
+name: Publish TaCZ Community Discoveries
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['docs/minecraft-gun-mods/tacz-community/publication.txt']
+permissions:
+  contents: write
+concurrency:
+  group: tacz-community-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Read exact approved source and runtime receipts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          ASKPASS="$RUNNER_TEMP/community-publish-askpass.sh"
+          printf '#!/bin/sh\ncase "$1" in *Username*) echo x-access-token ;; *) printf "%%s\\n" "$GH_TOKEN" ;; esac\n' > "$ASKPASS"
+          chmod 700 "$ASKPASS"
+          export GIT_ASKPASS="$ASKPASS" GIT_TERMINAL_PROMPT=0
+          git clone --depth 1 --filter=blob:none --no-checkout "https://github.com/${GITHUB_REPOSITORY}.git" source
+          cd source
+          git sparse-checkout init --no-cone
+          printf '/docs/minecraft-gun-mods/\n/docs/Minecraft-Gun*.md\n/docs/TaCZ-Gunpack*.md\n/docs/Weapon-Inspirations.md\n/docs/Weapon-Reference-Library.md\n/docs/weapon_inspiration_navigation.py\n' > .git/info/sparse-checkout
+          git checkout main
+          git rev-parse HEAD > docs/minecraft-gun-mods/tacz-community/qa/published-source-commit.txt
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('docs/minecraft-gun-mods');root=p/'tacz-community';d=json.loads((root/'qa/data-delta.json').read_text())
+          for path in ['qa/targeted/report.json','qa/full-parent/browser-report.json','qa/full-tacz/browser-report.json']:
+              q=json.loads((root/path).read_text());assert q['passed'] and all(x['passed'] for x in q['checks']),path
+          for folder,key in [(p,'parentDataHash'),(p/'tacz','taczDataHash')]:assert json.loads((folder/'catalog.json').read_text())['build']['dataHash']==d[key]
+          print('Approved community source:',d['additionalFamilies'],'families')
+          PY
+      - name: Publish actual Wiki and preserve the flat navigation
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          python3 -m pip install --quiet requests beautifulsoup4 pillow playwright
+          export GIT_ASKPASS="$RUNNER_TEMP/community-publish-askpass.sh" GIT_TERMINAL_PROMPT=0
+          git clone --depth 1 "https://github.com/${GITHUB_REPOSITORY}.wiki.git" wiki
+          python3 source/docs/minecraft-gun-mods/tacz-community/publish_community.py prepare wiki
+          cd wiki
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- '*.md'
+          if ! git diff --cached --quiet; then git commit -m 'Publish original-community TaCZ gunpacks with exact access and release distinctions'; git push origin HEAD; fi
+          git rev-parse HEAD > ../source/docs/minecraft-gun-mods/tacz-community/qa/published-wiki-commit.txt
+      - name: Verify both complete extracted offline explorers
+        run: |
+          set -euo pipefail
+          if ! command -v google-chrome >/dev/null && ! command -v chromium >/dev/null; then python3 -m playwright install --with-deps chromium; fi
+          python3 source/docs/minecraft-gun-mods/tacz-community/publish_community.py package release
+          python3 - <<'PY'
+          import zipfile
+          with zipfile.ZipFile('release/Minecraft-Gun-Atlas.zip') as z:z.extractall('release/portable-test')
+          PY
+          python3 release/portable-test/minecraft-gun-mods/qa/offline_check.py
+          python3 source/docs/minecraft-gun-mods/tacz/publish_tacz.py offline release
+          cp release/portable-test/minecraft-gun-mods/qa/offline/report.json source/docs/minecraft-gun-mods/tacz-community/qa/offline-parent.json
+          cp release/OFFLINE-VERIFICATION.json source/docs/minecraft-gun-mods/tacz-community/qa/offline-tacz.json
+      - name: Prove a complete frozen-input source rebuild without network
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,runpy,requests,socket
+          from pathlib import Path
+          p=Path('release/portable-test/minecraft-gun-mods').resolve()
+          paths=[p/'catalog.json',p/'catalog.js',p/'app.js',p/'index.html',p/'tacz/catalog.json',p/'tacz/catalog.js',p/'tacz/app.js',p/'tacz/index.html']
+          before={str(x):hashlib.sha256(x.read_bytes()).hexdigest() for x in paths}
+          def blocked(*a,**k):raise RuntimeError('Network disabled for frozen-input source verification')
+          requests.sessions.Session.request=blocked;socket.create_connection=blocked
+          runpy.run_path(str(p/'tacz-community/build_community.py'),run_name='__main__')
+          assert all(hashlib.sha256(Path(x).read_bytes()).hexdigest()==h for x,h in before.items())
+          Path('source/docs/minecraft-gun-mods/tacz-community/qa/frozen-rebuild.json').write_text(json.dumps({'passed':True,'networkDisabled':True,'verifiedPaths':before},indent=2))
+          PY
+      - name: Verify all actual Wiki images and matching public explorer datasets
+        run: python3 source/docs/minecraft-gun-mods/tacz-community/publish_community.py verify wiki
+      - name: Exercise new additions and every live explorer control
+        run: |
+          set -euo pipefail
+          python3 source/docs/minecraft-gun-mods/tacz-community/test_community.py --url https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/ --output source/docs/minecraft-gun-mods/tacz-community/qa/live-targeted
+          python3 source/docs/minecraft-gun-mods/qa/browser_test.py --url https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/ --output source/docs/minecraft-gun-mods/tacz-community/qa/live-parent
+          python3 source/docs/minecraft-gun-mods/tacz/test_tacz.py --url https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/tacz/ --output source/docs/minecraft-gun-mods/tacz-community/qa/live-tacz
+      - name: Seal the complete release with final runtime evidence
+        run: python3 source/docs/minecraft-gun-mods/tacz-community/publish_community.py package release
+      - name: Publish permanent release and verify downloaded bytes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          TAG=minecraft-gun-atlas-v1.4.0
+          if ! gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release create "$TAG" release/Minecraft-Gun-Atlas.zip release/RELEASE-VERIFICATION.json release/SHA256SUMS.txt release/START-HERE.md --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title 'Minecraft Gun Atlas - TaCZ Community Discoveries' --notes-file release/START-HERE.md
+          fi
+          mkdir -p readback
+          gh release download "$TAG" --repo "$GITHUB_REPOSITORY" --pattern Minecraft-Gun-Atlas.zip --dir readback
+          python3 - <<'PY'
+          from pathlib import Path
+          import json,hashlib
+          e=json.loads(Path('release/RELEASE-VERIFICATION.json').read_text());p=Path('readback/Minecraft-Gun-Atlas.zip');h=hashlib.sha256(p.read_bytes()).hexdigest();assert h==e['sha256'] and p.stat().st_size==e['bytes']
+          Path('release/GITHUB-READBACK.json').write_text(json.dumps({'verified':True,'sha256':h,'bytes':p.stat().st_size},indent=2))
+          PY
+      - name: Preserve complete release and exact acceptance receipts
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: tacz-community-published
+          path: |
+            release/*.zip
+            release/*.json
+            release/*.md
+            release/*.txt
+            source/docs/minecraft-gun-mods/tacz-community/qa/
+          retention-days: 30
+          if-no-files-found: error
