@@ -1,6 +1,6 @@
 # Minecraft gun mod inspirations
 
-**2,417 distinct project records · 10 earlier picks recovered · checked 2026-10-23**
+**2,424 distinct project records · 10 earlier picks recovered · checked 2026-10-23**
 
 ## [Open the Minecraft Gun Atlas](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/)
 
@@ -79,9 +79,12 @@ These are editorial study selections, not an FPS ranking or a claim that every p
 | [&#91;TaCZ&#93; Shooting Star](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/?item=cf-1498794) | Gun / content pack · TaCZ | Shooting Star is a Blue Archive-inspired shotgun with a creator-described pump action after two shots, making the handling concept itself distinctive. Compare crafting, ammunition and progression without replacing native AoA resource rules. |
 | [&#91;TaCZ&#93;  Search and Recon](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/?item=cf-1468866) | Gun / content pack · TaCZ | Search &amp; Recon uses paired energy-burst pistols, custom animations and scripting, a useful reference for asymmetrical magical gun designs. Study visible moving parts, material consistency and readable charging/reload sequences. Review draw, firing, reload, inspect and third-person clips in actual footage before adopting a technique. Compare crafting, ammunition and progression without replacing native AoA resource rules. |
 | [Ancient weapons](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/?item=cf-682370) | Standalone gun mod · Independent | Study period-inspired firearms, distinct loading rhythms and how old materials translate into a coherent voxel arsenal. Review draw, firing, reload, inspect and third-person clips in actual footage before adopting a technique. |
+| [COD Collector&#x27;s Edition / IFCD](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/?item=bilibili-BV1AXfRBkEtG) | Gun / content pack · TaCZ | Creator-made game-inspired firearm models include Peacekeeper MK1, KRIG-6 and AK117 with elaborate geometry and animation. The IFCD-to-COD Collector&#x27;s Edition rename is preserved as one family rather than duplicate recommendations. |
 | [Dragon Technology](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/?item=bilibili-BV1adAfenEpm) | Gun / content pack · TaCZ | Original dragon-themed science-fiction firearms, including Mechanical Dragon and Star Dragon&#x27;s Wish. The unusual mechanical creature silhouette is particularly relevant to original AoA energy-weapon concepts. |
 | [Koei&#x27;s Unique Armaments](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/?item=bilibili-BV1MBEMzNEkJ) | Gun / content pack · TaCZ | Koei&#x27;s creator-hosted collection includes distinctive fictional firearms, from boltpistol and paired heavy-gun concepts to energy and flame weapons. Its mixed melee/gun content is not mistaken for a melee-only accessory pack. |
 | [Sentinel Technology / STF](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/?item=bilibili-BV1Q3CvYeEEi) | Gun / content pack · TaCZ | Transforming Destiny-inspired firearms and animated Dingo/Cloudstrike-style weapons offer unusually useful shape-change and first-person handling references. This is a separately named pack by an existing ecosystem creator, not a duplicate of EMX. |
+| [T.R.O.L / TROL](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/?item=bilibili-BV1JfLAzeE59) | Gun / content pack · TaCZ | Transforming guns, a biological Death Touch weapon, a twin-barrel flywheel steam rifle, crystal weapons and an electromagnetic AK upgrade line make this a particularly strong source for unusual AoA weapon concepts. |
+| [TCPL / Dawn Hunting](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/?item=bilibili-BV1ihycY2E3s) | Gun / content pack · TaCZ | Fictional firearms include the Corrupted Disaster Soldier with two firing modes and unusually elaborate projectile presentation. This is CQ1cz&#x27;s separate fan-created gunpack, not the EMX runtime or an official Frontline product. |
 | [Team Fortress 2&#x27;s Gun / TFG](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/?item=bilibili-BV1kChUzKE3n) | Gun / content pack · TaCZ | A coherent Team Fortress 2-inspired firearm roster with distinctive silhouettes and medigun-style presentation, rather than recolored default TaCZ guns. Public author and programmer credits are retained. |
 | [THE HARBINGER / Xianquzhe](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/?item=bilibili-BV1WmyDBbEqW) | Gun / content pack · TaCZ | Heavy science-fiction firearms, an exoskeleton autocannon and experimental railgun presentation distinguish this creator-authored pack from another conventional rifle collection. The discontinued ESSENCE predecessor is not counted again as a separate current pack. |
 
@@ -93,8 +96,8 @@ These are editorial study selections, not an FPS ranking or a claim that every p
 | [Bedrock add-on](Minecraft-Gun-Mod-Inspirations-bedrock-add-on) | 140 |
 | [Broader content with ranged weapons](Minecraft-Gun-Mod-Inspirations-broader-content-with-ranged-weapons) | 93 |
 | [Datapack / command weapon](Minecraft-Gun-Mod-Inspirations-datapack-command-weapon) | 170 |
-| [Gun / content pack · 1/2](Minecraft-Gun-Mod-Inspirations-gun-content-pack-1) | 277 |
-| [Gun / content pack · 2/2](Minecraft-Gun-Mod-Inspirations-gun-content-pack-2) | 22 |
+| [Gun / content pack · 1/2](Minecraft-Gun-Mod-Inspirations-gun-content-pack-1) | 276 |
+| [Gun / content pack · 2/2](Minecraft-Gun-Mod-Inspirations-gun-content-pack-2) | 30 |
 | [Integration / handling / QoL · 1/2](Minecraft-Gun-Mod-Inspirations-integration-handling-qol-1) | 288 |
 | [Integration / handling / QoL · 2/2](Minecraft-Gun-Mod-Inspirations-integration-handling-qol-2) | 79 |
 | [Server weapon plugin](Minecraft-Gun-Mod-Inspirations-server-weapon-plugin) | 74 |
@@ -115,7 +118,7 @@ These are editorial study selections, not an FPS ranking or a claim that every p
 
 ## Research coverage and evidence
 
-2,645 accepted source records were reconciled across providers into 2,417 project identities. 2,394 have archived source images and 213 have direct videos linked by their creators. Missing media is not replaced with a fabricated image or a search-results link.
+2,645 accepted source records were reconciled across providers into 2,424 project identities. 2,401 have archived source images and 220 have direct videos linked by their creators. Missing media is not replaced with a fabricated image or a search-results link.
 
 The search includes Java mods, gunpacks, resource packs, datapacks, firearm-specific support and Bedrock add-ons. Public Modrinth query pagination and CurseForge query pagination are recorded in the coverage ledger. This is a broad finite research snapshot, not a provable census of every private, unlisted or newly uploaded project.
 

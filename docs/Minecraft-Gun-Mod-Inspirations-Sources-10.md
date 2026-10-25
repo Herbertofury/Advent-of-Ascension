@@ -4,6 +4,17 @@
 
 [Volume 1](Minecraft-Gun-Mod-Inspirations-Sources) · [Volume 2](Minecraft-Gun-Mod-Inspirations-Sources-2) · [Volume 3](Minecraft-Gun-Mod-Inspirations-Sources-3) · [Volume 4](Minecraft-Gun-Mod-Inspirations-Sources-4) · [Volume 5](Minecraft-Gun-Mod-Inspirations-Sources-5) · [Volume 6](Minecraft-Gun-Mod-Inspirations-Sources-6) · [Volume 7](Minecraft-Gun-Mod-Inspirations-Sources-7) · [Volume 8](Minecraft-Gun-Mod-Inspirations-Sources-8) · [Volume 9](Minecraft-Gun-Mod-Inspirations-Sources-9) · [Volume 10](Minecraft-Gun-Mod-Inspirations-Sources-10) · [Volume 11](Minecraft-Gun-Mod-Inspirations-Sources-11)
 
+<a id="ref-cf-1017463"></a>
+### Vanilla gunz! [Discontinued]
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/vanilla-gunz) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/vanilla-gunz)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/995/106/256/256/638511129905783437_animated.gif) · [creator source](https://www.curseforge.com/minecraft/mc-mods/vanilla-gunz). SHA-256 `be6b3452b1416b6930e1a77e96670086fdbb7bf3c0970765870ff0356d0ff1cd`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
 <a id="ref-mr-1bJ4HZVM"></a>
 ### Crazy Overpowered Ideas - COPI
 

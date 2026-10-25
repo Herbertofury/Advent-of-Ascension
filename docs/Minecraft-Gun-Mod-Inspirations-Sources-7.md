@@ -4,6 +4,29 @@
 
 [Volume 1](Minecraft-Gun-Mod-Inspirations-Sources) · [Volume 2](Minecraft-Gun-Mod-Inspirations-Sources-2) · [Volume 3](Minecraft-Gun-Mod-Inspirations-Sources-3) · [Volume 4](Minecraft-Gun-Mod-Inspirations-Sources-4) · [Volume 5](Minecraft-Gun-Mod-Inspirations-Sources-5) · [Volume 6](Minecraft-Gun-Mod-Inspirations-Sources-6) · [Volume 7](Minecraft-Gun-Mod-Inspirations-Sources-7) · [Volume 8](Minecraft-Gun-Mod-Inspirations-Sources-8) · [Volume 9](Minecraft-Gun-Mod-Inspirations-Sources-9) · [Volume 10](Minecraft-Gun-Mod-Inspirations-Sources-10) · [Volume 11](Minecraft-Gun-Mod-Inspirations-Sources-11)
 
+<a id="ref-mr-rCVoESQM"></a>
+### Potato Cannon Additions
+
+[Modrinth project](https://modrinth.com/mod/potato_cannon_additions) · Checked 2026-10-23. Type: Datapack / command weapon.
+
+[Project &amp; downloads](https://modrinth.com/mod/potato_cannon_additions)
+
+- Project icon: [exact image](https://cdn.modrinth.com/data/rCVoESQM/43ddc617166f308e62b050ef4d1d2fcd2336efc1_96.webp) · [creator source](https://modrinth.com/mod/potato_cannon_additions). SHA-256 `e4d19d0c8cb6df4dc87b754d46595d4d57033595676a05469c5834608d457929`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-mr-DnKqQswh"></a>
+### Hold My Guns
+
+[Modrinth project](https://modrinth.com/mod/hold-my-guns) · Checked 2026-10-23. Type: Integration / handling / QoL.
+
+[Project &amp; downloads](https://modrinth.com/mod/hold-my-guns) [Source code](https://github.com/StewyDev65/HoldMyGuns) [Issue tracker](https://github.com/StewyDev65/HoldMyGuns/issues)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/DnKqQswh/images/6b3b0cf73cc0f1992bf88d4117c3a3a85a56a203_350.webp) · [creator source](https://modrinth.com/mod/hold-my-guns/gallery). SHA-256 `073b3fd54763e716fc41291ee8780bba09f096f4812ee504c8070584ff0eedcb`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/DnKqQswh/fd65386845994bea28366f687e11f5e1388803e4.png) · [creator source](https://modrinth.com/mod/hold-my-guns). SHA-256 `09d1e04150221c06347fa91e7d1c110345a65d6ecae8e3eb76aefcaeddba65bb`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
 <a id="ref-mr-E2Zbah9l"></a>
 ### Create big cannons - Explosive TNT
 
@@ -3364,28 +3387,4 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 - Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2106/256/256/256/639272134100458909.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/ballistic-frontiers). SHA-256 `641542d701e8c84867aad1efb0aac588a52412af5a51fce6a54aaac9abd03585`.
 
 First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1752395"></a>
-### Orbital Weapons Addon
-
-[CurseForge project](https://www.curseforge.com/minecraft-bedrock/addons/orbital-weapons-addon) · Checked 2026-10-23. Type: Bedrock add-on.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft-bedrock/addons/orbital-weapons-addon)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2137/679/256/256/639282012486029860.png) · [creator source](https://www.curseforge.com/minecraft-bedrock/addons/orbital-weapons-addon). SHA-256 `f57b3dc7b958acb7a46f7a176e6572283c978cb8f687369b3cb017119ffaea1f`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-mr-lP3q3eVR"></a>
-### Dead Eye (TaCZ addon)
-
-[Modrinth project](https://modrinth.com/mod/dead-eye-tacz) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://modrinth.com/mod/dead-eye-tacz)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/lP3q3eVR/images/8498082ee33be2ad3d9bbb63cd488fa15da3c239_350.webp) · [creator source](https://modrinth.com/mod/dead-eye-tacz/gallery). SHA-256 `aa9de84377b874e2f86ad1e38cda3e489a5048e917a94f4ca49f19166fc765f8`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/lP3q3eVR/images/51ab9f60d662a4e5e0c822a5010207f41b7a0005.gif) · [creator source](https://modrinth.com/mod/dead-eye-tacz/gallery). SHA-256 `eb58a2393dc44736462501c87136e7d3edb4face8cd90272b3d45f9974fe5f84`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/lP3q3eVR/36dfe5c1e0f7e1d6679c9b512961cd70e82dfab2_96.webp) · [creator source](https://modrinth.com/mod/dead-eye-tacz). SHA-256 `b6a4a6b005a5b2bc04a679037595b0216cbd0c46c8ff39c5de2e5e814226f38e`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
 

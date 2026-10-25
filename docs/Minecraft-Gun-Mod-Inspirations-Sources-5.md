@@ -4,6 +4,17 @@
 
 [Volume 1](Minecraft-Gun-Mod-Inspirations-Sources) · [Volume 2](Minecraft-Gun-Mod-Inspirations-Sources-2) · [Volume 3](Minecraft-Gun-Mod-Inspirations-Sources-3) · [Volume 4](Minecraft-Gun-Mod-Inspirations-Sources-4) · [Volume 5](Minecraft-Gun-Mod-Inspirations-Sources-5) · [Volume 6](Minecraft-Gun-Mod-Inspirations-Sources-6) · [Volume 7](Minecraft-Gun-Mod-Inspirations-Sources-7) · [Volume 8](Minecraft-Gun-Mod-Inspirations-Sources-8) · [Volume 9](Minecraft-Gun-Mod-Inspirations-Sources-9) · [Volume 10](Minecraft-Gun-Mod-Inspirations-Sources-10) · [Volume 11](Minecraft-Gun-Mod-Inspirations-Sources-11)
 
+<a id="ref-cf-1525722"></a>
+### Create: Gravity Gun
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/create-gravity-gun) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/create-gravity-gun) [Source code](https://github.com/Leclowndu93150/Create-Gravity-Gun) [Issue tracker](https://github.com/Leclowndu93150/Create-Gravity-Gun/issues)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1776/957/256/256/639128064807111649.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-gravity-gun). SHA-256 `5ebaf086e8735d6365f9d2a8922f78960623515f4bf79bf1bcd12a8324567d05`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
 <a id="ref-cf-1566345"></a>
 ### Guns Craft Reforged [Beta]
 
@@ -2976,36 +2987,6 @@ All published version metadata read; latest file for each supported version/load
 - Project gallery: [exact image](https://cdn.modrinth.com/data/vTHgfN97/images/c97f00e9e6ce4ba81deb3d5c179b78b14ead6859_350.webp) · [creator source](https://modrinth.com/resourcepack/pekits-bows-to-guns-wild-west/gallery). SHA-256 `593871f49060dd998cde771fb05a796a153eb0d193e5391fbf6fd7e1ec64b352`.
 - Project gallery: [exact image](https://cdn.modrinth.com/data/vTHgfN97/images/f01031f5c3033061ae28ae1b52dda9d71a2fa196_350.webp) · [creator source](https://modrinth.com/resourcepack/pekits-bows-to-guns-wild-west/gallery). SHA-256 `d4d6aa3cf9828bb204db3560c90cace9145b52e5f54e14727ddc668ab61fa915`.
 - Project icon: [exact image](https://cdn.modrinth.com/data/vTHgfN97/fccfc3366d72d679e932c5193bc35e33033e3da6_96.webp) · [creator source](https://modrinth.com/resourcepack/pekits-bows-to-guns-wild-west). SHA-256 `5aecf063af63a2def2b84743cda5c15f67ea63ea452ce6d1f2b0b2a917948aea`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-wUbIAzJg"></a>
-### Taczlevel
-
-[Modrinth project](https://modrinth.com/mod/taczlevel) · Checked 2026-10-23. Type: Integration / handling / QoL.
-
-[Project &amp; downloads](https://modrinth.com/mod/taczlevel) [Source code](https://github.com/Asachis/taczlevel) [Issue tracker](https://github.com/Asachis/taczlevel/issues)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/wUbIAzJg/images/e2862e23fad9bb24733e64243b1351ddce8391fe_350.webp) · [creator source](https://modrinth.com/mod/taczlevel/gallery). SHA-256 `225dc00c83bc03da1ba120efce5148e7d2993ca0ce86d8f02dc294f536fb3b7d`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/wUbIAzJg/images/b01405390e567b4531b45876939522dbdad5902a_350.webp) · [creator source](https://modrinth.com/mod/taczlevel/gallery). SHA-256 `fca40133497872eb60f7e7d9f68a9f6ef913796160f294612f5970b9a547c6d0`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/wUbIAzJg/images/9b7d598c92c005f1505745fe1e28b2ffbb92f1f8_350.webp) · [creator source](https://modrinth.com/mod/taczlevel/gallery). SHA-256 `aabb60895f8fd4d2e493c97b020e7c192ad0521eb522da275b93f429e239f97c`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/wUbIAzJg/images/67fd323632afd0bc08cdfc3ad0cc18f55ef64631_350.webp) · [creator source](https://modrinth.com/mod/taczlevel/gallery). SHA-256 `1752e2fd85eace4f3e1b01793ea8795507fd63d6a861a4b265a2829d8c68079f`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/wUbIAzJg/images/cba53ff6d59b485f9e625e462f987e45cfa96db2_350.webp) · [creator source](https://modrinth.com/mod/taczlevel/gallery). SHA-256 `51d16a2f115585d15e041d2e23a46a9a903d80a200012c49d7d7200def337822`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/wUbIAzJg/images/ca78d870caaa788cefeee5dd5c14a883ec164a96_350.webp) · [creator source](https://modrinth.com/mod/taczlevel/gallery). SHA-256 `c45645599b451d65bbe68898b365df64eddc43d1001759976ddb18f4440873ac`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/wUbIAzJg/images/583d4930d28f194201f140ad31f1d0ee3bc648c5_350.webp) · [creator source](https://modrinth.com/mod/taczlevel/gallery). SHA-256 `e3fc24cc855361641b7d82e7d494c96d5cffd8efa05c1387db9e130304479662`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/wUbIAzJg/images/ac80c90bbf9f660fc503bab00393823d4020d2cb_350.webp) · [creator source](https://modrinth.com/mod/taczlevel/gallery). SHA-256 `91488714e13f39b5a01c9e7a139e68f9c75ee38f5313b3e9dabb90fbc645b79b`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/wUbIAzJg/c4b9e2d6ec93321831511f2c2ba03963aa18f25d_96.webp) · [creator source](https://modrinth.com/mod/taczlevel). SHA-256 `111d8c38d42b731b0391e6df383e4c6afee56bd457e6f6be372409b61fb83ff0`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-uspNfGqa"></a>
-### Weapons O' Plenty
-
-[Modrinth project](https://modrinth.com/mod/weapons-o-plenty) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://modrinth.com/mod/weapons-o-plenty)
-
-- Project icon: [exact image](https://cdn.modrinth.com/data/uspNfGqa/fb56b586ebb47451958f2b09971c4c171cec7578.png) · [creator source](https://modrinth.com/mod/weapons-o-plenty). SHA-256 `182f8db90b1013bc4c5c9d276ae6e33e87ff31f000c063719c68cd83016b4d4c`.
 
 All published version metadata read; latest file for each supported version/loader combination retained
 

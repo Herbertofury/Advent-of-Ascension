@@ -4,6 +4,46 @@
 
 [Volume 1](Minecraft-Gun-Mod-Inspirations-Sources) · [Volume 2](Minecraft-Gun-Mod-Inspirations-Sources-2) · [Volume 3](Minecraft-Gun-Mod-Inspirations-Sources-3) · [Volume 4](Minecraft-Gun-Mod-Inspirations-Sources-4) · [Volume 5](Minecraft-Gun-Mod-Inspirations-Sources-5) · [Volume 6](Minecraft-Gun-Mod-Inspirations-Sources-6) · [Volume 7](Minecraft-Gun-Mod-Inspirations-Sources-7) · [Volume 8](Minecraft-Gun-Mod-Inspirations-Sources-8) · [Volume 9](Minecraft-Gun-Mod-Inspirations-Sources-9) · [Volume 10](Minecraft-Gun-Mod-Inspirations-Sources-10) · [Volume 11](Minecraft-Gun-Mod-Inspirations-Sources-11)
 
+<a id="ref-cf-1353465"></a>
+### TaCZ Pack Upgrader
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/tacz-pack-upgrader) · Checked 2026-10-23. Type: Gun / content pack.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/tacz-pack-upgrader) [Source code](https://github.com/MUKSC/TaCZPackUpgrader) [Issue tracker](https://github.com/MUKSC/TaCZPackUpgrader/issues) [Project &amp; downloads](https://modrinth.com/mod/tacz-pack-upgrader)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1454/715/256/256/638944187980625346.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/tacz-pack-upgrader). SHA-256 `4c7bdcc6e0858e3e318beeb1d5584f2135b8a4c9041bae41d3c19d9bc84b5e90`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/fx5N8Hgd/2a60f99c5418ed63c01f3e59829402713ab3bec0_96.webp) · [creator source](https://modrinth.com/mod/tacz-pack-upgrader). SHA-256 `25a83a3fd5f04540780f903958fd877cbcac9b2344c4ecb3015a4127c5344718`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1081193"></a>
+### [TaCZ]Immersive Armorer
+
+[CurseForge project](https://www.curseforge.com/minecraft/customization/tacz-immersive-armorer-koei) · Checked 2026-10-23. Type: Gun / content pack.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/tacz-immersive-armorer-koei)
+
+- Project gallery: [exact image](https://media.forgecdn.net/attachments/937/299/1.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-immersive-armorer-koei/gallery). SHA-256 `e9dd0a6768097e3864e18c0086f38d2c5e0e6caa8493bb433184b13aea8a7d03`.
+- Project gallery: [exact image](https://media.forgecdn.net/attachments/937/300/2.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-immersive-armorer-koei/gallery). SHA-256 `ec4eab56e48efeca6841f4b586afc698c997ad42e7b3718ae87e5b709cbd3e82`.
+- Project gallery: [exact image](https://media.forgecdn.net/attachments/937/301/3.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-immersive-armorer-koei/gallery). SHA-256 `4e4bd2b1d45c504b71131b9f1ad74f7c873275bcfb5d04845fc6cc7dfcbdf898`.
+- Project gallery: [exact image](https://media.forgecdn.net/attachments/937/302/4.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-immersive-armorer-koei/gallery). SHA-256 `9cd7c2e7b123a19fa75854cdb6bb78c3ad6489dd591c36b1a6dbe829a6f6a7dd`.
+- Project gallery: [exact image](https://media.forgecdn.net/attachments/937/303/5.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-immersive-armorer-koei/gallery). SHA-256 `c7765aa9c259b610d4eb6a6c478e102e0b13904fc4ba33e2023a031ac1481787`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_680f5914-957a-42aa-af3a-00593aaa88dd.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-immersive-armorer-koei). SHA-256 `abd539083592cb27607b0ce9e3545648506dde169312aefb33c98bb9849bf035`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1058/15/256/256/638588916068799463.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-immersive-armorer-koei). SHA-256 `9be35867393d86e0146a098c071a6b82cb0448f48ae898ff2be703cc9def63e7`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-383191"></a>
+### Flan's Ultimate 2: Wolff's Star Wars Pack
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/wolffs-star-wars-pack) · Checked 2026-10-23. Type: Gun / content pack.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/wolffs-star-wars-pack) [Source code](https://github.com/AntonIT99/Wolff-Star-Wars-Pack)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/272/14/256/256/637249907856624845.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/wolffs-star-wars-pack). SHA-256 `91ae390516495b685815c49e662d374f889323f3a820ddf46e0bed0f8d7c877b`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
 <a id="ref-cf-1095722"></a>
 ### [TaCZ]Blue Archive super gun pack
 
@@ -2811,38 +2851,6 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 [Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/scorched-guns-2-blueprint-recipes)
 
 - Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1127/919/256/256/638686002442893102.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/scorched-guns-2-blueprint-recipes). SHA-256 `60b68b829ffbff09bc31edee63134c16d858906f8cad1a59e5d8cdb268f24709`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1369675"></a>
-### Scorched Guns: Caverns & Chasms Compat
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/scorched-guns-caverns-chasms-compat) · Checked 2026-10-23. Type: Integration / handling / QoL.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/scorched-guns-caverns-chasms-compat) [Source code](https://github.com/AtobaAzul/Scorched-Guns-Caverns-N-Chasms) [Issue tracker](https://github.com/AtobaAzul/Scorched-Guns-Caverns-N-Chasms/issues) [Project &amp; downloads](https://modrinth.com/mod/scorched-guns-caverns-chasms-compat)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/k21qHnnt/images/7ac27627833da7b6697702285419c63efffe4b6b_350.webp) · [creator source](https://modrinth.com/mod/scorched-guns-caverns-chasms-compat/gallery). SHA-256 `085c7b6349a89e864ac36240e1a37384241b0bd62c7fae882e61d56e905e9096`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/k21qHnnt/images/50f7bb291c61d5c2c301d1f703e93bbc62a17885_350.webp) · [creator source](https://modrinth.com/mod/scorched-guns-caverns-chasms-compat/gallery). SHA-256 `a3eb7c5f5b947fedf39ab62e641baec3e8b9c369d4d7788fba1e22538000fe65`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/k21qHnnt/images/589be258eb21876f4d23bad4dd8d739c8af1f5f7_350.webp) · [creator source](https://modrinth.com/mod/scorched-guns-caverns-chasms-compat/gallery). SHA-256 `6b1299eff0496e34855ae962791f0a41bb3204879e8f15b4f1b671df20683ccd`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/k21qHnnt/images/0fccecb67f9be56e0b961a5109fce1cde7cf2235_350.webp) · [creator source](https://modrinth.com/mod/scorched-guns-caverns-chasms-compat/gallery). SHA-256 `677ff0ea77b4ac6b24ac4dbde91c6905f5d0738aa9dc194c1d36f2d1ef06330c`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/k21qHnnt/images/4252223e89e0da9cc7d2fd5e3640b1df1f90039b_350.webp) · [creator source](https://modrinth.com/mod/scorched-guns-caverns-chasms-compat/gallery). SHA-256 `91fe23bd949fa77e5b3670d19136c7541b2b3a391ec78b010ec1c22644ced66b`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/k21qHnnt/images/e7b748d151a97bb02638be266a5485c2aecc9979_350.webp) · [creator source](https://modrinth.com/mod/scorched-guns-caverns-chasms-compat/gallery). SHA-256 `1c4270d4b00c8b6504632fff1a46889b61853c250797888c81cf95c6908ef6d3`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/k21qHnnt/images/4f42ee3c8728c10983cc7d1f38af98403631f4df_350.webp) · [creator source](https://modrinth.com/mod/scorched-guns-caverns-chasms-compat/gallery). SHA-256 `b210d0741429c0e9b92091a29ec38af7eec2bb3c181875ae78fae543ebc0f3d4`.
-- Creator description image: [exact image](https://cdn.modrinth.com/data/cached_images/7ac27627833da7b6697702285419c63efffe4b6b.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/scorched-guns-caverns-chasms-compat). SHA-256 `cf2401134f5ecc9cd8ddd1c2e2d00865421a5819e2ada91340868f79e1b8a314`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1487/497/256/256/638966630332035802.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/scorched-guns-caverns-chasms-compat). SHA-256 `386c411d22204f291d60fdfab6573deb53eab8cd88b4f0e5b84569fed7656cbc`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/k21qHnnt/6d85298ad7cf2f2135fdf495b7a755fcd720a11c_96.webp) · [creator source](https://modrinth.com/mod/scorched-guns-caverns-chasms-compat). SHA-256 `83c96c9af0a0324ab87dd3581526a155b8e97335cfc9d7b6b5799b57d3d89f4f`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1376637"></a>
-### [PBJ] Modern Conflict: Rearmed
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/pbj-modern-conflict-rearmed) · Checked 2026-10-23. Type: Broader content with ranged weapons.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/pbj-modern-conflict-rearmed)
-
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_9f11aeb6-1de4-45f4-b514-535a69da4953.png) · [creator source](https://www.curseforge.com/minecraft/customization/modern-conflict-rearmed). SHA-256 `d53f46b6debda0e55e91b0efb2a0c9775c4803f4d035452e9a3a9bec08c16861`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1502/589/256/256/638976118206184305.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/pbj-modern-conflict-rearmed). SHA-256 `fa15964ccc242755a124b521f1b15a1012ef62a1692aee4c089711f2fb00cfb4`.
 
 First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
 

@@ -4,6 +4,19 @@
 
 [Volume 1](Minecraft-Gun-Mod-Inspirations-Sources) · [Volume 2](Minecraft-Gun-Mod-Inspirations-Sources-2) · [Volume 3](Minecraft-Gun-Mod-Inspirations-Sources-3) · [Volume 4](Minecraft-Gun-Mod-Inspirations-Sources-4) · [Volume 5](Minecraft-Gun-Mod-Inspirations-Sources-5) · [Volume 6](Minecraft-Gun-Mod-Inspirations-Sources-6) · [Volume 7](Minecraft-Gun-Mod-Inspirations-Sources-7) · [Volume 8](Minecraft-Gun-Mod-Inspirations-Sources-8) · [Volume 9](Minecraft-Gun-Mod-Inspirations-Sources-9) · [Volume 10](Minecraft-Gun-Mod-Inspirations-Sources-10) · [Volume 11](Minecraft-Gun-Mod-Inspirations-Sources-11)
 
+<a id="ref-mr-XOMAJz5t"></a>
+### Kekusis' Muskets & Flintlocks
+
+[Modrinth project](https://modrinth.com/mod/kekusis-muskets-flintlocks) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://modrinth.com/mod/kekusis-muskets-flintlocks)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/XOMAJz5t/images/76360fd03b508e5cc2ad569f61d21803fd011643_350.webp) · [creator source](https://modrinth.com/mod/kekusis-muskets-flintlocks/gallery). SHA-256 `a62bd9d324c0a3281215fe64ac00905f2b5478bb58ff7a10500b05d6581ea60b`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/XOMAJz5t/images/cf33b594f745842cfc30a696990f11d67917f428_350.webp) · [creator source](https://modrinth.com/mod/kekusis-muskets-flintlocks/gallery). SHA-256 `956072b84e9d8e2f1ac601ec3bd6ce2255e1c0db5e563259ea0fc518d30ec3d5`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/XOMAJz5t/cf6e606da952de914514265cf86da89356452cc7_96.webp) · [creator source](https://modrinth.com/mod/kekusis-muskets-flintlocks). SHA-256 `a1e6a05d863388894acf17a855b14b3088f8a17d3fa7d1433b622c09d455d713`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
 <a id="ref-mr-M3JTknAi"></a>
 ### UBG
 
@@ -3645,15 +3658,4 @@ All published version metadata read; latest file for each supported version/load
 - Project icon: [exact image](https://cdn.modrinth.com/data/sPamdC4B/d6b3f6417319cd3b374831761d5328548d0acb2e.jpeg) · [creator source](https://modrinth.com/resourcepack/20-subscribers-pvp-pack). SHA-256 `cb6fbd1b522d5612f7154b531a9dd8aa392949b854b81a2bd5a9b1dcb7c1e5e0`.
 
 All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-cf-1017463"></a>
-### Vanilla gunz! [Discontinued]
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/vanilla-gunz) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/vanilla-gunz)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/995/106/256/256/638511129905783437_animated.gif) · [creator source](https://www.curseforge.com/minecraft/mc-mods/vanilla-gunz). SHA-256 `be6b3452b1416b6930e1a77e96670086fdbb7bf3c0970765870ff0356d0ff1cd`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
 

@@ -4,6 +4,38 @@
 
 [Volume 1](Minecraft-Gun-Mod-Inspirations-Sources) · [Volume 2](Minecraft-Gun-Mod-Inspirations-Sources-2) · [Volume 3](Minecraft-Gun-Mod-Inspirations-Sources-3) · [Volume 4](Minecraft-Gun-Mod-Inspirations-Sources-4) · [Volume 5](Minecraft-Gun-Mod-Inspirations-Sources-5) · [Volume 6](Minecraft-Gun-Mod-Inspirations-Sources-6) · [Volume 7](Minecraft-Gun-Mod-Inspirations-Sources-7) · [Volume 8](Minecraft-Gun-Mod-Inspirations-Sources-8) · [Volume 9](Minecraft-Gun-Mod-Inspirations-Sources-9) · [Volume 10](Minecraft-Gun-Mod-Inspirations-Sources-10) · [Volume 11](Minecraft-Gun-Mod-Inspirations-Sources-11)
 
+<a id="ref-cf-1369675"></a>
+### Scorched Guns: Caverns & Chasms Compat
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/scorched-guns-caverns-chasms-compat) · Checked 2026-10-23. Type: Integration / handling / QoL.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/scorched-guns-caverns-chasms-compat) [Source code](https://github.com/AtobaAzul/Scorched-Guns-Caverns-N-Chasms) [Issue tracker](https://github.com/AtobaAzul/Scorched-Guns-Caverns-N-Chasms/issues) [Project &amp; downloads](https://modrinth.com/mod/scorched-guns-caverns-chasms-compat)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/k21qHnnt/images/7ac27627833da7b6697702285419c63efffe4b6b_350.webp) · [creator source](https://modrinth.com/mod/scorched-guns-caverns-chasms-compat/gallery). SHA-256 `085c7b6349a89e864ac36240e1a37384241b0bd62c7fae882e61d56e905e9096`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/k21qHnnt/images/50f7bb291c61d5c2c301d1f703e93bbc62a17885_350.webp) · [creator source](https://modrinth.com/mod/scorched-guns-caverns-chasms-compat/gallery). SHA-256 `a3eb7c5f5b947fedf39ab62e641baec3e8b9c369d4d7788fba1e22538000fe65`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/k21qHnnt/images/589be258eb21876f4d23bad4dd8d739c8af1f5f7_350.webp) · [creator source](https://modrinth.com/mod/scorched-guns-caverns-chasms-compat/gallery). SHA-256 `6b1299eff0496e34855ae962791f0a41bb3204879e8f15b4f1b671df20683ccd`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/k21qHnnt/images/0fccecb67f9be56e0b961a5109fce1cde7cf2235_350.webp) · [creator source](https://modrinth.com/mod/scorched-guns-caverns-chasms-compat/gallery). SHA-256 `677ff0ea77b4ac6b24ac4dbde91c6905f5d0738aa9dc194c1d36f2d1ef06330c`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/k21qHnnt/images/4252223e89e0da9cc7d2fd5e3640b1df1f90039b_350.webp) · [creator source](https://modrinth.com/mod/scorched-guns-caverns-chasms-compat/gallery). SHA-256 `91fe23bd949fa77e5b3670d19136c7541b2b3a391ec78b010ec1c22644ced66b`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/k21qHnnt/images/e7b748d151a97bb02638be266a5485c2aecc9979_350.webp) · [creator source](https://modrinth.com/mod/scorched-guns-caverns-chasms-compat/gallery). SHA-256 `1c4270d4b00c8b6504632fff1a46889b61853c250797888c81cf95c6908ef6d3`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/k21qHnnt/images/4f42ee3c8728c10983cc7d1f38af98403631f4df_350.webp) · [creator source](https://modrinth.com/mod/scorched-guns-caverns-chasms-compat/gallery). SHA-256 `b210d0741429c0e9b92091a29ec38af7eec2bb3c181875ae78fae543ebc0f3d4`.
+- Creator description image: [exact image](https://cdn.modrinth.com/data/cached_images/7ac27627833da7b6697702285419c63efffe4b6b.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/scorched-guns-caverns-chasms-compat). SHA-256 `cf2401134f5ecc9cd8ddd1c2e2d00865421a5819e2ada91340868f79e1b8a314`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1487/497/256/256/638966630332035802.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/scorched-guns-caverns-chasms-compat). SHA-256 `386c411d22204f291d60fdfab6573deb53eab8cd88b4f0e5b84569fed7656cbc`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/k21qHnnt/6d85298ad7cf2f2135fdf495b7a755fcd720a11c_96.webp) · [creator source](https://modrinth.com/mod/scorched-guns-caverns-chasms-compat). SHA-256 `83c96c9af0a0324ab87dd3581526a155b8e97335cfc9d7b6b5799b57d3d89f4f`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1376637"></a>
+### [PBJ] Modern Conflict: Rearmed
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/pbj-modern-conflict-rearmed) · Checked 2026-10-23. Type: Broader content with ranged weapons.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/pbj-modern-conflict-rearmed)
+
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_9f11aeb6-1de4-45f4-b514-535a69da4953.png) · [creator source](https://www.curseforge.com/minecraft/customization/modern-conflict-rearmed). SHA-256 `d53f46b6debda0e55e91b0efb2a0c9775c4803f4d035452e9a3a9bec08c16861`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1502/589/256/256/638976118206184305.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/pbj-modern-conflict-rearmed). SHA-256 `fa15964ccc242755a124b521f1b15a1012ef62a1692aee4c089711f2fb00cfb4`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
 <a id="ref-mr-31tBwtrb"></a>
 ### Pekit's Bows to Guns - WWII
 
@@ -2821,17 +2853,6 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 - Project gallery: [exact image](https://media.forgecdn.net/attachments/984/416/2024-10-07_10.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-hk416-legacy/gallery). SHA-256 `e9c5074c5ed981e592b76cd281e7cd4dc2cb5b9b62ba8b036587741b7d704f92`.
 - Creator description image: [exact image](https://media.forgecdn.net/attachments/965/709/2024-09-13_09.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-hk416-legacy). SHA-256 `af85efe1a860eca33ae0dfe8975a4ae2d1784321a50cc92c1cb349abf6242418`.
 - Creator description image: [exact image](https://media.forgecdn.net/attachments/965/710/2024-09-13_09.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-hk416-legacy). SHA-256 `cccd091b37ef61a5d1bdd771ea3474f876f1e43a765426513d671b4c102ae81a`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1525722"></a>
-### Create: Gravity Gun
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/create-gravity-gun) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/create-gravity-gun) [Source code](https://github.com/Leclowndu93150/Create-Gravity-Gun) [Issue tracker](https://github.com/Leclowndu93150/Create-Gravity-Gun/issues)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1776/957/256/256/639128064807111649.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-gravity-gun). SHA-256 `5ebaf086e8735d6365f9d2a8922f78960623515f4bf79bf1bcd12a8324567d05`.
 
 First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
 

@@ -31,3 +31,9 @@ The canceled ESSENCE predecessor, unfinished Antar and AX50 previews, named-but-
 Source snapshots, engineering tests, creator announcements and actual release files are different evidence classes. All older pack identities and personal collection storage remain intact. No mod binary or paid attachment was retrieved, no images were generated, and native Minecraft compatibility/performance testing is not claimed.
 
 ## End of creator-frontier gallery
+
+<!-- tacz-community:start -->
+## Continue the research
+
+[Community discoveries](TaCZ-Gunpack-Community-Discoveries) follows original creator collections and public forum releases without changing the earlier seven identities.
+<!-- tacz-community:end -->
