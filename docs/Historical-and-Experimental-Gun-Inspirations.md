@@ -1,6 +1,6 @@
 # Historical and experimental gun inspirations
 
-**246 references | 18 collections | 246 embedded images | 246 direct video references**
+**246 references | 18 collections | 246 embedded images | 246 primary direct video references**
 
 [Other collection](Video-Game-Weapon-Inspirations) | [Armory](Weapon-Overhaul) | [Reference library](Weapon-Reference-Library)
 
@@ -31,7 +31,7 @@ Weapon behavior describes the reference. **AoA remix** is an original proposal, 
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/h-40d8f0b3a17f.webp?v=214ef70" width="220" alt="Vektor CR-21"> | **Vektor CR-21**<br>Rare or iconic silhouette, ergonomic layout and visible mechanical personality | Apoco Rifle / Bolt Rifle / Energy Cannon | [Watch](https://www.youtube.com/watch?v=M2in9Kn1xgo)<br>[Source](Weapon-Inspiration-Media-Sources#ref-h-40d8f0b3a17f) |
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/h-68f3c233cc4d.webp?v=9b8b3c8" width="220" alt="OTs-14 Groza"> | **OTs-14 Groza**<br>Rare or iconic silhouette, ergonomic layout and visible mechanical personality | Apoco Rifle / Bolt Rifle / Energy Cannon | [Watch](https://www.youtube.com/watch?v=BWw7posYab8)<br>[Source](Weapon-Inspiration-Media-Sources#ref-h-68f3c233cc4d) |
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/h-f6c8760250c2.webp?v=9dce13a" width="220" alt="QBZ-95"> | **QBZ-95**<br>Rare or iconic silhouette, ergonomic layout and visible mechanical personality | Apoco Rifle / Bolt Rifle / Energy Cannon | [Watch](https://www.youtube.com/watch?v=4Edkk_KFb7k)<br>[Source](Weapon-Inspiration-Media-Sources#ref-h-f6c8760250c2) |
-| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/h-cd6788a73c70.webp?v=0c8ac4b" width="220" alt="FN F2000"> | **FN F2000**<br>Rare or iconic silhouette, ergonomic layout and visible mechanical personality | Apoco Rifle / Bolt Rifle / Energy Cannon | [Watch](https://www.youtube.com/watch?v=z5MFxKl9Iyo)<br>[Source](Weapon-Inspiration-Media-Sources#ref-h-cd6788a73c70) |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/h-cd6788a73c70.webp?v=0c8ac4b" width="220" alt="FN F2000"> | **FN F2000**<br>Rare or iconic silhouette, ergonomic layout and visible mechanical personality. Related model: **FN FS2000 (“Tuna”)** — [FS2000 (Tuna), FrenchGunGuy](https://www.youtube.com/shorts/8sdUE-gkRMo?feature=share). Owner-selected silhouette and presentation reference; video title/channel confirmed through YouTube metadata, full-footage review pending. The existing image and primary Watch link depict/reference the F2000, not a relabeled FS2000. | Apoco Rifle / Bolt Rifle / Energy Cannon | [Watch](https://www.youtube.com/watch?v=z5MFxKl9Iyo)<br>[Source](Weapon-Inspiration-Media-Sources#ref-h-cd6788a73c70) |
 
 [Collections](#browse-by-collection)
 
