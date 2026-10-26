@@ -35,6 +35,8 @@ A fantasy weapon can use identity-appropriate equivalents, but no category disap
 
 Abominator now has its corrected visible magazine, plus separate magazine, sight, muzzle/converter, skin, charm/emblem, tracer, impact and finisher studies. Remaining handling, animation, audio, full-build and compatibility work is still open. The large impact illustrations do not authorize terrain destruction or establish gameplay scale.
 
+Abominator also has an [interactive loadout design workbench](abominator-workbench.html) with a separate browser-preview sheet. All fourteen categories now have initial partial evidence; none is a complete or native-accepted package. Source behavior and unimplemented converters remain distinct. The JSON export is a non-installable design manifest, not a gunpack.
+
 Darkly Guster has corrected rear-swept bat wings, an explicit wing-to-sight study, playful flight-inspect choreography, proposed follower modes and per-shot propeller-gust effects. These are proposed game features, not existing source mechanics or implemented multiplayer behavior.
 
 Bubble Horn has a new brass/cyan hero concept and a separate optional musical-bubble sight: form on focus, hold a readable center, pop on focus loss. Its previous design is retained as an alternate. The separately earned mouthpiece is a functional upgrade: actual trumpet-playing, much higher damage, more bubbles per shot and faster projectile motion, while original mode and the Spirit resource family remain distinct. Exact values and unlock route are not final.

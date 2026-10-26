@@ -1,0 +1,12 @@
+'use strict';
+const assert=require('node:assert/strict');const a=require('./abominator-workbench.js');let checks=0;const check=(x)=>{assert.ok(x);checks++;};
+assert.deepEqual(a.normalize(null),a.defaults);checks++;
+check(a.resolve(a.defaults).coherent);check(a.manifest(a.defaults).installable===false);check(a.manifest(a.defaults).functional_contract.damage_override===null);check(a.manifest(a.defaults).source_baseline.base_damage_input===2.625);
+const keys=Object.keys(a.defaults);let states=[{}];for(const k of keys)states=states.flatMap(s=>Object.keys(a.options[k]).map(v=>({...s,[k]:v})));
+for(const s of states){const r=a.resolve(s),m=a.manifest(s),round=a.parse('?'+a.query(s)).state;assert.deepEqual(round,s);checks++;check(r.coherent===(s.mode==='ballistic'?s.resource==='inventory':s.resource===s.mode));check(m.installable===false&&m.review_state==='concept_only_unaccepted'&&m.native_compatibility==='unverified');check(m.design_conflicts.length===r.issues.length);check(m.source_baseline.registry_id==='aoa3:abominator');check(m.source_baseline.base_damage_input===2.625);if(s.mode!=='ballistic')check(m.functional_contract.damage===null&&m.functional_contract.resource_cost===null&&m.functional_contract.projectile_specification===null);if(s.intensity==='reduced'){check(r.effective.finisher==='off');check(!r.effective.decorative_motion);check(!['luminous','animated'].includes(r.effective.emblem));}check(a.fingerprint(s)===a.fingerprint({...s}));}
+for(const bad of ['<img src=x onerror=alert(1)>','__proto__','constructor','needle%00','']){const r=a.parse('?mode='+encodeURIComponent(bad)+'&resource='+encodeURIComponent(bad));assert.deepEqual(r.state,a.defaults);checks++;check(r.ignored.includes('mode'));}
+for(const p of Object.values(a.presets))check(a.resolve(p).coherent);
+const copy={...a.defaults};a.resolve(copy);a.manifest(copy);assert.deepEqual(copy,a.defaults);checks++;
+const r=a.resolve({...a.defaults,intensity:'reduced',emblem:'animated',finisher:'violet'});check(r.state.emblem==='animated'&&r.effective.emblem==='static'&&r.state.finisher==='violet'&&r.effective.finisher==='off');
+check(!a.resolve({...a.defaults,mode:'needle'}).coherent);check(a.resolve({...a.defaults,mode:'needle',resource:'needle'}).coherent);
+console.log(JSON.stringify({status:'PASS',design_states:states.length,assertions:checks,scope:'Pure UI design-state validation, URL roundtrips and concept manifest safety. Not native gameplay or attachment compatibility acceptance.'},null,2));

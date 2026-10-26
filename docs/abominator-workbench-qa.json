@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "preserved_registry_ids": 434,
+  "preserved_other_weapon_entries": 433,
+  "required_feature_groups": 31,
+  "dedicated_groups": 14,
+  "abominator_groups_with_partial_evidence": 14,
+  "stale_base_references_reconciled_to_existing_catalog": [
+    "aoa3:iro_miner",
+    "aoa3:tommy"
+  ],
+  "complete_packages": 0,
+  "native_accepted": 0,
+  "referenced_study_paths_verified": 86,
+  "asset_existence_scope": "Existing study paths verified against complete GitHub tree snapshot; new UI image verified locally. This does not decode every pre-existing image or replace whole-repository native QA.",
+  "ui_unit_tests": {
+    "status": "PASS",
+    "design_states": 6912,
+    "assertions": 63958,
+    "scope": "Pure UI design-state validation, URL roundtrips and concept manifest safety. Not native gameplay or attachment compatibility acceptance."
+  },
+  "browser_checks": {
+    "desktop_css_width": 1182,
+    "narrow_css_widths": [
+      507,
+      338
+    ],
+    "horizontal_overflow": false,
+    "image_decoded": true,
+    "mismatched_adapter_disables_export": true,
+    "matching_adapter_enables_design_export": true,
+    "reduced_emblem_and_finisher_resolution": true,
+    "downloaded_manifest_verified": true,
+    "repeated_reset": true,
+    "shared_link_reload": true,
+    "malformed_parameters_use_defaults": true,
+    "back_restores_draft": true,
+    "narrow_preset_interaction": true,
+    "copy_link_success_message": true
+  },
+  "runtime_claim": "UI-only design coherence; no native compatibility, crafting, gameplay, animation or art acceptance."
+}

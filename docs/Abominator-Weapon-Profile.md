@@ -36,6 +36,16 @@ The small pixel inset inside the generated concept is an illustrative reconstruc
 
 ![Actual released Abominator sprite](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/abominator-original-sprite.png)
 
+### Interactive loadout design workbench
+
+[Open the Abominator workbench](https://herbertofury.github.io/Advent-of-Ascension/abominator-workbench.html). Choose original-inspired or proposed conversion directions, matching resource-adapter drafts, sights, finishes, charms, emblems and presentation profiles. Contradictory resource contracts block design export; reduced presentation resolves decorative choices explicitly. Shared links and JSON exports contain design selections only. No account, uploaded save or game-state changes are involved.
+
+![Concept-only Abominator loadout UI, captured in a browser](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/abominator-loadout-workbench-study-v1.png)
+
+This is an actual browser UI preview, not a Minecraft screenshot or a rendered assembly of the chosen parts. The hero artwork remains the preserved magazine-corrected concept. Source values are pinned to 1.20.1 / AoA 3.7.1 and labeled as constructor inputs, not measured damage or DPS. Conversion projectile behavior, cost, damage, timing, unlocks and native compatibility remain unspecified or unverified. The exported manifest is explicitly non-installable.
+
+The build/crafting/UI category now has initial partial UI evidence. All fourteen dedicated-sheet groups have at least one partial candidate, not a complete customization package. Full crafting recipes, option geometry, animation, audio and native QA remain open.
+
 ### Planned identity-specific barrel transformations
 
 - **Violet Needle:** a focused purple energy bolt conversion with a precise, readable trail. It requires a declared projectile/resource adapter rather than merely repainting native bullets and claiming a new effect.
