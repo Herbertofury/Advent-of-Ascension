@@ -29,7 +29,15 @@ The separately inspected **1.12.2 / AoA 3.3.6** acquisition evidence places Baro
 
 [Historical acquisition evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/weapon-acquisition-evidence-1.12.2.json) · [Version-aware loot explorer](https://herbertofury.github.io/Advent-of-Ascension/loot-explorer.html)
 
-## Concept sheet
+## Premium hero concept, October 2026
+
+![Baron SSR premium oxblood, brushed-metal and amber-optic concept](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/baron-ssr-premium-concept-v2.png)
+
+The new hero preserves the long dark front, red-brown armor, pale center, dark grip and raised warm-accented optic while replacing the slab-like surfaces with restrained sculpted panels and more deliberate material separation. The underslung components are proposed folded support legs with sealed footpads, not extra barrels. The roomier-looking guard and grip are visual candidates only: a posed hand, animated sweep and native held-model capture are still required.
+
+This is a premium concept presentation, not an implemented model, new canonical lore, or proof of working feed/reload mechanics. The original Metal Slug resource, nonautomatic sniper behavior and documented source values are unchanged. The amber lens is not evidence of a beam attack. An in-world texture version, attachment sheets, balanced variants, full motion and impact/finisher comparisons remain open.
+
+## Preserved earlier concept sheet
 
 ![Baron SSR red-brown hero, material variants, cosmetic effect proposals and inspection storyboard](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/baron-ssr-concept-v1.png)
 
@@ -62,4 +70,4 @@ The front support and grip/guard geometry need a careful rigged-hand review. The
 
 ## Recoil interpretation
 
-For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](Effective-Recoil-Routing-1.20.1).
