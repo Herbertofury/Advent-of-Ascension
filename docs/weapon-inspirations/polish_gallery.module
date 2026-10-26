@@ -18,7 +18,7 @@ def render(entries,media,title,other):
     for e in entries: groups[e['game']].append(e)
     images=sum(bool(media[e['id']].get('image')) for e in entries)
     videos=sum(bool(media[e['id']].get('video')) and not media[e['id']]['video'].get('unresolved') for e in entries)
-    lines=['# '+title,'',f'**{len(entries)} references | {len(groups)} collections | {images} embedded images | {videos} direct video references**','',f'[Other collection]({other}) | [Armory](Weapon-Overhaul) | [Reference library](Weapon-Reference-Library)','',
+    lines=['# '+title,'',f'**{len(entries)} references | {len(groups)} collections | {images} embedded images | {videos} primary direct video references**','',f'[Other collection]({other}) | [Armory](Weapon-Overhaul) | [Reference library](Weapon-Reference-Library)','',
       'Weapon behavior describes the reference. **AoA remix** is an original proposal, not an implemented feature. Each image is embedded here. **Watch** opens its video directly, not a search. **Preview** means a video thumbnail rather than a separate weapon photograph. **Chapter** means the linked timestamp identifies the item; **collection** identifies an explicitly labeled multi-item showcase. Titles, sources and chapter metadata have been checked; this does not claim every video was watched in full. Source credits and detailed matching evidence remain in the [media ledger](https://github.com/'+g.REPO+'/blob/main/docs/weapon-inspirations/media.json).','',
       '## Browse by collection','', ' | '.join(f'[{g.text(k)} ({len(v)})](#collection-{g.slug(k)})' for k,v in sorted(groups.items())),'']
     if images<len(entries) or videos<len(entries):
