@@ -37,6 +37,14 @@ The new hero preserves the long dark front, red-brown armor, pale center, dark g
 
 This is a premium concept presentation, not an implemented model, new canonical lore, or proof of working feed/reload mechanics. The original Metal Slug resource, nonautomatic sniper behavior and documented source values are unchanged. The amber lens is not evidence of a beam attack. An in-world texture version, attachment sheets, balanced variants, full motion and impact/finisher comparisons remain open.
 
+## Optics direction study
+
+![Baron SSR proposed compact amber, long optic and low-profile sight directions](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/baron-ssr-optics-study-v1.png)
+
+Amber Scout, Long Watch and Low Profile are proposed presentation variants, not implemented attachments or measured optical performance. The illustrated reticles are design swatches, not captures of the original SCOPE_1 overlay. Marketing-style labels on the artwork are not accuracy/range guarantees.
+
+Before implementation: verify sight height and aim line on the actual mesh, front/rear mechanical sight alignment, mount clearance, full-screen and reduced-motion reticles, both hand rigs and every transition. The source optic remains available; no damage, cadence, Metal Slug cost or acquisition behavior changes because an optic is pictured. This adds partial sights/scopes evidence only, not completion of the whole customization set.
+
 ## Preserved earlier concept sheet
 
 ![Baron SSR red-brown hero, material variants, cosmetic effect proposals and inspection storyboard](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/baron-ssr-concept-v1.png)

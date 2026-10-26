@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "revision": "20261026-baron-ssr-premium-v2-customization",
+  "revision": "20261026-baron-ssr-optics-v1-customization",
   "scope": "All 434 audited raw release-union IDs; 411 first-target identities. Registry identities are not deduplicated by shared art.",
   "base_catalog": "weapon-concept-catalog.json",
-  "base_catalog_sha256": "bccf933200674781a20afee4bcebb06e09f69c2de3bde22a53bf50001df3fa96",
+  "base_catalog_sha256": "440b93324dd2c6e4c8336608233ba485d30514c986369ce312f012dc8e911d68",
   "feature_catalog": "weapon-feature-catalog.json",
   "required_features": [
     "baseline_identity",
@@ -2187,8 +2187,10 @@
       "existing_feature_record_preserved": true,
       "dedicated_sheets": {
         "sights_scopes": {
-          "status": "requires_reconciliation",
-          "files": [],
+          "status": "partial_candidate",
+          "files": [
+            "baron-ssr-optics-study-v1.png"
+          ],
           "owner_approved_omission": null
         },
         "barrels_muzzles_converters": {
