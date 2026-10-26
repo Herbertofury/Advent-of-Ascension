@@ -9,4 +9,5 @@ for(const p of Object.values(a.presets))check(a.resolve(p).coherent);
 const copy={...a.defaults};a.resolve(copy);a.manifest(copy);assert.deepEqual(copy,a.defaults);checks++;
 const r=a.resolve({...a.defaults,intensity:'reduced',emblem:'animated',finisher:'violet'});check(r.state.emblem==='animated'&&r.effective.emblem==='static'&&r.state.finisher==='violet'&&r.effective.finisher==='off');
 check(!a.resolve({...a.defaults,mode:'needle'}).coherent);check(a.resolve({...a.defaults,mode:'needle',resource:'needle'}).coherent);
+check(a.imageFailed({complete:true,naturalWidth:0}));check(!a.imageFailed({complete:false,naturalWidth:0}));check(!a.imageFailed({complete:true,naturalWidth:1774}));
 console.log(JSON.stringify({status:'PASS',design_states:states.length,assertions:checks,scope:'Pure UI design-state validation, URL roundtrips and concept manifest safety. Not native gameplay or attachment compatibility acceptance.'},null,2));

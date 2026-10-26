@@ -16,7 +16,7 @@
   "ui_unit_tests": {
     "status": "PASS",
     "design_states": 6912,
-    "assertions": 63958,
+    "assertions": 63961,
     "scope": "Pure UI design-state validation, URL roundtrips and concept manifest safety. Not native gameplay or attachment compatibility acceptance."
   },
   "browser_checks": {
@@ -36,7 +36,10 @@
     "malformed_parameters_use_defaults": true,
     "back_restores_draft": true,
     "narrow_preset_interaction": true,
-    "copy_link_success_message": true
+    "copy_link_success_message": true,
+    "environment": "Cloud browser, locally served preview before publication",
+    "initial_or_cached_image_failure_fallback": true
   },
-  "runtime_claim": "UI-only design coherence; no native compatibility, crafting, gameplay, animation or art acceptance."
+  "runtime_claim": "UI-only design coherence; no native compatibility, crafting, gameplay, animation or art acceptance.",
+  "deployment_note": "Reference art uses the existing gallery raw-GitHub asset route; Pages-relative art URL was caught failing during deployment verification and corrected before delivery."
 }
