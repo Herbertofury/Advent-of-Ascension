@@ -2,7 +2,7 @@
 
 2026-10-27 · generated art direction only · native acceptance remains false.
 
-![Three finish directions and detached charm designs](baron-ssr-cosmetics-study-v1.png)
+![Three finish directions and detached charm designs](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/baron-ssr-cosmetics-study-v1.png)
 
 This extends the existing premium Baron SSR concept rather than replacing it. The long dark front, oxblood-red armor, silver receiver, amber optic and enclosed-foot support silhouette remain the design anchors. The lower folded components are supports, not additional muzzles.
 
