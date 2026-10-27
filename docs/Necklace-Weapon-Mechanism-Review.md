@@ -45,3 +45,8 @@ The bead remains attached and darkens after an accepted shot, preserving its ele
 The retained fantasy arrow design is now named **Runewinder Archergun**. Base: only an arrow through the barrel, propelled by bowstring and fictional bead/striker impulse. Upgrade: a recessed top-channel arrow and a separate barrel projectile fire simultaneously from distinct paths. No delayed clearance or either/or firing interpretation applies. The prior paragraph leaving the arrow relationship undecided is historical and superseded by this owner direction; exact resource costs still require balancing.
 
 A **separate arrowless bead bow** follows the BF-AR16A's skeletal silhouette and narrow central ammunition rail, with the bead necklace loaded in the middle. The manufacturer's manual photographs were subsequently inspected directly, clarifying that central layout. Its loading must not be copied from Runewinder's side window. See the two separate proposal pages.
+
+
+## Orientation QA failure · owner correction, 21:05 UTC
+
+Reviewing loading photos did not prevent a wrong interpretation of front/rear orientation. The Rune Bead Bow v2 hybrid is rejected. Subsequent inspection of the actual shooter-side and rear-release photos establishes that the long rail extends rearward toward the shooter. The corrected render attempt produced no image. Do not call the stock direction fixed. Every new weapon requires multiple angles, actual shooting/handling orientation and documented visible internals before generation. Never bend or curve shafts, barrels, handles or mauls solely to fit a frame; change framing/canvas instead. Enclosed internals must remain explicitly unverified when not visible in sources.

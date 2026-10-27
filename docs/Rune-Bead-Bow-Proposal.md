@@ -1,5 +1,7 @@
 # Rune bead bow — separate BF-AR16A-inspired proposal
 
+**CURRENT HYBRID ART REJECTED BY OWNER: wrong orientation and stock placement.** The long rail extends toward the shooter; the earlier concept treated that end as forward. A corrected render was requested after viewing shooter-side and release-detail references, but the image service returned no image. Do not treat v2 as a mechanically approved or corrected concept.
+
 Descriptive working title; the owner has not assigned a final name. Distinct from the named Runewinder Archergun, and no arrow is required for this weapon.
 
 ![Standard and Soulflame central-rail bead bow concepts](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/rune-bead-bow-rifle-hybrid-v2.png)
@@ -31,3 +33,10 @@ The separate [Runewinder Archergun](Rune-Necklace-Archergun-Proposal.md) has a b
 ## Rifle-bow hybrid addition · owner direction, 20:50 UTC
 
 Add a shoulder stock and clear gun-style trigger while preserving the close BF-AR16A silhouette and central loading rail. The new v2 concept adds these components without changing the arrowless identity. The earlier stockless v1 remains an alternate. Stock attachment, shoulder fit, string travel and trigger clearance are concept proposals requiring authored-rig and native tests.
+
+
+## Orientation correction and generation status · 21:12 UTC
+
+Manufacturer manual references inspected: overall view, central-loading close-up, feed detail, shooter side view and rear release close-up. The long rail reaches back toward the drawing hand; the front riser/support grip and sight face the target. Enclosed internals remain unverified. Future concepts require this explicit orientation check, not just an isolated product photo.
+
+Preserve straight rail/shaft geometry and intended proportions; change canvas, framing or camera rather than bending/shortening the weapon to fit. The corrected image request was blocked and produced no replacement. Retain the rejected v2 only as historical evidence.
