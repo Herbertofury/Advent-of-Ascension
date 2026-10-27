@@ -89,3 +89,10 @@ Historical visual reference: [Guycot rifle study, Forgotten Weapons, October 30,
 ![Runewinder standard and Soulflame rifle conversion](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/runewinder-rifle-conversion-concept-v1.png)
 
 Generated concept, not a rig, native attachment or functional implementation. Keep the sidearm concepts and earlier studies as alternatives. The rifle image does not replace the separately pending corrected reload storyboard.
+
+
+## Owner-identified mechanism defect · 2026-10-27
+
+The current sidearm and rifle sheets do not establish a complete striker/actuation and reset system. They remain silhouette/material studies, not mechanically approved references. Research must precede future concept generation. The next revision must visibly resolve the fictional rune-striker actuator, necklace indexer, return/reset and emitter as distinct components with authored space and motion. [Reference findings and acceptance gaps](Necklace-Weapon-Mechanism-Review.md). A conventional firearm ignition mechanism is not silently presumed to operate magic beads; the fictional replacement must be explicit and tested.
+
+[Separate necklace archergun proposal](Rune-Necklace-Archergun-Proposal.md) shares the intended necklace contract, not a claim of implemented interoperability.
