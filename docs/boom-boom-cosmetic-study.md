@@ -28,3 +28,9 @@ Charms and stickers must not alter damage, resource consumption, spread, project
 The [official Minecraft D&D compendium](https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/software/Minecraft-Monstrous-Compendium-revised.pdf) also describes feline fear and a charged blue aura. Those support small visual references only, not importing its D&D damage, duration or immunity into AoA.
 
 The requested new Boom Boom main artwork remains unfinished after an image-service block. The existing main concept remains available. This separate cosmetic sheet does not complete that request.
+
+## Additional quiet reference: playable mob sounds
+
+The [official Java 1.20 release notes](https://feedback.minecraft.net/hc/en-us/articles/16499677456781-Minecraft-Java-Edition-1-20-Trails-Tales) document mob heads interacting with note blocks. A tiny note-block/sound-wave engraving under an accessory clasp could reference this without cluttering the main silhouette. Any inspect sound would be an optional original presentation choice, not a claim that this weapon reproduces vanilla mob-head behavior. Avoid an involuntary combat-warning hiss, and preserve reduced-motion/audio controls.
+
+The same release notes mention charged-Creeper interactions with Piglin head drops. That is a separate canonical connection, not evidence that the original Creeper-pig cosmetic is a real mob. The pink pig and green hybrid remain optional charms/stickers as requested.
