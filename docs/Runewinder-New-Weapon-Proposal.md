@@ -74,3 +74,18 @@ The mixed-loop sheet’s ice/fire sequence was corrected to alternate continuous
 ## Persistent-bead state candidate
 
 [Source and checks](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/runewinder-bead-state-prototype-v2.zip) extend the reused sequencer with ordered element slots, bead-count capacity and per-bead charge. The new offline tests retain every bead through 80,000 stress shots, verify dark/relit state, duplicate guards and immutable in-memory snapshot restoration. The charge operation is simulation-only and debits no real mana. Native adapters, transactional costs, disk saves, networking and visual integration remain unimplemented/unqualified. The prototype’s 64-bead limit is a test budget, not approved gameplay balance.
+
+
+## Rifle-conversion attachment · owner direction, 2026-10-27
+
+Runewinder can be converted into a rifle by a **functional rifle-conversion attachment**, not only a cosmetic skin. Keep the same weapon and necklace identities. A full shoulder stock, extended front emitter housing and supporting fore-end create a coherent rifle silhouette while retaining the signature visible rune necklace and smooth rotating crystal sleeve. Standard, purple Soulflame and cyan cold/Soulfire finishes must remain compatible with this configuration.
+
+The requested direction is **upgraded rifle stats**: increased per-shot effectiveness and useful range, improved aimed precision and stability. These are proposed gameplay upgrade categories, not tested multipliers. Exact damage, range, cadence, handling, progression and mana costs require balance testing; the artwork is not a stat sheet. Keep elemental interactions explicit, and do not silently turn every necklace element into the same projectile.
+
+Capacity still equals installed bead count, not a number inferred from the rifle reference. Conversion alone must not create beads, refill spent beads, reorder elements or reset the next-shot cursor. A separately purchased capacity attachment can increase bead count only with a fitted visible path and reviewed balance. The in-hand mana recharge and single smooth rotating access sleeve remain unchanged in intent. Test conversion/removal, partial charge, interrupted reload, save/load and authoritative multiplayer restoration before enabling it in a pack.
+
+Historical visual reference: [Guycot rifle study, Forgotten Weapons, October 30, 2023](https://www.forgottenweapons.com/guycot-a-rocket-ball-chain-rifle-from-1879/), checked October 27, 2026. That source distinguishes an 80-shot rifle from 25/40-shot pistols; this does not mandate an 80-bead Runewinder. Study its overall long-stock silhouette only, not real construction specifications. No reference photographs are redistributed.
+
+![Runewinder standard and Soulflame rifle conversion](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/runewinder-rifle-conversion-concept-v1.png)
+
+Generated concept, not a rig, native attachment or functional implementation. Keep the sidearm concepts and earlier studies as alternatives. The rifle image does not replace the separately pending corrected reload storyboard.
