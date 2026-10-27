@@ -1,37 +1,41 @@
-# Rune-necklace archergun — new weapon proposal
+# Runewinder Archergun
 
-Requested October 27, 2026. Descriptive working title, not a final item name or released registry ID. Separate from Runewinder and the audited 434 released identities.
+Owner-assigned name and corrected firing contract, October 27, 2026. This is a distinct new weapon, not the separate BF-AR16A-style arrowless bead bow. No released registry ID or native implementation is claimed.
 
-![Standard and purple Soulflame archergun study](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/rune-necklace-archergun-concept-v3.png)
+![Runewinder Archergun top-channel upgrade concept](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/rune-necklace-arrow-archergun-concept-v4.png)
 
-## Owner direction
+## Base versus upgrade: do not mix the paths
 
-Use the supplied BF-AR16A compound-bow silhouette as a visual reference, with a gun-style trigger/grip and compatibility with the customizable rune-bead necklace. Produce a normal finish and a purple-flame family finish. The original reference is private research input, not a redistributed asset.
+**Base:** the fictional rune striker activates a necklace bead to add magical impulse; the bowstring propels the arrow THROUGH THE BARREL. Only the arrow is fired. The base barrel-arrow layout still needs its own matching concept and rig.
 
-The standard study uses silver, graphite, bronze and ivory/cyan beads. The Soulflame study uses obsidian, silver, amethyst, violet beads and a purple flame sight. Keep recognizable limbs, cams and bowstrings, not merely decorative wings on a rifle.
+**Upgrade:** the arrow is recessed into the TOP channel, with only its upper half visible. This leaves the separate BARREL clear to fire a magical projectile. The top arrow and barrel projectile fire AT THE SAME TIME on one accepted firing event. The owner deliberately turned the earlier misplaced-arrow concept into this upgrade.
 
-## Research before concept approval
+This is not an either/or mode and not an arrow followed by a delayed barrel shot. Earlier assistant interpretations of those behaviors were wrong and are superseded. The image above represents the UPGRADE, not the base model.
 
-[Mechanism review and unresolved gates](Necklace-Weapon-Mechanism-Review.md) distinguishes actual reference facts from fictional game architecture. The first silhouette draft was already generating when the owner reiterated the research-first requirement. It is retained as an unapproved draft, not retroactively treated as a mechanical study.
+## Shared necklace and functional roles
 
-The revised artwork makes both necklace rows visible, stages an arrow on a separate rest and represents a distinct fictional release gate and mana draw-drive. These visual additions do not prove the string path, load/reset motion, hand clearance or resource transaction works. Exact draw-drive costs and the relationship between arrow supply and bead charge remain unresolved; the art does not override the existing physical-arrow archergun requirement.
+Keep the standard ivory/cyan/bronze and purple Soulflame directions, with a readable purple flame sight. A fictional rune striker must have an authored visible role; a glowing necklace alone is not a complete firing system. Bowstring, striker animation, bead state and the two upgrade output channels must be synchronized to authoritative gameplay, not independent cosmetic triggers.
 
-## Shared necklace contract
+- Beads retain identity, order and element type; spent beads remain attached and darken, then relight through mana charging.
+- Capacity is installed bead count. No free refill on equip, conversion or weapon swap.
+- The upgrade's two output effects must not accidentally double-advance the necklace, duplicate the accepted event or create unintended extra shots.
+- Exact arrow/necklace costs, damage, cadence, progression and partial-charge rules remain balance and implementation work.
+- The top channel must visibly seat the arrow and align with the authored bowstring; actual motion, clearance and physical plausibility are unqualified until tested.
 
-- Stable necklace and bead identities; ordered elements select successive elemental effects.
-- Capacity equals installed bead count; no hidden capacity increase from a finish or stock.
-- Fired beads stay attached and turn dark. Mana charging relights those same beads.
-- Mixed-element orders and capacity attachments remain functional customization, separate from cosmetic skins.
-- Preserve charge, order and next-shot state when swapping compatible weapons; compatibility must be implemented, not inferred from a matching picture.
-- Reuse the smooth rotating crystal sleeve direction where the eventual chassis allows it; actual access and hand-clearance acceptance remains open.
+## Reference and history
 
-## Acceptance and next work
+[Mechanism-first review](Necklace-Weapon-Mechanism-Review.md) distinguishes verified reference facts from fictional game architecture. Research precedes future generation. The first silhouette render was already in flight when the owner reiterated that requirement; it is not retroactively treated as researched mechanical acceptance.
 
-- [x] Standard and purple-flame concept candidate created; full-loop visibility correction retained.
-- [ ] Agree final weapon name, physical-arrow/resource relationship and explicit reset-energy policy.
-- [ ] Author actual release/reset/index parts, complete string path, continuous necklace path and clearance-tested hand rig.
-- [ ] Implement shared-necklace attachment compatibility and authoritative charge/element state with interrupted-transfer tests.
-- [ ] Validate reload, aim, inspect, firing, empty state, optional mana adapters, networking and saves in the pinned native stack.
-- [ ] Compare actual visual quality, complete behavior, frame times and memory before native acceptance.
+The earlier [v3 study](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/rune-necklace-archergun-concept-v3.png) is retained. The v4 correction lowers the arrow into the top channel. It remains concept art, not a model, animation, ballistic test or functional attachment.
 
-No native, mechanical or art acceptance is claimed. Earlier drafts and known defects remain preserved. [Every-weapon standard](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Completeness-Standard).
+[Separate arrowless bead bow](Rune-Bead-Bow-Proposal.md) follows the BF-AR16A central ammunition layout. Do not merge its loading path or arrowless identity into this weapon.
+
+## Open acceptance work
+
+- [x] Standard and Soulflame upgrade concept candidate delivered; earlier versions retained.
+- [ ] Author the matching BASE barrel-arrow concept separately from the top-channel upgrade.
+- [ ] Resolve and animate the fictional rune striker, release/reset, string path and continuous necklace path in the actual rig.
+- [ ] Implement one accepted-event contract for simultaneous top-arrow/barrel-projectile upgrade output, preserving necklace state.
+- [ ] Validate costs, interruption, optional mana adapters, networking, saves, hands, frame times and memory in the native stack.
+
+No mechanical, native or final art acceptance is claimed. [Every-weapon standard](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Completeness-Standard).
