@@ -69,3 +69,9 @@ AoA's own `forge:rods/metal` contribution contains `aoa3:limonite_rod`. Other lo
 - [Shared first-target maul behavior and retained Electron correction](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Maul%E2%80%90Inputs%E2%80%90and%E2%80%90Effects%E2%80%901.20.1).
 - [Pinned shared BaseMaul source](https://raw.githubusercontent.com/Tslat/Advent-Of-Ascension/0be2106bebb3851c5ba2cc9974e57936a867244d/source/content/item/weapon/maul/BaseMaul.java).
 - [Original native server fixture source and reproduction instructions](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/Maul-Native-Fixtures-v1.zip).
+
+## 2026-10-29 science-fiction concept candidate
+
+![New straight-shaft sci-fi candidate](coralstone-sci-fi-concept-v3.png)
+
+The new candidate retains the turquoise head, red coral crown and dark shaft while replacing much of the medieval ornament with graphite/titanium detailing. The full side silhouette uses a wide canvas rather than bending the shaft. The earlier canonical study above remains preserved. This is not an accepted model, native effect or animation. [Five-maul review and remaining scope](Maul-Concept-Revision-2026-10-29.md).
