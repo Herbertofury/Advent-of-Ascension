@@ -80,3 +80,7 @@ Every accepted weapon should have a reversible premium 3D presentation option, w
 [Native arena station, provider effects and the complete 60-cage failure](development/NATIVE-ARENA-AND-FOG-2026-10-18.md)
 
 [Natural encounter repairs and shared complete-read validation](development/NATIVE-TEMPLE-AND-ARENA-REPAIRS-2026-10-20.md)
+
+## Comparable projects and competitive research
+
+See [comparable games/mods, design benchmarks and evidence-led evaluation tasks](COMPETITORS.md). This dated research distinguishes current capabilities from improvement goals and complements existing roadmap and wiki research.
