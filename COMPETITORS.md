@@ -30,3 +30,28 @@ During each daily review, check linked official release notes/issues and update 
 ## Review log
 
 - 2026-11-12: initial repository-scoped comparison index; official sources reviewed at documentation level. No gameplay, performance or compatibility tests run in this pass. No implementation or native GitHub Wiki publication claimed.
+
+## Candidate foundations, concrete reuse and shared work
+
+| Candidate | What to build on or study | How to improve without losing AoA |
+|---|---|---|
+| Canonical AoA source/version lineage and existing Enderloom restoration tooling | Reuse the current version matrix, resource census, source-model references and accepted conversion pipeline. Upstream remains behavioral authority. | Drive restoration from an explicit versioned content ledger and real natural-progression receipts rather than another ad hoc port. |
+| [GeckoLib](https://github.com/bernie-g/geckolib) | Candidate original weapon/creature animation event system, including sound/particle timing and concurrent poses. | Prototype one reversible premium weapon presentation; compare timing, held-item ownership, gameplay semantics and native client/server cost against the original. |
+| [The Aether](https://github.com/The-Aether-Team/The-Aether) | Study modern-port and restoration structure, integration boundaries and version-specific documentation; not AoA content replacement. | Reuse permitted techniques only after loader and license review. Compare how completely a migration keeps recognizable behavior, not raw content counts. |
+
+**Rights gates:** GeckoLib MIT license was read at blob `491454db53d5a2166d8a472d07cc8b60e6d016fb`. The Aether's official repository states LGPL-3.0 for source from Minecraft 1.7 onward and distinguishes older unlicensed code; inspect the exact files and asset terms before reuse. AoA's [official historical project page](https://tslat.github.io/Advent-Of-Ascension/) describes private-use modification limits. Default-branch `LICENSE` and `LICENSE.txt` lookups returned 404 in this pass, so **no blanket permission for public merged-mod redistribution has been established**. Retain existing rights/provenance gates.
+
+### Shared-work proposals
+
+- Enderloom/Minecraft-Mod-Vault: share an agreed versioned content-identity/provenance receipt, including source version, registry mapping, dependency and runtime-acceptance state. Keep private playtest artifacts private.
+- JetSetCraft: reuse provider-present/provider-absent encounter test cases and inventory return safety requirements, not foreign capability assumptions.
+- Hover: candidate reuse of lawful resource inspection schemas and version labels for previews; reading a model is not proof of a registered, obtainable or playable entity.
+
+- [ ] Prove one complete dimension route using the existing restoration pipeline before adopting new infrastructure.
+- [ ] Keep source-presence, renderability and full gameplay acceptance as distinct fields across tools.
+
+### Reuse admission gates
+
+These are **candidate foundations and experiments**, not selected dependencies or measured improvements. Before reuse: pin the exact version/commit and loader; inspect its source and dependency tree; record code, asset, trademark and redistribution terms separately; keep required notices; verify permission where terms are restrictive or unclear. Public visibility is not a license. A current default-branch license is evidence for that snapshot, not every historical release. Prefer an upstream dependency/API or a small original adapter over a fork when it preserves compatibility. Do not copy proprietary game assets or publish private fixtures.
+
+For every admitted experiment retain baseline and candidate artifacts, representative native workloads, correctness/feature parity, cold/warm latency, p95 frame/tick time, memory, interrupted-save/recovery evidence and rollback. Promote only after the actual target improves without losing requirements. Cross-project sharing below is an interface proposal, not permission to change another project's implementation or declare integration complete.
