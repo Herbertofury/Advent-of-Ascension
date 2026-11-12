@@ -46,4 +46,12 @@ Every accepted weapon should have a reversible premium 3D presentation option, w
 
 ## Evidence-backed implementation fixes
 
-- [ ] Resolve and game-test the [Coratee texture-path helper mismatch](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Source-Findings-and-Fixes) found in the official 1.20.1 artifact before treating its appearance as restored.
+- [ ] Complete remaining Coratee variant/adult-baby rendering, reload/save/load and dedicated visual qualification. The core texture-getter correction and default PNG resolution already have scoped native evidence in the [Runtime Acceptance Checklist](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/Runtime-Acceptance-Checklist.md); do not repeat that fix or mistake it for full variant acceptance.
+
+
+## Milestone navigation · November 12, 2026
+
+- [Playable restoration and clean replay](https://github.com/Herbertofury/Advent-of-Ascension/milestone/1): [release roll-up #9](https://github.com/Herbertofury/Advent-of-Ascension/issues/9), retaining the canonical checklist and source-adoption blocker #8.
+- [Native-qualified Armory slice](https://github.com/Herbertofury/Advent-of-Ascension/milestone/2): [roll-up #10](https://github.com/Herbertofury/Advent-of-Ascension/issues/10), using the existing weapon backlog and production queue. Full-roster gates remain open after the slice until individually evidenced.
+
+These organize existing scope; they do not certify a release or replace the detailed plans.
