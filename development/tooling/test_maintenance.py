@@ -3,10 +3,12 @@ import copy
 import datetime
 import hashlib
 import json
+import os
 from pathlib import Path
 import subprocess
 import tempfile
 import unittest
+from unittest import mock
 import zipfile
 
 import upstream_guard
@@ -86,6 +88,41 @@ class FreshnessTests(unittest.TestCase):
 
 
 class ArtifactTests(unittest.TestCase):
+    def test_candidate_changes_during_hash_are_rejected(self):
+        for change in ['replace', 'remove', 'rewrite']:
+            with self.subTest(change=change), tempfile.TemporaryDirectory(prefix='enderloom-artifact-race-') as folder:
+                jar = Path(folder) / 'candidate.jar'
+                replacement = Path(folder) / 'replacement.jar'
+                payload = b'{"fixture":true}\n'
+                for path, comment in [(jar, b'original'), (replacement, b'replaced')]:
+                    with zipfile.ZipFile(path, 'w') as archive:
+                        archive.writestr('fixture/data.json', payload)
+                        archive.comment = comment
+                original = jar.read_bytes()
+                inventory = dict(artifact=dict(bytes=len(original), sha256=hashlib.sha256(original).hexdigest()),
+                                 memberCount=1, members=[dict(path='fixture/data.json', bytes=len(payload),
+                                                             sha256=hashlib.sha256(payload).hexdigest())])
+                real_digest = verify_local_artifact.digest
+                calls = 0
+                def change_after_hash(stream):
+                    nonlocal calls
+                    value = real_digest(stream)
+                    calls += 1
+                    if calls == 1:
+                        if change == 'replace':
+                            os.replace(replacement, jar)
+                        elif change == 'remove':
+                            jar.unlink()
+                        else:
+                            jar.write_bytes(replacement.read_bytes())
+                            # Explicit timestamp advance avoids filesystem clock granularity assumptions.
+                            stamp = jar.stat()
+                            os.utime(jar, ns=(stamp.st_atime_ns, stamp.st_mtime_ns + 1_000_000_000))
+                    return value
+                with mock.patch.object(verify_local_artifact, 'digest', side_effect=change_after_hash):
+                    with self.assertRaisesRegex(ValueError, 'changed during verification'):
+                        verify_local_artifact.verify(jar, inventory)
+
     def test_complete_local_identity_and_destructive_inventory_faults(self):
         with tempfile.TemporaryDirectory(prefix='enderloom-local-artifact-guard-') as folder:
             directory = Path(folder).resolve()

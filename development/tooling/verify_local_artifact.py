@@ -2,6 +2,7 @@
 import argparse
 import hashlib
 import json
+import os
 from pathlib import Path
 import zipfile
 
@@ -13,26 +14,42 @@ def digest(stream):
     return result.hexdigest()
 
 
+def file_identity(stat):
+    """Identify the opened object and detect writes during this bounded check."""
+    return (stat.st_dev, stat.st_ino, stat.st_size, stat.st_mtime_ns, stat.st_ctime_ns)
+
+
 def verify(jar, inventory):
     jar = Path(jar)
-    if jar.stat().st_size != inventory['artifact']['bytes']:
-        raise ValueError('Complete local JAR length differs')
-    with jar.open('rb') as stream:
-        if digest(stream) != inventory['artifact']['sha256']:
-            raise ValueError('Complete local JAR hash differs; a new build needs its own evidence')
     expected = inventory['members']
     if len(expected) != inventory['memberCount'] or len({row['path'] for row in expected}) != len(expected):
         raise ValueError('Incomplete or ambiguous expected member inventory')
-    with zipfile.ZipFile(jar) as archive:
-        names = archive.namelist()
-        if len(names) != len(set(names)) or set(names) != {row['path'] for row in expected}:
-            raise ValueError('Complete unique member membership differs')
-        for row in expected:
-            if archive.getinfo(row['path']).file_size != row['bytes']:
-                raise ValueError('Member length differs: ' + row['path'])
-            with archive.open(row['path']) as stream:
-                if digest(stream) != row['sha256']:
-                    raise ValueError('Member hash differs: ' + row['path'])
+    # Hash and inspect the same opened object. Reopening the path can combine a
+    # digest from an old candidate with members from a concurrently replaced JAR.
+    with jar.open('rb') as candidate:
+        identity = file_identity(os.fstat(candidate.fileno()))
+        if identity[2] != inventory['artifact']['bytes']:
+            raise ValueError('Complete local JAR length differs')
+        if digest(candidate) != inventory['artifact']['sha256']:
+            raise ValueError('Complete local JAR hash differs; a new build needs its own evidence')
+        candidate.seek(0)
+        with zipfile.ZipFile(candidate) as archive:
+            names = archive.namelist()
+            if len(names) != len(set(names)) or set(names) != {row['path'] for row in expected}:
+                raise ValueError('Complete unique member membership differs')
+            for row in expected:
+                if archive.getinfo(row['path']).file_size != row['bytes']:
+                    raise ValueError('Member length differs: ' + row['path'])
+                with archive.open(row['path']) as stream:
+                    if digest(stream) != row['sha256']:
+                        raise ValueError('Member hash differs: ' + row['path'])
+        try:
+            unchanged = (file_identity(os.fstat(candidate.fileno())) == identity
+                         and file_identity(jar.stat()) == identity)
+        except OSError as exc:
+            raise ValueError('Candidate path changed during verification') from exc
+        if not unchanged:
+            raise ValueError('Candidate path or bytes changed during verification')
     return dict(passed=True, completeMembersVerified=len(expected),
                 runtimeExecutionPerformed=False, completeAoAPort=False)
 
