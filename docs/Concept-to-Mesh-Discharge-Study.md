@@ -2,7 +2,7 @@
 
 **Current decision: generated mesh rejected as the canonical upgrade.** Keep the owner-selected three-port concept and the separately authored model. A successful generation process does not establish art or native-game acceptance.
 
-[Current editable Discharge work](Discharge-Exterior-Refinement) · [Original weapon behavior](Discharge-Shotgun-Weapon-Profile) · [Full quality standard](Weapon-Completeness-Standard)
+[Budget3D challenger preflight and comparison protocol](Budget3D-Concept-Mesh-Experiment) · [Current editable Discharge work](Discharge-Exterior-Refinement) · [Original weapon behavior](Discharge-Shotgun-Weapon-Profile) · [Full quality standard](Weapon-Completeness-Standard)
 
 ## Local CPU follow-up · 2026-10-19
 
