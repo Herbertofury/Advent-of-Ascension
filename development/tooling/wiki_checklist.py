@@ -89,11 +89,26 @@ def snapshot(folder):
 def compare(previous, current):
     before = {row['id']: row for row in previous['tasks']}
     after = {row['id']: row for row in current['tasks']}
+    summary_fields = ('schema', 'adapter', 'repository', 'pageCount', 'taskCount',
+                      'reportedChecked', 'runtimeCompletionInferred')
+    summary_changed = any(
+        type(previous.get(key)) is not type(current[key]) or previous.get(key) != current[key]
+        for key in summary_fields
+    )
+    # Keep the reports about individual IDs, but do not let the dict views
+    # hide duplicate rows or let numeric values stand in for checklist booleans.
+    previous_tasks, current_tasks = previous['tasks'], current['tasks']
+    inventory_changed = previous_tasks != current_tasks or any(
+        a.get('sourceReportedChecked') is not b.get('sourceReportedChecked')
+        for a, b in zip(previous_tasks, current_tasks)
+    )
     return dict(revisionChanged=previous['revision'] != current['revision'],
                 added=sorted(after.keys() - before.keys()),
                 removed=sorted(before.keys() - after.keys()),
                 changed=sorted(key for key in before.keys() & after.keys() if before[key] != after[key]),
-                pageChanges=previous['pages'] != current['pages'])
+                pageChanges=previous['pages'] != current['pages'],
+                summaryChanged=summary_changed,
+                taskInventoryChanged=inventory_changed)
 
 
 def main():
