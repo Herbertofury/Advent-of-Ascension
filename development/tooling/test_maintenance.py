@@ -36,6 +36,29 @@ class WikiTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             wiki_checklist.tasks('# Same\n- [ ] Task\n- [x] Task\n', 'Home.md')
 
+    def test_wiki_check_rejects_false_completion_or_forged_summary(self):
+        task = wiki_checklist.tasks('# Work\n- [ ] Test\n', 'Home.md')[0]
+        valid = dict(schema=1, adapter='aoa-complete-wiki-checklist-1',
+                     repository='Herbertofury/Advent-of-Ascension.wiki',
+                     revision='a' * 40, pages=[dict(path='Home.md')], tasks=[task],
+                     pageCount=1, taskCount=1, reportedChecked=0,
+                     runtimeCompletionInferred=False)
+        self.assertFalse(any(wiki_checklist.compare(valid, valid).values()))
+        cases = dict(schema=99, adapter='unknown', repository='other/project.wiki',
+                     pageCount=2, taskCount=2, reportedChecked=1, runtimeCompletionInferred=True)
+        for name, value in cases.items():
+            saved = {**valid, name: value}
+            with self.subTest(field=name):
+                result = wiki_checklist.compare(saved, valid)
+                self.assertTrue(any(result.values()))
+                self.assertTrue(result['summaryChanged'])
+        for invalid_tasks in ([task, task], [{**task, 'sourceReportedChecked': 0}]):
+            with self.subTest(tasks=invalid_tasks):
+                self.assertTrue(wiki_checklist.compare(
+                    {**valid, 'tasks': invalid_tasks}, valid)['taskInventoryChanged'])
+        self.assertTrue(wiki_checklist.compare(
+            {**valid, 'schema': True}, valid)['summaryChanged'])
+
     def test_complete_git_snapshot_and_changed_tasks(self):
         with tempfile.TemporaryDirectory(prefix='enderloom-wiki-guard-') as folder:
             directory = Path(folder).resolve()
@@ -70,6 +93,26 @@ class FreshnessTests(unittest.TestCase):
 
     def test_exact_observation_is_not_semantic_completion(self):
         upstream_guard.validate_native_freshness(self.lock, self.fresh, self.now)
+
+    def test_native_freshness_requires_actual_boolean_attestations(self):
+        changes = [
+            lambda x: x.update(passed='false'),
+            lambda x: x.update(passed=1),
+            lambda x: x['github'].update(completeReleaseAndTagPages='false'),
+            lambda x: x['github'].update(completeReleaseAndTagPages=[False]),
+        ]
+        for change in changes:
+            bad = copy.deepcopy(self.fresh)
+            change(bad)
+            with self.subTest(observation=bad), self.assertRaises(ValueError):
+                upstream_guard.validate_native_freshness(self.lock, bad, self.now)
+
+    def test_missing_or_naive_observation_time_is_a_freshness_error(self):
+        for value in (None, '', '2026-10-16T00:00:00'):
+            bad = copy.deepcopy(self.fresh)
+            bad['observedAt'] = value
+            with self.subTest(observedAt=value), self.assertRaisesRegex(ValueError, 'timestamp'):
+                upstream_guard.validate_native_freshness(self.lock, bad, self.now)
 
     def test_drift_and_false_completion_rejected(self):
         faults = [('old', lambda x: x.update(observedAt=(self.now - datetime.timedelta(days=2)).isoformat())),

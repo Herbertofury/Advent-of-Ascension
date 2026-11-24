@@ -66,16 +66,30 @@ def observe():
 def validate_native_freshness(lock, fresh, now=None):
     """Bind the existing complete provider observation; never infer a merge from freshness."""
     now = now or datetime.datetime.now(datetime.timezone.utc)
-    at = datetime.datetime.fromisoformat(fresh['observedAt'].replace('Z', '+00:00'))
-    if not fresh.get('passed') or not 0 <= (now - at).total_seconds() <= 86400:
+    if not isinstance(fresh, dict):
+        raise ValueError('Expected a native freshness observation object')
+    observed = fresh.get('observedAt')
+    try:
+        if not isinstance(observed, str):
+            raise ValueError()
+        iso = observed[:-1] + '+00:00' if observed.endswith('Z') else observed
+        at = datetime.datetime.fromisoformat(iso)
+        if at.utcoffset() is None:
+            raise ValueError()
+    except ValueError as exc:
+        raise ValueError('Observation timestamp must include a timezone') from exc
+    if fresh.get('passed') is not True or not 0 <= (now - at).total_seconds() <= 86400:
         raise ValueError('A successful live upstream/provider observation within 24 hours is required')
     if fresh.get('semanticReconciliationComplete') is not False:
         raise ValueError('Freshness must not masquerade as completed semantic reconciliation')
-    if fresh['github']['commit'] != lock['github']['head'] or fresh['github']['defaultBranch'] != lock['github']['defaultBranch']:
+    github, curseforge = fresh.get('github'), fresh.get('curseforge')
+    if not isinstance(github, dict) or not isinstance(curseforge, dict):
+        raise ValueError('Incomplete official source and provider observation')
+    if github.get('commit') != lock['github']['head'] or github.get('defaultBranch') != lock['github']['defaultBranch']:
         raise ValueError('Official source changed; reconcile the canonical project before native promotion')
-    if (fresh['curseforge']['fileId'], fresh['curseforge']['version']) != (lock['officialRelease']['fileId'], lock['officialRelease']['version']):
+    if (curseforge.get('fileId'), curseforge.get('version')) != (lock['officialRelease']['fileId'], lock['officialRelease']['version']):
         raise ValueError('Official production release changed; reconcile before native promotion')
-    if not fresh['github'].get('completeReleaseAndTagPages'):
+    if github.get('completeReleaseAndTagPages') is not True:
         raise ValueError('Incomplete official release/tag observation')
 
 
@@ -88,7 +102,10 @@ def main():
     lock = json.loads(Path(args.lock).read_text(encoding='utf-8'))
     if args.native_freshness:
         fresh = json.loads(Path(args.native_freshness).read_text(encoding='utf-8'))
-        validate_native_freshness(lock, fresh)
+        try:
+            validate_native_freshness(lock, fresh)
+        except ValueError as error:
+            raise SystemExit(f'Native freshness verification failed: {error}') from None
         result = dict(passed=True, githubAndProviderFreshnessVerified=True,
                       semanticReconciliationComplete=False, completeAoAPort=False)
     else:
