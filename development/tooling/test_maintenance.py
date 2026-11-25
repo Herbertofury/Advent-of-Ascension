@@ -71,6 +71,26 @@ class FreshnessTests(unittest.TestCase):
     def test_exact_observation_is_not_semantic_completion(self):
         upstream_guard.validate_native_freshness(self.lock, self.fresh, self.now)
 
+    def test_native_freshness_requires_actual_boolean_attestations(self):
+        changes = [
+            lambda x: x.update(passed='false'),
+            lambda x: x.update(passed=1),
+            lambda x: x['github'].update(completeReleaseAndTagPages='false'),
+            lambda x: x['github'].update(completeReleaseAndTagPages=[False]),
+        ]
+        for change in changes:
+            bad = copy.deepcopy(self.fresh)
+            change(bad)
+            with self.subTest(observation=bad), self.assertRaises(ValueError):
+                upstream_guard.validate_native_freshness(self.lock, bad, self.now)
+
+    def test_missing_or_naive_observation_time_is_a_freshness_error(self):
+        for value in (None, '', '2026-10-16T00:00:00'):
+            bad = copy.deepcopy(self.fresh)
+            bad['observedAt'] = value
+            with self.subTest(observedAt=value), self.assertRaisesRegex(ValueError, 'timestamp'):
+                upstream_guard.validate_native_freshness(self.lock, bad, self.now)
+
     def test_drift_and_false_completion_rejected(self):
         faults = [('old', lambda x: x.update(observedAt=(self.now - datetime.timedelta(days=2)).isoformat())),
                   ('future', lambda x: x.update(observedAt=(self.now + datetime.timedelta(minutes=2)).isoformat())),
